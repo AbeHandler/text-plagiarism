@@ -1,0 +1,64 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/08.08.99/shaw/shaw6_star.sgml" newspaper="star" domain="showbiz" classification="wholly-derived" pagenumber="5" date="08.08.99" catchline="shaw">
+
+<body>
+
+
+<Rewrite PAsource="" >CORRIE </Rewrite>
+<New PAsource="" >star </New>
+<Verbatim PAsource="" >Tracy Shaw </Verbatim>
+<Rewrite PAsource="" >revealed yesterday </Rewrite>
+<Verbatim PAsource="" >that </Verbatim>
+<Rewrite PAsource="" >that </Rewrite>
+<Verbatim PAsource="" >she had contemplated suicide as she battled anorexia.
+</Verbatim>
+
+<Verbatim PAsource="" >Tracy, who plays </Verbatim>
+<New PAsource="" >sexy </New>
+<Verbatim PAsource="" >crimper Maxine in the </Verbatim>
+<Rewrite PAsource="" >Street, said she </Rewrite>
+<Verbatim PAsource="" >considered killing herself after being placed on a psychiatric ward when her weight plummeted to just six stone.
+</Verbatim>
+
+<Verbatim PAsource="" >"Being put into a psychiatric ward with people with long-term mental </Verbatim>
+<Rewrite PAsource="" >illnesses </Rewrite>
+<Verbatim PAsource="" >who are shaking with the drugs they are taking, there's no way you can feel normal and be OK with yourself," she told </Verbatim>
+<New PAsource="" >BBC TV's </New>
+<Verbatim PAsource="" >That's Esther programme </Verbatim>
+<Rewrite PAsource="" >with </Rewrite>
+<Verbatim PAsource="" >Esther Rantzen.
+</Verbatim>
+
+<New PAsource="" >Tragic
+</New>
+
+<Verbatim PAsource="" >She said she </Verbatim>
+<Rewrite PAsource="" >thought about </Rewrite>
+<Verbatim PAsource="" >ending her life after hearing the </Verbatim>
+<New PAsource="" >tragic </New>
+<Verbatim PAsource="" >story of a fellow sufferer. </Verbatim>
+<Verbatim PAsource="" >The hospital treatment did not work, but </Verbatim>
+<Rewrite PAsource="" >she </Rewrite>
+<Verbatim PAsource="" >finally won her </Verbatim>
+<Rewrite PAsource="" >fight against the eating disorder </Rewrite>
+<Verbatim PAsource="" >with the help of counselling sessions. </Verbatim>
+<New PAsource="" >However, </New>
+<Verbatim PAsource="" >Tracy </Verbatim>
+<New PAsource="" >hit out over media coverage of both her illness and </New>
+<Verbatim PAsource="" >her turbulent love life. </Verbatim>
+<Verbatim PAsource="" >She agreed with </Verbatim>
+<Rewrite PAsource="" >her </Rewrite>
+<Verbatim PAsource="" >fellow guest, former England rugby </Verbatim>
+<Rewrite PAsource="" >skipper </Rewrite>
+<Verbatim PAsource="" >Will Carling, that Britain should have </Verbatim>
+<Rewrite PAsource="" >tight </Rewrite>
+<Verbatim PAsource="" >privacy </Verbatim>
+<Rewrite PAsource="" >laws.
+</Rewrite>
+
+
+
+</body>
+</meterdocument>

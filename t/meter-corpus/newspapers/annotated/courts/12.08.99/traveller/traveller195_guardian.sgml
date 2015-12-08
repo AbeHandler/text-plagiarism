@@ -1,0 +1,21 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.08.99/traveller/traveller195_guardian.sgml" newspaper="guardian" domain="courts" classification="wholly-derived" pagenumber="8" date="12.08.99" catchline="traveller">
+
+<body>
+
+
+<Verbatim PAsource="" >A New Age traveller </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >lost a claim for compensation against a driver who crushed him as he lay in front of her car while his friends attacked her. </Verbatim>
+<Verbatim PAsource="" >Roger Gedge, 30, of Arnold, Nottingham, lost a leg and suffered </Verbatim>
+<Rewrite PAsource="" >other </Rewrite>
+<Verbatim PAsource="" >injuries in the incident in July 1994. </Verbatim>
+<Verbatim PAsource="" >He claimed the driver of the car, Sarah Field, 27, from Cheltenham, had been negligent and unreasonable.
+</Verbatim>
+
+
+
+</body>
+</meterdocument>

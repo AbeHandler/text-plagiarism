@@ -1,0 +1,60 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/lockerb/lockerb354_telegraph.sgml" newspaper="telegraph" domain="courts" classification="partially-derived" pagenumber="4" date="08.12.99" catchline="lockerb">
+
+<body>
+
+
+<Verbatim PAsource="" >KEY witnesses </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >the Lockerbie trial</Verbatim>
+<New PAsource="" >, whose lives may be endangered if their identities are revealed, will not be allowed to conceal their faces with wigs, masks or make-up, a judge ruled yesterday.
+</New>
+
+<New PAsource="" >At a </New>
+<Verbatim PAsource="" >pre-trial hearing </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >Camp Zeist </Verbatim>
+<New PAsource="" >in Holland, the prosecution said intelligence agents from several countries, including Britain and the USA, should be allowed to give evidence behind a screen.
+</New>
+
+<New PAsource="" >Colin Boyd, QC, the Solicitor General, told the court that the American government had asked the Crown to protect CIA agents by allowing them to use false names and disguise their physical features. </New>
+<New PAsource="" >He also expressed concern about the safety of a star witness, a Libyan known as Giaka, whose relatives promised </New>
+<Verbatim PAsource="" >at a rally in </Verbatim>
+<New PAsource="" >Tripoli to </New>
+<New PAsource="" >"liquidate" him.
+</New>
+
+<New PAsource="" >Mr Boyd said that under cover intelligence operations could be compromised if the court failed to protect named witnesses.
+</New>
+
+<New PAsource="" >But Lord Sutherland ruled that while he could not stop agents growing beards and moustaches, shaving their heads, or changing their hair colour, he would not allow their true features to be disguised.
+</New>
+
+<New PAsource="" >He said that the three judges who will hear the trial next year, and the legal teams, must be able to see the demeanour of every witness.
+</New>
+
+<New PAsource="" >The Crown raised the issue at a preliminary hearing in which the two Libyans accused of the murder of 270 people in the Lockerbie bombing of a Pan Am jet made their first public appearance in court.
+</New>
+
+<Verbatim PAsource="" >Abdelbaset Ali Mohmed Al Megrahi, 47, and Al Amin Khalifa Fhimah, 43, </Verbatim>
+<New PAsource="" >who deny </New>
+<Verbatim PAsource="" >charges of conspiracy, murder and </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >breach of </Verbatim>
+<Rewrite PAsource="" >an </Rewrite>
+<Verbatim PAsource="" >aviation security Act, </Verbatim>
+<New PAsource="" >listened to the legal debate behind bullet proof </New>
+<Verbatim PAsource="" >glass </Verbatim>
+<Rewrite PAsource="" >screens.
+</Rewrite>
+
+<New PAsource="" >Lord Sutherland postponed the start of the trial from Feb 2 to May 3 because the defence needed more time to consider fresh information.
+
+
+</New>
+
+
+</body>
+</meterdocument>

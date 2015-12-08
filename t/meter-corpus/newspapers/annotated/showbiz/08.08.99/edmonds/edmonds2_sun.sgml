@@ -1,0 +1,35 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/08.08.99/edmonds/edmonds2_sun.sgml" newspaper="sun" domain="showbiz" classification="wholly-derived" pagenumber="7" date="08.08.99" catchline="edmonds">
+
+<body>
+
+
+<Verbatim PAsource="" >NOEL Edmonds </Verbatim>
+<Rewrite PAsource="" >yesterday announced </Rewrite>
+<Verbatim PAsource="" >he </Verbatim>
+<Rewrite PAsource="" >is </Rewrite>
+<Verbatim PAsource="" >quitting the BBC - because he </Verbatim>
+<Rewrite PAsource="" >no longer finds their shows "stimulating."
+</Rewrite>
+
+<Rewrite PAsource="" >The ex-</Rewrite>
+<Verbatim PAsource="" >Noel's House Party </Verbatim>
+<Rewrite PAsource="" >host, who is walking out </Rewrite>
+<Verbatim PAsource="" >after 30 years, </Verbatim>
+<Rewrite PAsource="" >said he </Rewrite>
+<Verbatim PAsource="" >did not rule out a </Verbatim>
+<Rewrite PAsource="" >TV </Rewrite>
+<Verbatim PAsource="" >comeback if the right offer came along.
+</Verbatim>
+
+<Rewrite PAsource="" >His </Rewrite>
+<Verbatim PAsource="" >spokesman said: "He is only 50 and has a lot of life left in him."
+</Verbatim>
+
+
+
+
+</body>
+</meterdocument>

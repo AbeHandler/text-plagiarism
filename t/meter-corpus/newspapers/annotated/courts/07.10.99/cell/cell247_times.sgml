@@ -1,0 +1,28 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/07.10.99/cell/cell247_times.sgml" newspaper="times" domain="courts" classification="wholly-derived" pagenumber="13" date="07.10.99" catchline="cell">
+
+<body>
+
+
+<Verbatim PAsource="" >The High Court </Verbatim>
+<Rewrite PAsource="" >has </Rewrite>
+<Verbatim PAsource="" >over turned an inquest jury's finding that police neglect contributed to the death </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Jason Tristram </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >a cell </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >Cockett Street police station, Swansea, </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >1996. </Verbatim>
+<Verbatim PAsource="" >A new inquest </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >ordered.</Verbatim>
+
+
+
+
+</body>
+</meterdocument>

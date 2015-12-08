@@ -1,0 +1,65 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/07.10.99/wife/wife230_mirror.sgml" newspaper="mirror" domain="courts" classification="non-derived" pagenumber="18" date="07.10.99" catchline="wife">
+
+<body>
+
+
+<Rewrite PAsource="" >A FATHER of </Rewrite>
+<Verbatim PAsource="" >two was jailed for life </Verbatim>
+<Rewrite PAsource="" >yesterday for murdering </Rewrite>
+<Verbatim PAsource="" >his wife.
+</Verbatim>
+
+<Rewrite PAsource="" >Penelope </Rewrite>
+<Verbatim PAsource="" >Conway </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >stabbed 19 </Verbatim>
+<Rewrite PAsource="" >times by husband </Rewrite>
+<Verbatim PAsource="" >Darryl after </Verbatim>
+<Rewrite PAsource="" >dashing his hopes of reconciliation.
+</Rewrite>
+
+<Verbatim PAsource="" >He </Verbatim>
+<New PAsource="" >was devastated by their break-up and a diary in which </New>
+<Rewrite PAsource="" >Penelope </Rewrite>
+<New PAsource="" >awarded grades to her lovers.
+</New>
+
+<Verbatim PAsource="" >Darryl, 41, </Verbatim>
+<Rewrite PAsource="" >lay in wait for Penelope, </Rewrite>
+<Verbatim PAsource="" >38, </Verbatim>
+<Rewrite PAsource="" >after babysitting their </Rewrite>
+<Verbatim PAsource="" >two children while she </Verbatim>
+<Rewrite PAsource="" >went </Rewrite>
+<Verbatim PAsource="" >out </Verbatim>
+<New PAsource="" >with her latest man.
+</New>
+
+<Rewrite PAsource="" >He phoned 999 after killing Penelope and slashing his own </Rewrite>
+<Verbatim PAsource="" >wrists.
+</Verbatim>
+
+<New PAsource="" >Son Daniel, 12, found his mother's body </New>
+<Verbatim PAsource="" >on the kitchen floor </Verbatim>
+<New PAsource="" >after being woken up by </New>
+<Rewrite PAsource="" >paramedics.
+</Rewrite>
+
+<New PAsource="" >They had to comfort the hysterical boy and his 11-year-old sister Laura.
+</New>
+
+<Verbatim PAsource="" >Conway, </Verbatim>
+<Rewrite PAsource="" >who denied </Rewrite>
+<Verbatim PAsource="" >murder </Verbatim>
+<Rewrite PAsource="" >but admitted </Rewrite>
+<Verbatim PAsource="" >manslaughter, </Verbatim>
+<Rewrite PAsource="" >told the </Rewrite>
+<Verbatim PAsource="" >jury at Nottingham Crown Court: </Verbatim>
+<New PAsource="" >"I am not bothered about the sentence. I just want to die."
+</New>
+
+
+</body>
+</meterdocument>

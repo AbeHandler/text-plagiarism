@@ -1,0 +1,21 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/09.08.99/royal/royal159_times.sgml" newspaper="times" domain="courts" classification="wholly-derived" pagenumber="8" date="09.08.99" catchline="royal">
+
+<body>
+
+
+<Verbatim PAsource="" >Eamon Reidy, 32, </Verbatim>
+<Verbatim PAsource="" >a drink-driver who </Verbatim>
+<Rewrite PAsource="" >rammed </Rewrite>
+<Verbatim PAsource="" >into </Verbatim>
+<New PAsource="" >Queen Elizabeth </New>
+<Verbatim PAsource="" >the Queen Mother's Daimler, </Verbatim>
+<Verbatim PAsource="" >was fined £700 and banned from driving for two years. </Verbatim>
+<Verbatim PAsource="" >The Queen Mother was not in </Verbatim>
+<Rewrite PAsource="" >car </Rewrite>
+<Verbatim PAsource="" >when the accident happened on July 4 in Surrey.</Verbatim>
+
+</body>
+</meterdocument>

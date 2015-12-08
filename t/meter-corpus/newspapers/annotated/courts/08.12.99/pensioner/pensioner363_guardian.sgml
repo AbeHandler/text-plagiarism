@@ -1,0 +1,37 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/pensioner/pensioner363_guardian.sgml" newspaper="guardian" domain="courts" classification="wholly-derived" pagenumber="7" date="08.12.99" catchline="pensioner">
+
+<body>
+
+
+<Verbatim PAsource="" >Two men were </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >jailed for life </Verbatim>
+<Rewrite PAsource="" >for murdering </Rewrite>
+<Verbatim PAsource="" >Hilda Tizzard, 88, by leaving her with a T-shirt tied round her neck </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >her sheltered home </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >Bognor </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >West Sussex, </Verbatim>
+<Rewrite PAsource="" >after stealing </Rewrite>
+<Verbatim PAsource="" >£33.</Verbatim>
+
+
+<Verbatim PAsource="" >Patrick Rattigan, 22, and Terence Wyatt, 28, </Verbatim>
+<New PAsource="" >both </New>
+<Verbatim PAsource="" >of Littlehampton </Verbatim>
+<Rewrite PAsource="" >and students at the time, had </Rewrite>
+<Verbatim PAsource="" >denied murder but </Verbatim>
+<Rewrite PAsource="" >were </Rewrite>
+<Verbatim PAsource="" >found guilty </Verbatim>
+<Rewrite PAsource="" >by a </Rewrite>
+<Verbatim PAsource="" >jury </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >Lewes crown court.</Verbatim>
+
+</body>
+</meterdocument>

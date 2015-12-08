@@ -1,0 +1,32 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/10.08.99/oasis/oasis54_telegraph.sgml" newspaper="telegraph" domain="showbiz" classification="wholly-derived" pagenumber="2" date="10.08.99" catchline="oasis">
+
+<body>
+
+
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >Oasis </Verbatim>
+<Rewrite PAsource="" >singer,</Rewrite>
+<Verbatim PAsource="" > Noel Gallagher, </Verbatim>
+<Verbatim PAsource="" >played down the departure of Paul "Bonehead" Arthurs, </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >guitarist, </Verbatim>
+<Verbatim PAsource="" >by saying: "It's hardly Paul McCartney leaving The Beatles."</Verbatim>
+<New PAsource="" >
+</New>
+
+<Verbatim PAsource="" >He confirmed to New Musical Express that Arthurs had quit, </Verbatim>
+<Verbatim PAsource="" >but said he left in March to spend more time with his family, </Verbatim>
+<Verbatim PAsource="" >not </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >the weekend as the band's publicist </Verbatim>
+<Rewrite PAsource="" >had </Rewrite>
+<Verbatim PAsource="" >said.</Verbatim>
+<New PAsource="" >
+</New>
+
+
+</body>
+</meterdocument>

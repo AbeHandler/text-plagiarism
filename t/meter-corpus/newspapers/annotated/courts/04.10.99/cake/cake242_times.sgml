@@ -1,0 +1,16 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/04.10.99/cake/cake242_times.sgml" newspaper="times" domain="courts" classification="wholly-derived" pagenumber="4" date="04.10.99" catchline="cake">
+
+<body>
+
+
+<Verbatim PAsource="" >Maurice Travis, 19, was jailed for life at Wolverhampton Crown Court for stabbing Alan Averall to death on his 17th birthday after </Verbatim>
+<Rewrite PAsource="" >being refused </Rewrite>
+<Verbatim PAsource="" >cake at Stoke Heath Young Offenders' Institute.</Verbatim>
+
+
+
+</body>
+</meterdocument>

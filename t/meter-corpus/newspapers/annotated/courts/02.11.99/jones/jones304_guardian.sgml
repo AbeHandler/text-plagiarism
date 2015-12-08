@@ -1,0 +1,48 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/02.11.99/jones/jones304_guardian.sgml" newspaper="guardian" domain="courts" classification="wholly-derived" pagenumber="9" date="02.11.99" catchline="jones">
+
+<body>
+
+
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >manager </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Southampton football club </Verbatim>
+<Verbatim PAsource="" >appeared before Liverpool magistrates yesterday accused of </Verbatim>
+<Rewrite PAsource="" >indecently assaulting children </Rewrite>
+<Verbatim PAsource="" >at a </Verbatim>
+<Rewrite PAsource="" >residential </Rewrite>
+<Verbatim PAsource="" >care home.</Verbatim>
+<New PAsource="" >
+</New>
+
+<Rewrite PAsource="" >David </Rewrite>
+<Verbatim PAsource="" >Jones denied </Verbatim>
+<Rewrite PAsource="" >this and ill-treating, neglecting and abandoning children in his care. </Rewrite>
+<Verbatim PAsource="" >The 43-year-old former Everton </Verbatim>
+<Rewrite PAsource="" >footballer, </Rewrite>
+<Verbatim PAsource="" >a father of four, </Verbatim>
+<Verbatim PAsource="" >pleaded not guilty to </Verbatim>
+<Verbatim PAsource="" >10 charges. </Verbatim>
+<Verbatim PAsource="" >The allegations </Verbatim>
+<New PAsource="" >relate to </New>
+<Verbatim PAsource="" >when Jones was employed </Verbatim>
+<Rewrite PAsource="" >at a care </Rewrite>
+<Verbatim PAsource="" >home </Verbatim>
+<Rewrite PAsource="" >for boys.</Rewrite>
+<New PAsource="" >
+</New>
+
+<Rewrite PAsource="" >He </Rewrite>
+<Verbatim PAsource="" >was granted bail until December 13, </Verbatim>
+<Rewrite PAsource="" >when </Rewrite>
+<Verbatim PAsource="" >committal </Verbatim>
+<Rewrite PAsource="" >proceedings will begin.</Rewrite>
+<New PAsource="" >
+
+</New>
+
+</body>
+</meterdocument>

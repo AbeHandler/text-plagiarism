@@ -1,0 +1,49 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/02.11.99/titanic/titanic292_times.sgml" newspaper="times" domain="courts" classification="non-derived" pagenumber="5" date="02.11.99" catchline="titanic">
+
+<body>
+
+
+<Verbatim PAsource="" >MARCO PIERRE WHITE </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >won </Verbatim>
+<New PAsource="" >the legal action that had threatened to close his new restaurant.</New>
+
+
+<New PAsource="" >The rival chef, </New>
+<Verbatim PAsource="" >Oliver Peyton</Verbatim>
+<New PAsource="" >, had claimed Mr White's </New>
+<Verbatim PAsource="" >Titanic </Verbatim>
+<New PAsource="" >restaurant was a replica of his own </New>
+<Verbatim PAsource="" >Atlantic Bar and Grill </Verbatim>
+<New PAsource="" >- which is housed in the same West End hotel. </New>
+<New PAsource="" >He sued both </New>
+<Rewrite PAsource="" >Mr </Rewrite>
+<Verbatim PAsource="" >White </Verbatim>
+<New PAsource="" >and Posthouse Hotels Forte, saying his </New>
+<Verbatim PAsource="" >£480,000-a-year </Verbatim>
+<Rewrite PAsource="" >lease protected him </Rewrite>
+<Verbatim PAsource="" >from </Verbatim>
+<Rewrite PAsource="" >any </Rewrite>
+<Verbatim PAsource="" >competing </Verbatim>
+<Rewrite PAsource="" >restaurant being established </Rewrite>
+<Verbatim PAsource="" >in the building.</Verbatim>
+
+
+<New PAsource="" >But he abandoned his case and was ordered to pay the costs of their year-long action. Forte will, however pay the estimated £500,000 bill.</New>
+
+
+<Rewrite PAsource="" >Mr </Rewrite>
+<Verbatim PAsource="" >White said </Verbatim>
+<New PAsource="" >afterwards: "Oliver caved in and got cold feet. If he had been in the Titanic he would have been the first in the lifeboat."</New>
+
+
+<Verbatim PAsource="" >Mr Justice Rattee said: </Verbatim>
+<New PAsource="" >"Mr White has had this claim hanging over him like a sword of Damocles, although Mr Peyton had no intention of actually pursuing it to the point of asking me to make a ruling."</New>
+
+
+
+</body>
+</meterdocument>

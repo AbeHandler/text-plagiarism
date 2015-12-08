@@ -1,0 +1,11 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/21.02.00/sewage/sewage518_times.sgml" newspaper="times" domain="courts" classification="non-derived" pagenumber="2" date="21.02.00" catchline="sewage">
+
+<body>
+<unclassified>
+Thames Water was fined £250,000 at Croydon Crown Court for allowing five million gallons of chemicals and raw sewage to pollute the Thames, flooding homes in Erith, Kent. Householders, who were evacuated and spent Christmas in hotels, suffered headaches, nausea and breathing difficulties.
+</unclassified>
+</body>
+</meterdocument>

@@ -1,0 +1,35 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.07.99/gamekeeper/gamekeeper31_express.sgml" newspaper="express" domain="courts" classification="partially-derived" pagenumber="20" date="12.07.99" catchline="gamekeeper">
+
+<body>
+
+
+<Rewrite PAsource="" >THE head </Rewrite>
+<Verbatim PAsource="" >gamekeeper </Verbatim>
+<Rewrite PAsource="" >at one of Prince Philip's </Rewrite>
+<New PAsource="" >favourite country estates </New>
+<Verbatim PAsource="" >was jailed for three months </Verbatim>
+<Rewrite PAsource="" >yesterday for slaughtering </Rewrite>
+<Verbatim PAsource="" >badgers </Verbatim>
+<Rewrite PAsource="" >with choke </Rewrite>
+<Verbatim PAsource="" >snares. </Verbatim>
+<Verbatim PAsource="" >John Drummond, 32, </Verbatim>
+<Rewrite PAsource="" >set </Rewrite>
+<Verbatim PAsource="" >20 illegal </Verbatim>
+<Rewrite PAsource="" >traps </Rewrite>
+<Verbatim PAsource="" >at Lord Cavendish's Holker Hall in Cumbria. </Verbatim>
+<Verbatim PAsource="" >The badgers </Verbatim>
+<Rewrite PAsource="" >died slowly as the </Rewrite>
+<Verbatim PAsource="" >snares </Verbatim>
+<Rewrite PAsource="" >cut into their </Rewrite>
+<Verbatim PAsource="" >necks</Verbatim>
+<Rewrite PAsource="" >, </Rewrite>
+<Verbatim PAsource="" >Kendal magistrates heard.</Verbatim>
+<Rewrite PAsource="" >
+</Rewrite>
+
+
+</body>
+</meterdocument>

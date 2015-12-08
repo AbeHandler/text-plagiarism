@@ -1,0 +1,23 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/08.08.99/plaque/plaque3_mirror.sgml" newspaper="mirror" domain="showbiz" classification="wholly-derived" pagenumber="11" date="08.08.99" catchline="plaque">
+
+<body>
+
+
+<Verbatim PAsource="" >A PLAQUE was unveiled </Verbatim>
+<Rewrite PAsource="" >yesterday for </Rewrite>
+<Verbatim PAsource="" >comic Les Dawson at </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >Palace Theatre </Verbatim>
+<Rewrite PAsource="" >in his home city of </Rewrite>
+<Verbatim PAsource="" >Manchester. </Verbatim>
+<Verbatim PAsource="" >Les died aged 59 in </Verbatim>
+<New PAsource="" >1991.</New>
+
+
+
+
+</body>
+</meterdocument>

@@ -1,0 +1,53 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/02.11.99/titanic/titanic278_star.sgml" newspaper="star" domain="courts" classification="non-derived" pagenumber="7" date="02.11.99" catchline="titanic">
+
+<body>
+
+
+<Verbatim PAsource="" >CELEBRITY chef Marco Pierre White </Verbatim>
+<Verbatim PAsource="" >yesterday </Verbatim>
+<Rewrite PAsource="" >saved his </Rewrite>
+<Verbatim PAsource="" >Titanic </Verbatim>
+<Verbatim PAsource="" >restaurant </Verbatim>
+<Rewrite PAsource="" >from sinking </Rewrite>
+<New PAsource="" >with a resounding </New>
+<Verbatim PAsource="" >High Court </Verbatim>
+<Rewrite PAsource="" >victory </Rewrite>
+<New PAsource="" >over a rival restaurateur.
+
+The controversial Michelin-star </New>
+<Verbatim PAsource="" >chef </Verbatim>
+<New PAsource="" >faced legal action from rival </New>
+<Verbatim PAsource="" >Oliver Peyton. </Verbatim>
+<New PAsource="" >Both the </New>
+<Verbatim PAsource="" >Titanic </Verbatim>
+<New PAsource="" >and Peyton's trendy </New>
+<Verbatim PAsource="" >Atlantic Bar and Grill </Verbatim>
+<New PAsource="" >are housed in the same building in the </New>
+<Verbatim PAsource="" >Regent Palace Hotel </Verbatim>
+<Rewrite PAsource="" >in London's West End.</Rewrite>
+
+
+<Verbatim PAsource="" >Peyton </Verbatim>
+<New PAsource="" >claimed his </New>
+<Rewrite PAsource="" >£450,000-</Rewrite>
+<Verbatim PAsource="" >a-year </Verbatim>
+<Rewrite PAsource="" >lease protected him from any rival business being set up close to his.
+
+But </Rewrite>
+<Verbatim PAsource="" >yesterday </Verbatim>
+<Verbatim PAsource="" >Peyton </Verbatim>
+<Rewrite PAsource="" >threw in the towel against </Rewrite>
+<Verbatim PAsource="" >Marco. </Verbatim>
+<Rewrite PAsource="" >Instead he came to a secret </Rewrite>
+<Verbatim PAsource="" >agreement </Verbatim>
+<Verbatim PAsource="" >with landlords </Verbatim>
+<Verbatim PAsource="" >Forte Hotel Group. </Verbatim>
+<Verbatim PAsource="" >Marco, </Verbatim>
+<New PAsource="" >27, joked: "Just before he was due to give evidence he abandons the case. He has sunk like the Titanic. If Oliver had been on board the Titanic he would have been the first on board the lifeboats."</New>
+
+
+</body>
+</meterdocument>

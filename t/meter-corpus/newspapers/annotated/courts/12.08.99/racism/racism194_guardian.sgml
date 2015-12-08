@@ -1,0 +1,20 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.08.99/racism/racism194_guardian.sgml" newspaper="guardian" domain="courts" classification="wholly-derived" pagenumber="8" date="12.08.99" catchline="racism">
+
+<body>
+
+
+<Verbatim PAsource="" >A battle for compensation by an English couple who claimed they were victims of racial discrimination </Verbatim>
+<Rewrite PAsource="" >while </Rewrite>
+<Verbatim PAsource="" >living in a Scottish village ended </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >when lawyers reached an out-of-court settlement. </Verbatim>
+<Verbatim PAsource="" >Frank Walters, 52, and his wife Sandra, 53, said they had been vindicated with the undisclosed settlement, believed to be in the region £4,000 plus costs estimated at £40,000.</Verbatim>
+
+
+<Verbatim PAsource="" >The settlement, at Dumfries sheriff court, admits no liability on the part of publican Colin Pearson and his wife Jacqueline, a postmistress.</Verbatim>
+
+</body>
+</meterdocument>

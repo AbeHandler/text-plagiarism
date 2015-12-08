@@ -1,0 +1,18 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.07.99/lovers/lovers55_guardian.sgml" newspaper="guardian" domain="courts" classification="wholly-derived" pagenumber="12" date="12.07.99" catchline="lovers">
+
+<body>
+
+
+<Verbatim PAsource="" >Two </Verbatim>
+<Rewrite PAsource="" >teenagers </Rewrite>
+<Verbatim PAsource="" >who could not bear to be apart killed themselves, an inquest in Wakefield, West Yorkshire, heard </Verbatim>
+<Rewrite PAsource="" >yesterday. </Rewrite>
+<Verbatim PAsource="" >Leanne Elveck, 16, and Damien Kilburn, 19, were found dead in a car, which had a hosepipe leading from the exhaust, in Wakefield last March.</Verbatim>
+
+
+
+</body>
+</meterdocument>

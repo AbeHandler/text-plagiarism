@@ -1,0 +1,24 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/12.08.99/spice/spice65_mirror.sgml" newspaper="mirror" domain="showbiz" classification="wholly-derived" pagenumber="19" date="12.08.99" catchline="spice">
+
+<body>
+
+
+<Verbatim PAsource="" >BABY Spice Emma Bunton </Verbatim>
+<Rewrite PAsource="" >will </Rewrite>
+<Verbatim PAsource="" >make her TV </Verbatim>
+<Rewrite PAsource="" >presenting </Rewrite>
+<Verbatim PAsource="" >debut </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >October </Verbatim>
+<Rewrite PAsource="" >as </Rewrite>
+<Verbatim PAsource="" >host </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >her own music show on VH1.</Verbatim>
+
+
+
+</body>
+</meterdocument>

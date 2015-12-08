@@ -1,0 +1,21 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/09.08.99/casualty/casualty21_mirror.sgml" newspaper="mirror" domain="showbiz" classification="wholly-derived" pagenumber="7" date="09.08.99" catchline="casualty">
+
+<body>
+
+
+<Rewrite PAsource="" >THE next </Rewrite>
+<Verbatim PAsource="" >series </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Casualty, </Verbatim>
+<Rewrite PAsource="" >which begins next month, will run to </Rewrite>
+<Verbatim PAsource="" >30 episodes - the longest </Verbatim>
+<Rewrite PAsource="" >ever - the BBC said yesterday.
+</Rewrite>
+
+
+
+</body>
+</meterdocument>

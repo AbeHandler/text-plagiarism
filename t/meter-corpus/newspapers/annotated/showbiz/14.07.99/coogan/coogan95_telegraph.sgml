@@ -1,0 +1,53 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/14.07.99/coogan/coogan95_telegraph.sgml" newspaper="telegraph" domain="showbiz" classification="wholly-derived" pagenumber="12" date="14.07.99" catchline="coogan">
+
+<body>
+
+
+<Rewrite PAsource="" >THE </Rewrite>
+<Verbatim PAsource="" >presenter </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Top Gear, Brendan Coogan, has lost his job because of a drink-drive conviction.
+</Verbatim>
+
+<Verbatim PAsource="" >Coogan, 28, pleaded guilty on Monday to driving with excess alcohol in his blood. He had been stopped by police the morning after a drinking session.
+</Verbatim>
+
+<Verbatim PAsource="" >He said </Verbatim>
+<Rewrite PAsource="" >yesterday that </Rewrite>
+<Verbatim PAsource="" >he hoped his misfortune would highlight the perils of </Verbatim>
+<Rewrite PAsource="" >driving </Rewrite>
+<Verbatim PAsource="" >the day after drinking.
+</Verbatim>
+
+<Verbatim PAsource="" >"I would urge anyone who knows that they have to drive the next day to think very carefully about how much they drink the previous evening. I would consider myself very unlucky. I have lost my dream job because of this mistake."
+</Verbatim>
+
+<Verbatim PAsource="" >Coogan was one of the new presenters who joined </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >BBC2 motoring programme after Jeremy Clarkson </Verbatim>
+<Rewrite PAsource="" >left.
+</Rewrite>
+
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >BBC said he </Verbatim>
+<Rewrite PAsource="" >had been banned for </Rewrite>
+<Verbatim PAsource="" >12 months and </Verbatim>
+<Rewrite PAsource="" >fined </Rewrite>
+<Verbatim PAsource="" >£500 </Verbatim>
+<Rewrite PAsource="" >by </Rewrite>
+<Verbatim PAsource="" >Huddersfield magistrates </Verbatim>
+<Rewrite PAsource="" >for being </Rewrite>
+<Verbatim PAsource="" >slightly over the limit </Verbatim>
+<Rewrite PAsource="" >last month.
+</Rewrite>
+
+<Rewrite PAsource="" >It added: </Rewrite>
+<Verbatim PAsource="" >"Top Gear wil review this situation once the ban has been lifted."</Verbatim>
+
+
+
+</body>
+</meterdocument>

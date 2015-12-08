@@ -1,0 +1,30 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/10.08.99/enfield/enfield53_times.sgml" newspaper="times" domain="showbiz" classification="non-derived" pagenumber="7" date="10.08.99" catchline="enfield">
+
+<body>
+
+
+<Verbatim PAsource="" >HARRY ENFIELD </Verbatim>
+<New PAsource="" >has become the latest star to leave </New>
+<Verbatim PAsource="" >the BBC. </Verbatim>
+<New PAsource="" >The comedian has signed </New>
+<Verbatim PAsource="" >a £1m deal </Verbatim>
+<Rewrite PAsource="" >with BSkyB.
+</Rewrite>
+
+<New PAsource="" >His BBC series, Harry Enfield and Chums, had been a regular ratings winner. </New>
+<Rewrite PAsource="" >His </Rewrite>
+<Verbatim PAsource="" >new series, </Verbatim>
+<Verbatim PAsource="" >The People's Harry Enfield, </Verbatim>
+<Verbatim PAsource="" >will be screened on Sky Premier.</Verbatim>
+
+
+<New PAsource="" >Enfield, 38 and married with two children, made his name on the stand-up circuit with characters such as Loadsamoney. He became a hit on Channel 4's Friday Night Live before the BBC poached him in 1990. His new series will be produced by Tiger Aspect, the company which made Rowan Atkinson's film Bean and is also producing Enfield's first feature film, Kevin and Perry, The Movie, which also stars Kathy Burke.
+
+The move comes only days after the sports presenter Des Lynam announced his £5 million defection to ITV. In recent years, other defections have ranged from Bruce Forsyth to Clive James. The EastEnders actor Ross Kemp, switched for a package worth £1.2 million.
+</New>
+
+</body>
+</meterdocument>

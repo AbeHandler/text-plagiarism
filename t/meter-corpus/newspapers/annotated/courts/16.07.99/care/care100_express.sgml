@@ -1,0 +1,45 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/16.07.99/care/care100_express.sgml" newspaper="express" domain="courts" classification="wholly-derived" pagenumber="17" date="16.07.99" catchline="care">
+
+<body>
+
+
+<Verbatim PAsource="" >WHAT does the judgment mean? </Verbatim>
+<Verbatim PAsource="" >It states that the NHS does not have sole responsibility for providing and funding long-term nursing care. The judges upheld 1995 guidance to health authorities that the responsibility for 'general nursing care' can be shifted to social services, which means patients can be means tested and forced to pay for the care they receive. 'Specialist nursing care' remains the responsibility of the NHS, however, and is free.
+
+</Verbatim>
+
+<Verbatim PAsource="" >WHAT is the difference between 'general' and 'specialist' nursing care?
+</Verbatim>
+
+<Verbatim PAsource="" >Specialist care is loosely defined as care which requires the services of a whole medical team, and where a patient's condition can change, needing different drugs and treatments. For instance, someone who has been in a car crash and is paraplegic fulfils the criteria for specialist care. They may also require surgery and other invasive treatments. A very frail elderly person who needs feeding and occasional treatment for bed sores will be assessed as needing general nursing care and could be made to pay for nursing home care. </Verbatim>
+<Verbatim PAsource="" >But health authorities say there is a grey area where it is difficult to decide whether someone needs specialist or general care, </Verbatim>
+<Rewrite PAsource="" >such as </Rewrite>
+<Verbatim PAsource="" >patients suffering from Alzheimer's disease.
+</Verbatim>
+
+<Verbatim PAsource="" >WHAT happens at the moment? 
+</Verbatim>
+
+<Verbatim PAsource="" >There are huge regional variations, as health authorities have interpreted the guidance differently. </Verbatim>
+<Verbatim PAsource="" >In Dundee, for example, there are hardly any </Verbatim>
+<Rewrite PAsource="" >council </Rewrite>
+<Verbatim PAsource="" >residential homes. </Verbatim>
+<Verbatim PAsource="" >Most people live in their own homes </Verbatim>
+<Rewrite PAsource="" >where they </Rewrite>
+<Verbatim PAsource="" >receive services.
+</Verbatim>
+
+<Verbatim PAsource="" >DOES the </Verbatim>
+<Rewrite PAsource="" >ruling </Rewrite>
+<Verbatim PAsource="" >change anything? 
+</Verbatim>
+
+<Verbatim PAsource="" >Not immediately, but it has opened the debate and put pressure on ministers to make clear who can expect to receive free long-term care.
+</Verbatim>
+
+
+</body>
+</meterdocument>

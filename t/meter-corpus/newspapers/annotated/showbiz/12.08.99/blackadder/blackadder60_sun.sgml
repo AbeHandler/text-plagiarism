@@ -1,0 +1,67 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/12.08.99/blackadder/blackadder60_sun.sgml" newspaper="sun" domain="showbiz" classification="partially-derived" pagenumber="3" date="12.08.99" catchline="blackadder">
+
+<body>
+
+
+<Verbatim PAsource="" >SKY Television </Verbatim>
+<Rewrite PAsource="" >has scooped </Rewrite>
+<Verbatim PAsource="" >the rights </Verbatim>
+<Verbatim PAsource="" >to screen </Verbatim>
+<Verbatim PAsource="" >the </Verbatim>
+<Verbatim PAsource="" >Blackadder </Verbatim>
+<Rewrite PAsource="" >movie before </Rewrite>
+<Verbatim PAsource="" >the BBC.</Verbatim>
+<New PAsource="" >
+</New>
+
+<Verbatim PAsource="" >The </Verbatim>
+<Rewrite PAsource="" >Beeb, </Rewrite>
+<Rewrite PAsource="" >which showed </Rewrite>
+<Verbatim PAsource="" >the </Verbatim>
+<Rewrite PAsource="" >original </Rewrite>
+<Verbatim PAsource="" >four series, </Verbatim>
+<New PAsource="" >was sidelined by a £4million deal. And jubilant bosses at </New>
+<Rewrite PAsource="" >the satellite giant last night announced viewers would see </Rewrite>
+<Verbatim PAsource="" >Time for Blackadder </Verbatim>
+<Verbatim PAsource="" >in 2001.</Verbatim>
+<New PAsource="" >
+</New>
+
+<Rewrite PAsource="" >It reunites </Rewrite>
+<Verbatim PAsource="" >Rowan Atkinson </Verbatim>
+<Rewrite PAsource="" >and </Rewrite>
+<Verbatim PAsource="" >Tony Robinson </Verbatim>
+<Rewrite PAsource="" >as they travel </Rewrite>
+<Verbatim PAsource="" >through history </Verbatim>
+<Verbatim PAsource="" >in </Verbatim>
+<New PAsource="" >Baldrick's </New>
+<Verbatim PAsource="" >time machine.</Verbatim>
+<New PAsource="" > Stephen Fry, Hugh Laurie and Rik Mayall are among the </New>
+<Verbatim PAsource="" >other stars.</Verbatim>
+<New PAsource="" >
+</New>
+
+<Verbatim PAsource="" >The film, </Verbatim>
+<New PAsource="" >written by Ben Elton and Notting Hill creator Richard Curtis, </New>
+<Verbatim PAsource="" >will </Verbatim>
+<Rewrite PAsource="" >premiere </Rewrite>
+<Verbatim PAsource="" >at </Verbatim>
+<Verbatim PAsource="" >the </Verbatim>
+<New PAsource="" >Millennium </New>
+<Verbatim PAsource="" >Dome.</Verbatim>
+<New PAsource="" >
+</New>
+
+<Verbatim PAsource="" >A Beeb spokeswoman </Verbatim>
+<Verbatim PAsource="" >said </Verbatim>
+<Rewrite PAsource="" >they will screen the film - but after </Rewrite>
+<Verbatim PAsource="" >Sky.</Verbatim>
+<New PAsource="" >
+
+</New>
+
+</body>
+</meterdocument>

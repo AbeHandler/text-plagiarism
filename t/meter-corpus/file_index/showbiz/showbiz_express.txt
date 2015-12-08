@@ -1,0 +1,14 @@
+/meter_corpus/newspapers/rawtexts/showbiz/08.08.99/edmonds/edmonds11_express.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/09.08.99/oasis/oasis28_express.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/10.08.99/bbcstreet/bbcstreet51_express.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/10.08.99/enfield/enfield50_express.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/12.08.99/blackadder/blackadder73_express.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/12.08.99/street/street72_express.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/14.07.99/coogan/coogan91_express.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/14.07.99/starwars/starwars90_express.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/17.04.00/jagger/jagger113_express.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/27.01.00/oasis/oasis131_express.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/07.01.00/street/street150_express.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/07.01.00/zeta/zeta151_express.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/22.11.99/bond/bond158_express.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/14.12.99/mccartney/mccartney170_express.txt 

@@ -1,0 +1,82 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/hamilton/hamilton321_mirror.sgml" newspaper="mirror" domain="courts" classification="partially-derived" pagenumber="12" date="08.12.99" catchline="hamilton">
+
+<body>
+
+
+<New PAsource="" >FORMER Tory MP </New>
+<Verbatim PAsource="" >Neil Hamilton </Verbatim>
+<New PAsource="" >admitted yesterday he made a false tax claim after a </New>
+<Verbatim PAsource="" >£4,000 "windfall" </Verbatim>
+<New PAsource="" >commission payment.</New>
+
+
+<New PAsource="" >He told the High Court he was paid in plane tickets, paintings and free shopping trips so he would not have to pay tax. </New>
+<New PAsource="" >And he conceded he claimed money BACK on his tax return for the air fares, claiming them as a business expense. </New>
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >£4,000 </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >for </Verbatim>
+<Rewrite PAsource="" >acting as middleman for a </Rewrite>
+<Verbatim PAsource="" >nuclear </Verbatim>
+<Rewrite PAsource="" >fuel company.</Rewrite>
+
+
+<Rewrite PAsource="" >Mr </Rewrite>
+<Verbatim PAsource="" >Hamilton </Verbatim>
+<New PAsource="" >is suing </New>
+<Verbatim PAsource="" >Harrods boss Mohamed Al Fayed </Verbatim>
+<New PAsource="" >for libel over claims he took cash for asking Commons questions.</New>
+
+
+<New PAsource="" >In cross-examination by </New>
+<Verbatim PAsource="" >George Carman QC </Verbatim>
+<New PAsource="" >he dropped one of his grounds for damages. </New>
+<New PAsource="" >He had said he might expect to be in the Shadow Cabinet were it not for Mr Al Fayed's "lying". </New>
+<Verbatim PAsource="" >Mr Carman </Verbatim>
+<New PAsource="" >referred </New>
+<Verbatim PAsource="" >Mr Hamilton </Verbatim>
+<New PAsource="" >to a devastating </New>
+<Verbatim PAsource="" >select committee </Verbatim>
+<New PAsource="" >report </New>
+<Verbatim PAsource="" >on standards </Verbatim>
+<New PAsource="" >in public life which investigated him after the loss of his seat at the 1997 General Election. </New>
+<New PAsource="" >It criticised him for failing to declare various consultancy payments, hotel stays and the receipt of </New>
+<Verbatim PAsource="" >Harrods hampers </Verbatim>
+<New PAsource="" >from </New>
+<Verbatim PAsource="" >Mr Al Fayed.</Verbatim>
+
+
+<Verbatim PAsource="" >Mr Carman asked Mr Hamilton </Verbatim>
+<New PAsource="" >if he was now prepared to abandon his claim for damages. </New>
+<Verbatim PAsource="" >Mr Hamilton </Verbatim>
+<Rewrite PAsource="" >said: </Rewrite>
+<Verbatim PAsource="" >"I </Verbatim>
+<New PAsource="" >am </New>
+<Verbatim PAsource="" >quite happy to abandon that specific point." </Verbatim>
+<Verbatim PAsource="" >Mr Carman </Verbatim>
+<Rewrite PAsource="" >repeatedly asked why he felt he could pursue such a claim that he could </Rewrite>
+<Verbatim PAsource="" >have </Verbatim>
+<Rewrite PAsource="" >served in </Rewrite>
+<Verbatim PAsource="" >the shadow cabinet.</Verbatim>
+
+
+<Verbatim PAsource="" >Mr Hamilton replied: "Well, Mr Mandelson is back in the cabinet."</Verbatim> 
+
+
+<Rewrite PAsource="" >Earlier he </Rewrite>
+<Verbatim PAsource="" >said he gave Mr Al Fayed Commons </Verbatim>
+<Rewrite PAsource="" >souvenirs - </Rewrite>
+<Verbatim PAsource="" >a coffee </Verbatim>
+<Rewrite PAsource="" >set, </Rewrite>
+<Verbatim PAsource="" >whisky, brandy and cuff links.</Verbatim>
+
+
+<New PAsource="" >The case continues today when </New>
+<Verbatim PAsource="" >Mr Hamilton </Verbatim>
+<New PAsource="" >will face further questioning by the QC.</New>
+
+</body>
+</meterdocument>

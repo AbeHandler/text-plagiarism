@@ -1,0 +1,45 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/16.07.99/whitehouse/whitehouse70_sun.sgml" newspaper="sun" domain="courts" classification="wholly-derived" pagenumber="36" date="16.07.99" catchline="whitehouse">
+
+<body>
+
+
+<Verbatim PAsource="" >A </Verbatim>
+<Rewrite PAsource="" >TOP cop's </Rewrite>
+<Verbatim PAsource="" >daughter who assaulted two </Verbatim>
+<Rewrite PAsource="" >of her dad's </Rewrite>
+<Verbatim PAsource="" >officers after </Verbatim>
+<Rewrite PAsource="" >downing </Rewrite>
+<Verbatim PAsource="" >a litre of cider was sentenced to 150 hours' community service </Verbatim>
+<Rewrite PAsource="" >yesterday.</Rewrite>
+
+
+<Verbatim PAsource="" >Frances Whitehouse, 18, pushed, kicked and swore at </Verbatim>
+<Rewrite PAsource="" >the PCs when </Rewrite>
+<Verbatim PAsource="" >they </Verbatim>
+<Rewrite PAsource="" >tried to intervene as she rowed with </Rewrite>
+<Verbatim PAsource="" >her boyfriend. </Verbatim>
+<Verbatim PAsource="" >Whitehouse, of Hove </Verbatim>
+<Rewrite PAsource="" >- whose dad </Rewrite>
+<Verbatim PAsource="" >Paul </Verbatim>
+<Rewrite PAsource="" >is </Rewrite>
+<Verbatim PAsource="" >Sussex Chief Constable </Verbatim>
+<Rewrite PAsource="" >- had </Rewrite>
+<Verbatim PAsource="" >denied </Verbatim>
+<Rewrite PAsource="" >assaulting </Rewrite>
+<Verbatim PAsource="" >police </Verbatim>
+<Rewrite PAsource="" >and being </Rewrite>
+<Verbatim PAsource="" >abusive</Verbatim>
+<Rewrite PAsource="" >. </Rewrite>
+<Rewrite PAsource="" >She was ordered </Rewrite>
+<Verbatim PAsource="" >to pay £650 </Verbatim>
+<Rewrite PAsource="" >by </Rewrite>
+<Verbatim PAsource="" >Brighton magistrates</Verbatim>
+<Rewrite PAsource="" >.</Rewrite>
+
+
+
+</body>
+</meterdocument>

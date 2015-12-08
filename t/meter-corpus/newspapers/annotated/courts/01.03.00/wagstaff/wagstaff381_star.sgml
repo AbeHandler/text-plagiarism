@@ -1,0 +1,40 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/01.03.00/wagstaff/wagstaff381_star.sgml" newspaper="star" domain="courts" classification="wholly-derived" pagenumber="11" date="01.03.00" catchline="wagstaff">
+
+<body>
+
+
+<Verbatim PAsource="" >CHANGING Rooms presenter Elizabeth Wagstaff </Verbatim>
+<Rewrite PAsource="" >has </Rewrite>
+<Verbatim PAsource="" >denied conning colleagues out of more than £55,000 by pretending she </Verbatim>
+<Rewrite PAsource="" >was dying of </Rewrite>
+<Verbatim PAsource="" >cancer. </Verbatim>
+<Verbatim PAsource="" >The BBC1 makeover expert </Verbatim>
+<New PAsource="" >appeared in court </New>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Rewrite PAsource="" >and </Rewrite>
+<Verbatim PAsource="" >pleaded not guilty to 15 charges of deception between July 1998 and August last year. </Verbatim>
+
+
+<Verbatim PAsource="" >Wagstaff 38, of Stevenage, </Verbatim>
+<Rewrite PAsource="" >Herts, </Rewrite>
+<Verbatim PAsource="" >is </Verbatim>
+<Rewrite PAsource="" >accused of conning </Rewrite>
+<Verbatim PAsource="" >14 </Verbatim>
+<Rewrite PAsource="" >people - </Rewrite>
+<Verbatim PAsource="" >including one man who </Verbatim>
+<Rewrite PAsource="" >is </Rewrite>
+<Verbatim PAsource="" >said to have lost a total of £12,000.</Verbatim>
+
+
+<Rewrite PAsource="" >The case was adjourned </Rewrite>
+<Verbatim PAsource="" >by Judge Quentin Campbell at Inner London Crown Court. </Verbatim>
+<Verbatim PAsource="" >Wagstaff </Verbatim>
+<Rewrite PAsource="" >was bailed </Rewrite>
+<Verbatim PAsource="" >until April 25.</Verbatim>
+
+
+</body>
+</meterdocument>

@@ -1,0 +1,13 @@
+/meter_corpus/newspapers/rawtexts/showbiz/08.08.99/edmonds/edmonds16_guardian.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/08.08.99/plaque/plaque17_guardian.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/09.08.99/oasis/oasis31_guardian.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/10.08.99/bbc/bbc57_guardian.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/12.08.99/blackadder/blackadder74_guardian.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/12.08.99/net/net75_guardian.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/13.08.99/hitchcock/hitchcock82_guardian.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/14.07.99/starwars/starwars96_guardian.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/21.06.00/winslet/winslet107_guardian.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/27.09.99/opera/opera121_guardian.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/27.01.00/archers/archers138_guardian.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/27.01.00/oasis/oasis137_guardian.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/14.12.99/mccartney/mccartney176_guardian.txt 

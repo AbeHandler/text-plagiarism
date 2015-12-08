@@ -1,0 +1,24 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/air/air341_express.sgml" newspaper="express" domain="courts" classification="wholly-derived" pagenumber="34" date="08.12.99" catchline="air">
+
+<body>
+
+
+<Verbatim PAsource="" >FIVE Irish tourists charged in connection with an alleged air rage incident which led to a </Verbatim>
+<Rewrite PAsource="" >Jamaica-bound </Rewrite>
+<Verbatim PAsource="" >plane being diverted to the </Verbatim>
+<Rewrite PAsource="" >US have been </Rewrite>
+<Verbatim PAsource="" >committed </Verbatim>
+<Rewrite PAsource="" >for </Rewrite>
+<Verbatim PAsource="" >trial at Chichester Crown Court. </Verbatim>
+<Verbatim PAsource="" >Myles Connors, Francis Coyle, Angela O'Driscoll, Elizabeth O'Driscoll and Josephine Cooper, all </Verbatim>
+<Rewrite PAsource="" >from </Rewrite>
+<Verbatim PAsource="" >London, </Verbatim>
+<Rewrite PAsource="" >deny the charges.</Rewrite>
+
+
+
+</body>
+</meterdocument>

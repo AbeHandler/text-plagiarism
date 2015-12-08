@@ -1,0 +1,20 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/07.10.99/punch/punch248_times.sgml" newspaper="times" domain="courts" classification="wholly-derived" pagenumber="13" date="07.10.99" catchline="punch">
+
+<body>
+
+
+<Verbatim PAsource="" >Garry Delany, 29, the boxing champion, was cleared </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >Wood Green Crown Court of assaulting two women in a punch-up at a nightclub in Romford, Essex, </Verbatim>
+<Rewrite PAsource="" >after </Rewrite>
+<Verbatim PAsource="" >a drink-throwing incident </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >July 1998.</Verbatim>
+
+
+
+</body>
+</meterdocument>

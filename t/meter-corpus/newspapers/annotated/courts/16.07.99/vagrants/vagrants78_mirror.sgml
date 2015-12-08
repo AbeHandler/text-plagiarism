@@ -1,0 +1,40 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/16.07.99/vagrants/vagrants78_mirror.sgml" newspaper="mirror" domain="courts" classification="wholly-derived" pagenumber="23" date="16.07.99" catchline="vagrants">
+
+<body>
+
+
+<Verbatim PAsource="" >AN </Verbatim>
+<Rewrite PAsource="" >innocent </Rewrite>
+<Verbatim PAsource="" >woman jailed for life 10 years ago for a double murder </Verbatim>
+<Rewrite PAsource="" >walked free from the Appeal Court yesterday. </Rewrite>
+<Rewrite PAsource="" >Former </Rewrite>
+<Verbatim PAsource="" >nurse Mary Druhan, </Verbatim>
+<Rewrite PAsource="" >55, was arrested after a </Rewrite>
+<Verbatim PAsource="" >fire </Verbatim>
+<Rewrite PAsource="" >killed two men </Rewrite>
+<Verbatim PAsource="" >at a squat in Kingston upon Thames </Verbatim>
+<Rewrite PAsource="" >she shared with other alcoholics. </Rewrite>
+<Rewrite PAsource="" >Men at the squat accused her. </Rewrite>
+<Rewrite PAsource="" >One was later </Rewrite>
+<Verbatim PAsource="" >linked  </Verbatim>
+<Rewrite PAsource="" >with </Rewrite>
+<Verbatim PAsource="" >fires, in one of which a woman died.
+</Verbatim>
+
+<Rewrite PAsource="" >Mrs </Rewrite>
+<Verbatim PAsource="" >Druhan</Verbatim>
+<Rewrite PAsource="" >, whose conviction was  quashed as </Rewrite>
+<Verbatim PAsource="" >unsafe</Verbatim>
+<Rewrite PAsource="" >, had her </Rewrite>
+<Verbatim PAsource="" >first appeal </Verbatim>
+<Rewrite PAsource="" >thrown out </Rewrite>
+<Verbatim PAsource="" >in 1990</Verbatim>
+<Rewrite PAsource="" >.
+</Rewrite>
+
+
+</body>
+</meterdocument>

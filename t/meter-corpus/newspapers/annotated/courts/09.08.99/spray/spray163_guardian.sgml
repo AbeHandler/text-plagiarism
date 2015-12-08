@@ -1,0 +1,24 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/09.08.99/spray/spray163_guardian.sgml" newspaper="guardian" domain="courts" classification="wholly-derived" pagenumber="4" date="09.08.99" catchline="spray">
+
+<body>
+
+
+<Verbatim PAsource="" >A police officer was </Verbatim>
+<Rewrite PAsource="" >yester day cleared </Rewrite>
+<Verbatim PAsource="" >of assaulting three people, including a female colleague, with CS gas spray.</Verbatim>
+
+
+<Verbatim PAsource="" >Minshull Street crown court, Manchester, had heard PC Andrew Bateson, 28, had been called to a disturbance outside the Farnworth Veterans' Club in Bolton.</Verbatim>
+
+
+<Verbatim PAsource="" >PC Deborah Davidson insisted no warning had been given about the spray but PC Bateson </Verbatim>
+<Rewrite PAsource="" >claimed </Rewrite>
+<Verbatim PAsource="" >he had been forced to act because PC Davidson was not doing her job properly.</Verbatim>
+
+
+
+</body>
+</meterdocument>

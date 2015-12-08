@@ -1,0 +1,62 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/16.07.99/care/care71_mirror.sgml" newspaper="mirror" domain="courts" classification="wholly-derived" pagenumber="2" date="16.07.99" catchline="care">
+
+<body>
+
+
+<Rewrite PAsource="" >A CRASH victim yesterday won </Rewrite>
+<Verbatim PAsource="" >a </Verbatim>
+<Rewrite PAsource="" >court </Rewrite>
+<Verbatim PAsource="" >victory </Verbatim>
+<Rewrite PAsource="" >which could help </Rewrite>
+<Verbatim PAsource="" >tens of thousands of </Verbatim>
+<Rewrite PAsource="" >other </Rewrite>
+<Verbatim PAsource="" >people in nursing homes.</Verbatim>
+
+
+<Verbatim PAsource="" >Wheelchair-bound Pamela Coughlan, 55, spent her £70,000 life-savings </Verbatim>
+<Rewrite PAsource="" >on the battle over who should get free </Rewrite>
+<Verbatim PAsource="" >long-term nursing care.</Verbatim>
+
+
+<Verbatim PAsource="" >She will now get </Verbatim>
+<Rewrite PAsource="" >most </Rewrite>
+<Verbatim PAsource="" >of the money back. </Verbatim>
+<Verbatim PAsource="" >Her </Verbatim>
+<Rewrite PAsource="" >lawyer </Rewrite>
+<Verbatim PAsource="" >said </Verbatim>
+<Rewrite PAsource="" >last night: </Rewrite>
+<Verbatim PAsource="" >"The case she has fought is about the future of the NHS.</Verbatim>
+
+
+<Verbatim PAsource="" >"This judgment says that if nursing is incidental to nursing - home accommodation, then social services may provide it and means test it.</Verbatim>
+
+
+<Verbatim PAsource="" >"But if the person's need is a primary need for health care then the Health Service must pick up the whole cost."</Verbatim>
+
+
+<Verbatim PAsource="" >Mrs Coughlan </Verbatim>
+<Rewrite PAsource="" >began her campaign following a decision </Rewrite>
+<Verbatim PAsource="" >to close </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >NHS nursing home in Exeter where she had lived since 1993.</Verbatim>
+
+
+<Verbatim PAsource="" >The Appeal Court ruled </Verbatim>
+<Rewrite PAsource="" >yesterday that </Rewrite>
+<Verbatim PAsource="" >closure of </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >home </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >unlawful.</Verbatim>
+
+
+<Rewrite PAsource="" >And it said </Rewrite>
+<Verbatim PAsource="" >she should not be prejudiced by bringing a case "raising wide public interest issues".</Verbatim>
+
+
+
+</body>
+</meterdocument>

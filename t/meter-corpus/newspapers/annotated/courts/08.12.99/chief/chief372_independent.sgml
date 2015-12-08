@@ -1,0 +1,22 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/chief/chief372_independent.sgml" newspaper="independent" domain="courts" classification="wholly-derived" pagenumber="10" date="08.12.99" catchline="chief">
+
+<body>
+
+
+<Rewrite PAsource="" >A </Rewrite>
+<Verbatim PAsource="" >SENIOR police officer </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >pleaded not guilty to indecently assaulting two women. </Verbatim>
+<Verbatim PAsource="" >Surrey Deputy Chief Constable, Ian Beckett, 53, is alleged to have attacked them nearly a year ago. </Verbatim>
+<Rewrite PAsource="" >Mr </Rewrite>
+<Verbatim PAsource="" >Beckett, of Chertsey, Surrey, </Verbatim>
+<Rewrite PAsource="" >was granted </Rewrite>
+<Verbatim PAsource="" >bail at London's Southwark Crown Court.</Verbatim>
+
+
+
+</body>
+</meterdocument>

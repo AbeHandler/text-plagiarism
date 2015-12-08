@@ -1,0 +1,59 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/16.07.99/bondi/bondi88_star.sgml" newspaper="star" domain="courts" classification="non-derived" pagenumber="8" date="16.07.99" catchline="bondi">
+
+<body>
+
+
+<Rewrite PAsource="" >A MAN accused of murdering British </Rewrite>
+<Verbatim PAsource="" >postman Brian Hagland </Verbatim>
+<Rewrite PAsource="" >at Sydney's </Rewrite>
+<Verbatim PAsource="" >Bondi Beach was cleared </Verbatim>
+<Rewrite PAsource="" >yesterday.
+</Rewrite>
+
+<New PAsource="" >Mr Hagland's furious girlfriend Connie Casey wept as </New>
+<Verbatim PAsource="" >the New South Wales Supreme Court jury </Verbatim>
+<Rewrite PAsource="" >gave the verdict after </Rewrite>
+<Verbatim PAsource="" >a week of </Verbatim>
+<Rewrite PAsource="" >deliberating.
+</Rewrite>
+
+<Verbatim PAsource="" >Instead </Verbatim>
+<Rewrite PAsource="" >they convicted </Rewrite>
+<Verbatim PAsource="" >Aaron Lee Martin, 25, of grievous bodily harm by strangling </Verbatim>
+<Rewrite PAsource="" >28-year-old Mr Hagland - </Rewrite>
+<New PAsource="" >cousin of EastEnders actor Sid Owen. </New>
+<Verbatim PAsource="" >Sentencing </Verbatim>
+<New PAsource="" >was adjourned for six weeks but he could face 25 years in jail. </New>
+<Verbatim PAsource="" >Sean Leigh Cushman, 25, was convicted of being an accessory. </Verbatim>
+<Verbatim PAsource="" >Connie, </Verbatim>
+<New PAsource="" >pale and grief-stricken, </New>
+<Rewrite PAsource="" >who was with him when he was being attacked, cried: </Rewrite>
+<Verbatim PAsource="" >"I'd hoped </Verbatim>
+<Rewrite PAsource="" >with </Rewrite>
+<Verbatim PAsource="" >my evidence </Verbatim>
+<Rewrite PAsource="" >that </Rewrite>
+<Verbatim PAsource="" >we'd get murder or manslaughter. </Verbatim>
+<New PAsource="" >I hope the judge gives the maximum sentence possible." 
+</New>
+
+<New PAsource="" >The case was complicated by inconclusive forensic evidence and no eye witnesses </New>
+<Rewrite PAsource="" >when </Rewrite>
+<Verbatim PAsource="" >Mr Hagland </Verbatim>
+<Rewrite PAsource="" >fell under a </Rewrite>
+<Verbatim PAsource="" >bus</Verbatim>
+<Rewrite PAsource="" >, as </Rewrite>
+<Verbatim PAsource="" >Connie </Verbatim>
+<New PAsource="" >was then inside a restaurant desperately phoning for </New>
+<Verbatim PAsource="" >help.
+
+
+
+ 
+</Verbatim>
+
+
+</body>
+</meterdocument>

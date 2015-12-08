@@ -1,0 +1,32 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/09.08.99/nail/nail147_sun.sgml" newspaper="sun" domain="courts" classification="partially-derived" pagenumber="22" date="09.08.99" catchline="nail">
+
+<body>
+
+
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >man accused of </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >London nail bomb </Verbatim>
+<Rewrite PAsource="" >blitz </Rewrite>
+<Verbatim PAsource="" >was remanded at the Old Bailey </Verbatim>
+<Rewrite PAsource="" >yesterday. </Rewrite>
+<New PAsource="" >Engineer </New>
+<Verbatim PAsource="" >David Copeland, </Verbatim>
+<New PAsource="" >23, </New>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Cove, </Verbatim>
+<Rewrite PAsource="" >Hants, </Rewrite>
+<Verbatim PAsource="" >faces three charges of causing </Verbatim>
+<Rewrite PAsource="" >explosions and </Rewrite>
+<Verbatim PAsource="" >three </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >murder.</Verbatim>
+
+
+
+
+</body>
+</meterdocument>

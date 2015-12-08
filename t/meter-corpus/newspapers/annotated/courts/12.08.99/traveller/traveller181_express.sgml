@@ -1,0 +1,48 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.08.99/traveller/traveller181_express.sgml" newspaper="express" domain="courts" classification="wholly-derived" pagenumber="24" date="12.08.99" catchline="traveller">
+
+<body>
+
+
+<Verbatim PAsource="" >A NEW AGE traveller </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >lost a claim for </Verbatim>
+<New PAsource="" >£500,000 </New>
+<Verbatim PAsource="" >compensation against a driver who </Verbatim>
+<Rewrite PAsource="" >ran over </Rewrite>
+<Verbatim PAsource="" >him as he lay in front of her car. </Verbatim>
+<Verbatim PAsource="" >Roger Gedge, 30, of Arnold, Nottingham, lost a leg in the incident in July 1994. </Verbatim>
+<Verbatim PAsource="" >But </Verbatim>
+<Rewrite PAsource="" >a judge </Rewrite>
+<Verbatim PAsource="" >ruled </Verbatim>
+<Rewrite PAsource="" >that </Rewrite>
+<Verbatim PAsource="" >driver Sarah Field, 27, from Cheltenham, had </Verbatim>
+<Rewrite PAsource="" >not </Rewrite>
+<Verbatim PAsource="" >been unreasonable when she drove off with him trapped under her car.</Verbatim>
+
+
+<Rewrite PAsource="" >Arriving at </Rewrite>
+<Verbatim PAsource="" >a free </Verbatim>
+<Rewrite PAsource="" >music </Rewrite>
+<Verbatim PAsource="" >concert at Nottingham's Wollaton Park, </Verbatim>
+<Rewrite PAsource="" >she had been </Rewrite>
+<Verbatim PAsource="" >surrounded by Mr Gedge's friends who had been drinking strong lager and cider for much of the day. </Verbatim>
+<Verbatim PAsource="" >They </Verbatim>
+<Rewrite PAsource="" >were </Rewrite>
+<Verbatim PAsource="" >abusive and started banging on the windows and jumping on the bonnet of the vehicle </Verbatim>
+<Rewrite PAsource="" >as </Rewrite>
+<Verbatim PAsource="" >Gedge lay </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >front </Verbatim>
+<Rewrite PAsource="" >of the </Rewrite>
+<Verbatim PAsource="" >car. </Verbatim>
+<Verbatim PAsource="" >Mrs Field said </Verbatim>
+<Rewrite PAsource="" >she </Rewrite>
+<Verbatim PAsource="" >was terrified and </Verbatim>
+<Rewrite PAsource="" >tried </Rewrite>
+<Verbatim PAsource="" >to escape.</Verbatim>
+
+</body>
+</meterdocument>

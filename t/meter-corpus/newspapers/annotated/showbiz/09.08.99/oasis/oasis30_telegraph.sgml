@@ -1,0 +1,33 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/09.08.99/oasis/oasis30_telegraph.sgml" newspaper="telegraph" domain="showbiz" classification="wholly-derived" pagenumber="2" date="09.08.99" catchline="oasis">
+
+<body>
+
+
+<Verbatim PAsource="" >Paul "Bonehead" Arthurs, </Verbatim>
+<Verbatim PAsource="" >the guitarist </Verbatim>
+<Rewrite PAsource="" >and </Rewrite>
+<Verbatim PAsource="" >founder member of Oasis, yesterday announced </Verbatim>
+<Rewrite PAsource="" >he had left the </Rewrite>
+<Verbatim PAsource="" >band.</Verbatim>
+<New PAsource="" >
+</New>
+
+<Verbatim PAsource="" >Arthurs, 34, is </Verbatim>
+<Rewrite PAsource="" >believed </Rewrite>
+<Verbatim PAsource="" >to have had an amicable split </Verbatim>
+<Rewrite PAsource="" >from his fellow band members, who include </Rewrite>
+<Verbatim PAsource="" >Noel </Verbatim>
+<Rewrite PAsource="" >and </Rewrite>
+<Verbatim PAsource="" >Liam Gallagher.</Verbatim>
+<New PAsource="" >
+</New>
+
+<Verbatim PAsource="" >In a statement he said: "I feel I have come to the stage where I'd like to concentrate on other things in my life."</Verbatim>
+<New PAsource="" >
+</New>
+
+</body>
+</meterdocument>

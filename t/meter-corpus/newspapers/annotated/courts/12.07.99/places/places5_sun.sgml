@@ -1,0 +1,42 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.07.99/places/places5_sun.sgml" newspaper="sun" domain="courts" classification="partially-derived" pagenumber="19" date="12.07.99" catchline="places">
+
+<body>
+
+
+<Verbatim PAsource="" >A HIGH Court judge </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<New PAsource="" >rapped </New>
+<Rewrite PAsource="" >Premier </Rewrite>
+<Verbatim PAsource="" >Tony Blair </Verbatim>
+<Rewrite PAsource="" >for </Rewrite>
+<Verbatim PAsource="" >breaking </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >pre-election </Verbatim>
+<Rewrite PAsource="" >pledge. </Rewrite>
+<Verbatim PAsource="" >Mr Blair </Verbatim>
+<Rewrite PAsource="" >promised that all children with </Rewrite>
+<Verbatim PAsource="" >assisted places at private schools </Verbatim>
+<Rewrite PAsource="" >would be able to finish </Rewrite>
+<Verbatim PAsource="" >their education</Verbatim>
+<Rewrite PAsource="" >. </Rewrite>
+<Verbatim PAsource="" >The Government </Verbatim>
+<Rewrite PAsource="" >was sued by the parents of </Rewrite>
+<Verbatim PAsource="" >Heather </Verbatim>
+<New PAsource="" >Begby, 10, </New>
+<Rewrite PAsource="" >for ditching </Rewrite>
+<Verbatim PAsource="" >the scheme</Verbatim>
+<Rewrite PAsource="" >, costing her a </Rewrite>
+<Verbatim PAsource="" >place </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >The Leys school, Cambridge</Verbatim>
+<Rewrite PAsource="" >. </Rewrite>
+<Verbatim PAsource="" >Mr Justice Kay ruled </Verbatim>
+<Rewrite PAsource="" >the move was legal. But he said he could not force the PM to keep his vow.</Rewrite>
+
+
+
+</body>
+</meterdocument>

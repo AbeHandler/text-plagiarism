@@ -1,0 +1,22 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/07.10.99/hamilton/hamilton251_telegraph.sgml" newspaper="telegraph" domain="courts" classification="wholly-derived" pagenumber="1" date="07.10.99" catchline="hamilton">
+
+<body>
+
+
+<Verbatim PAsource="" >The former Tory MP Neil Hamilton </Verbatim>
+<Rewrite PAsource="" >was yesterday allowed by </Rewrite>
+<Verbatim PAsource="" >five law lords </Verbatim>
+<Rewrite PAsource="" >to bring </Rewrite>
+<Verbatim PAsource="" >a libel action </Verbatim>
+<Rewrite PAsource="" >against </Rewrite>
+<Verbatim PAsource="" >Mohamed Fayed, </Verbatim>
+<Rewrite PAsource="" >the chairman of </Rewrite>
+<Verbatim PAsource="" >Harrods.</Verbatim>
+
+
+
+</body>
+</meterdocument>

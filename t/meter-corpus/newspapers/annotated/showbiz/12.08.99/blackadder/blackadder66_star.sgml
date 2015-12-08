@@ -1,0 +1,33 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/12.08.99/blackadder/blackadder66_star.sgml" newspaper="star" domain="showbiz" classification="non-derived" pagenumber="7" date="12.08.99" catchline="blackadder">
+
+<body>
+
+
+<New PAsource="" >VISITORS to the Millennium </New>
+<Verbatim PAsource="" >Dome </Verbatim>
+<New PAsource="" >will get a lesson in British </New>
+<Verbatim PAsource="" >history </Verbatim>
+<New PAsource="" >from </New>
+<Verbatim PAsource="" >BLACKADDER. </Verbatim>
+<New PAsource="" >Comic </New>
+<Verbatim PAsource="" >Rowan Atkinson </Verbatim>
+<Rewrite PAsource="" >is to appear in </Rewrite>
+<Verbatim PAsource="" >a one-off film of the </Verbatim>
+<Rewrite PAsource="" >hit </Rewrite>
+<Verbatim PAsource="" >series </Verbatim>
+<New PAsource="" >which will run for a year at the Greenwich complex. </New>
+<Rewrite PAsource="" >With </Rewrite>
+<New PAsource="" >sidekick </New>
+<Verbatim PAsource="" >Baidrick (Tony Robinson), </Verbatim>
+<Rewrite PAsource="" >he will journey </Rewrite>
+<Verbatim PAsource="" >through history in a </Verbatim>
+<New PAsource="" >homemade </New>
+<Verbatim PAsource="" >time machine.
+</Verbatim>
+
+
+</body>
+</meterdocument>

@@ -1,0 +1,44 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/09.08.99/porn/porn162_telegraph.sgml" newspaper="telegraph" domain="courts" classification="partially-derived" pagenumber="5" date="09.08.99" catchline="porn">
+
+<body>
+
+
+<New PAsource="" >A Gulf war veteran </New>
+<Rewrite PAsource="" >was </Rewrite>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Rewrite PAsource="" >jailed for </Rewrite>
+<Verbatim PAsource="" >two-and-a-half years </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >Portsmouth Crown Court </Verbatim>
+<Rewrite PAsource="" >after </Rewrite>
+<Rewrite PAsource="" >hoarding at least </Rewrite>
+<Verbatim PAsource="" >9,000 </Verbatim>
+<Rewrite PAsource="" >child pornography</Rewrite> 
+<Verbatim PAsource="" >images </Verbatim>
+<Rewrite PAsource="" >believed </Rewrite>
+<Verbatim PAsource="" >to be the biggest </Verbatim>
+<Rewrite PAsource="" >ever </Rewrite>
+<Verbatim PAsource="" >seizure </Verbatim>
+<Rewrite PAsource="" >of Internet child pornography </Rewrite>
+<Verbatim PAsource="" >in Britain.</Verbatim>
+
+
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >home </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Andrew Mein, 43, </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >former Navy communications engineer </Verbatim>
+<New PAsource="" >of Leigh Park, near Portsmouth, </New>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >raided </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >May.</Verbatim>
+
+
+
+</body>
+</meterdocument>

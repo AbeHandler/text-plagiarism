@@ -1,0 +1,30 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/14.07.99/coogan/coogan91_express.sgml" newspaper="express" domain="showbiz" classification="wholly-derived" pagenumber="22" date="14.07.99" catchline="coogan">
+
+<body>
+
+
+<Verbatim PAsource="" >TOP Gear </Verbatim>
+<New PAsource="" >TV </New>
+<Verbatim PAsource="" >presenter Brendan Coogan has </Verbatim>
+<New PAsource="" >quit </New>
+<Verbatim PAsource="" >his "dream job" </Verbatim>
+<Rewrite PAsource="" >after being convicted of drink-driving. </Rewrite>
+<Verbatim PAsource="" >Coogan, 28, brother of comedian Steve, </Verbatim>
+<Rewrite PAsource="" >admitted </Rewrite>
+<Verbatim PAsource="" >driving with excess alcohol in his blood the morning after a drinking session. </Verbatim>
+<Verbatim PAsource="" >He </Verbatim>
+<Rewrite PAsource="" >was banned for a year </Rewrite>
+<Verbatim PAsource="" >on Monday at Huddersfield.
+</Verbatim>
+
+<Verbatim PAsource="" >"I never knowingly drink and drive," </Verbatim>
+<Rewrite PAsource="" >he said later.
+</Rewrite>
+
+
+
+</body>
+</meterdocument>

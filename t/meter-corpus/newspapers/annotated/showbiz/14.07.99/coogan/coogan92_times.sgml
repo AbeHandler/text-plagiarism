@@ -1,0 +1,24 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/14.07.99/coogan/coogan92_times.sgml" newspaper="times" domain="showbiz" classification="wholly-derived" pagenumber="13" date="14.07.99" catchline="coogan">
+
+<body>
+
+
+<Verbatim PAsource="" >Brendan Coogan, </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >Top Gear presenter, has lost his job because of a drink-drive conviction at Huddersfield on Monday. </Verbatim>
+<Verbatim PAsource="" >He </Verbatim>
+<Rewrite PAsource="" >was banned for a year </Rewrite>
+<Verbatim PAsource="" >and </Verbatim>
+<Rewrite PAsource="" >fined </Rewrite>
+<Verbatim PAsource="" >£500. </Verbatim>
+<Verbatim PAsource="" >Coogan, 28, </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >stopped by police the morning after a drinking session.</Verbatim>
+
+
+
+</body>
+</meterdocument>

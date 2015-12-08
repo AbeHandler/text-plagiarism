@@ -1,0 +1,14 @@
+/meter_corpus/newspapers/rawtexts/showbiz/08.08.99/edmonds/edmonds13_times.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/08.08.99/plaque/plaque12_times.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/09.08.99/oasis/oasis29_times.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/10.08.99/bbc/bbc52_times.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/10.08.99/enfield/enfield53_times.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/13.08.99/hitchcock/hitchcock81_times.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/14.07.99/coogan/coogan92_times.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/21.06.00/beckham/beckham106_times.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/27.09.99/beegees/beegees119_times.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/27.01.00/oasis/oasis134_times.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/07.01.00/zeta/zeta152_times.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/22.11.99/bond/bond160_times.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/14.12.99/mccartney/mccartney173_times.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/14.12.99/united/united172_times.txt 

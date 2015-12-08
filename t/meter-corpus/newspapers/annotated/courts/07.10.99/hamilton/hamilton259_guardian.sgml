@@ -1,0 +1,49 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/07.10.99/hamilton/hamilton259_guardian.sgml" newspaper="guardian" domain="courts" classification="wholly-derived" pagenumber="5" date="07.10.99" catchline="hamilton">
+
+<body>
+
+
+<Verbatim PAsource="" >Mohamed Al Fayed </Verbatim>
+<Rewrite PAsource="" >yesterday lost </Rewrite>
+<Verbatim PAsource="" >his </Verbatim>
+<Rewrite PAsource="" >final </Rewrite>
+<Verbatim PAsource="" >attempt to block a libel action against him by Neil Hamilton, the former Tory </Verbatim>
+<Rewrite PAsource="" >minister, </Rewrite>
+<Verbatim PAsource="" >in the wake of the cash-for-questions affair.</Verbatim>
+
+
+<Verbatim PAsource="" >Five law lords dismissed Mr Fayed's appeal against </Verbatim>
+<New PAsource="" >high </New>
+<Verbatim PAsource="" >court and appeal court rulings </Verbatim>
+<Rewrite PAsource="" >allowing </Rewrite>
+<Verbatim PAsource="" >the action, over a Channel 4 Dispatches programme </Verbatim>
+<Rewrite PAsource="" >where </Rewrite>
+<Verbatim PAsource="" >Mr Fayed </Verbatim>
+<Rewrite PAsource="" >stated that </Rewrite>
+<Verbatim PAsource="" >Mr Hamilton </Verbatim>
+<Rewrite PAsource="" >took </Rewrite>
+<Verbatim PAsource="" >cash </Verbatim>
+<Rewrite PAsource="" >and rewards for asking </Rewrite>
+<Verbatim PAsource="" >parliamentary questions.</Verbatim> 
+
+
+<Verbatim PAsource="" >Lawyers for Mr Fayed </Verbatim>
+<Rewrite PAsource="" >had </Rewrite>
+<Verbatim PAsource="" >argued that the case could result in a constitutional collision between the courts and parliament, which </Verbatim>
+<Rewrite PAsource="" >had </Rewrite>
+<Verbatim PAsource="" >already ruled on the affair. </Verbatim>
+<Verbatim PAsource="" >The law lords will give reasons for </Verbatim>
+<Rewrite PAsource="" >their </Rewrite>
+<Verbatim PAsource="" >decision later. </Verbatim>
+<Verbatim PAsource="" >The libel action is set to begin on November 15.</Verbatim>
+
+
+<Verbatim PAsource="" >Mr Hamilton said: "It has taken me 18 months to reach the door of the court. </Verbatim>
+<Verbatim PAsource="" >Mr Fayed has spent getting on for £750,000 trying to stop me getting into court, but five weeks on Monday he will be staring down the barrel of a gun with my finger on the trigger."</Verbatim>
+
+
+</body>
+</meterdocument>

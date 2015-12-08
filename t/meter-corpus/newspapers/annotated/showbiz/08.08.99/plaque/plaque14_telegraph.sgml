@@ -1,0 +1,19 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/08.08.99/plaque/plaque14_telegraph.sgml" newspaper="telegraph" domain="showbiz" classification="wholly-derived" pagenumber="4" date="08.08.99" catchline="plaque">
+
+<body>
+
+
+<Verbatim PAsource="" >Friends </Verbatim>
+<Rewrite PAsource="" >and celebrities gathered yesterday at </Rewrite>
+<Verbatim PAsource="" >the unveiling of a Comic Heritage plaque honouring Les Dawson at </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >Palace Theatre, Manchester.</Verbatim>
+
+
+
+
+</body>
+</meterdocument>

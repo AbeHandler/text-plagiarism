@@ -1,0 +1,42 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/13.08.99/spicefestival/spicefestival79_star.sgml" newspaper="star" domain="showbiz" classification="wholly-derived" pagenumber="15" date="13.08.99" catchline="spicefestival">
+
+<body>
+
+
+<New PAsource="" >BUSY </New>
+<Verbatim PAsource="" >Spice Girl Mel C </Verbatim>
+<Rewrite PAsource="" >is </Rewrite>
+<New PAsource="" >also </New>
+<Rewrite PAsource="" >set to perform </Rewrite>
+<Verbatim PAsource="" >at a music festival organised by Radio 1 in Manchester </Verbatim>
+<Rewrite PAsource="" >next month.
+</Rewrite>
+
+<Verbatim PAsource="" >The event, </Verbatim>
+<Rewrite PAsource="" >which will also include a performance by indie stars </Rewrite>
+<Verbatim PAsource="" >Supergrass, </Verbatim>
+<Rewrite PAsource="" >is </Rewrite>
+<Verbatim PAsource="" >at Heaton Park on September 12.
+</Verbatim>
+
+<Rewrite PAsource="" >It is </Rewrite>
+<Verbatim PAsource="" >part of an entire weekend in which the station will be broadcasting from the city, </Verbatim>
+<Rewrite PAsource="" >with </Rewrite>
+<Verbatim PAsource="" >DJs Zoe Ball, Chris Moyles, Simon Mayo, Jo Whiley and Steve Lamacq </Verbatim>
+<Rewrite PAsource="" >all </Rewrite>
+<Verbatim PAsource="" >heading </Verbatim>
+<Rewrite PAsource="" >North. </Rewrite>
+<Verbatim PAsource="" >Organisers are expecting huge demand for Radio 1 Live In Manchester following the success of last year's event in Cardiff.
+</Verbatim>
+
+<Verbatim PAsource="" >Tickets </Verbatim>
+<Rewrite PAsource="" >will </Rewrite>
+<Verbatim PAsource="" >be given away through on-air promotions.
+</Verbatim>
+
+
+</body>
+</meterdocument>

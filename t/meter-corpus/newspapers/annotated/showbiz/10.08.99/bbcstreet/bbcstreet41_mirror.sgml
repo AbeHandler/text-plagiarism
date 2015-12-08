@@ -1,0 +1,61 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/10.08.99/bbcstreet/bbcstreet41_mirror.sgml" newspaper="mirror" domain="showbiz" classification="partially-derived" pagenumber="18" date="10.08.99" catchline="bbcstreet">
+
+<body>
+
+
+<Rewrite PAsource="" >ACTRESS </Rewrite>
+<Verbatim PAsource="" >Julie Goodyear </Verbatim>
+<New PAsource="" >tottered back on to </New>
+<Verbatim PAsource="" >Coronation Street </Verbatim>
+<New PAsource="" >- in six-inch high gold stilettos. </New>
+<Verbatim PAsource="" >Julie, </Verbatim>
+<Rewrite PAsource="" >who </Rewrite>
+<Verbatim PAsource="" >played Rovers Return </Verbatim>
+<Rewrite PAsource="" >landlady </Rewrite>
+<Verbatim PAsource="" >Bet Gilroy, </Verbatim>
+<Rewrite PAsource="" >is returning to </Rewrite>
+<Verbatim PAsource="" >the soap </Verbatim>
+<Rewrite PAsource="" >after </Rewrite>
+<Verbatim PAsource="" >four years </Verbatim>
+<Rewrite PAsource="" >for a </Rewrite>
+<Verbatim PAsource="" >Street special set in Brighton and Calais.
+</Verbatim>
+
+<Verbatim PAsource="" >Julie, </Verbatim>
+<New PAsource="" >57, </New>
+<Verbatim PAsource="" >said </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >"</Verbatim>
+<New PAsource="" >It feels </New>
+<Verbatim PAsource="" >like I have never been away. </Verbatim>
+<Verbatim PAsource="" >Bet is back with bells on. The story is one of the best I have ever read and the public are in for a treat"
+</Verbatim>
+
+<Rewrite PAsource="" >Another former </Rewrite>
+<Verbatim PAsource="" >Street </Verbatim>
+<Rewrite PAsource="" >favourite </Rewrite>
+<Verbatim PAsource="" >Ken Morley - </Verbatim>
+<New PAsource="" >supermarket boss </New>
+<Verbatim PAsource="" >Reg Holdsworth - will </Verbatim>
+<Rewrite PAsource="" >join her for the episode to be shown in the </Rewrite>
+<Verbatim PAsource="" >autumn
+</Verbatim>
+
+<New PAsource="" >A Touch Of Frost actor </New>
+<Verbatim PAsource="" >David Jason </Verbatim>
+<Rewrite PAsource="" >will lead </Rewrite>
+<Verbatim PAsource="" >the BBC autumn </Verbatim>
+<Rewrite PAsource="" >offensive to win viewers. </Rewrite>
+<New PAsource="" >He plays Captain Frank Beck in </New>
+<Verbatim PAsource="" >First World War </Verbatim>
+<New PAsource="" >drama </New>
+<Verbatim PAsource="" >All The King's Men, </Verbatim>
+<New PAsource="" >which also </New>
+<Verbatim PAsource="" >stars Maggie Smith.</Verbatim>
+
+
+</body>
+</meterdocument>

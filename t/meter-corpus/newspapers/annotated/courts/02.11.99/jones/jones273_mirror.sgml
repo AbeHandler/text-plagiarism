@@ -1,0 +1,51 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/02.11.99/jones/jones273_mirror.sgml" newspaper="mirror" domain="courts" classification="wholly-derived" pagenumber="4" date="02.11.99" catchline="jones">
+
+<body>
+
+
+<Rewrite PAsource="" >SOCCER </Rewrite>
+<Verbatim PAsource="" >boss </Verbatim>
+<Rewrite PAsource="" >David </Rewrite>
+<Verbatim PAsource="" >Jones appeared </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >court </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >accused </Verbatim>
+<Rewrite PAsource="" >of abusing </Rewrite>
+<Verbatim PAsource="" >children </Verbatim>
+<Rewrite PAsource="" >in his </Rewrite>
+<Verbatim PAsource="" >care. </Verbatim>
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >Southampton manager faces four </Verbatim>
+<Rewrite PAsource="" >charges </Rewrite>
+<Verbatim PAsource="" >of indecent assault </Verbatim>
+<Rewrite PAsource="" >and </Rewrite>
+<Verbatim PAsource="" >six </Verbatim>
+<Rewrite PAsource="" >of cruelty to youngsters.
+</Rewrite>
+
+<Rewrite PAsource="" >The alleged </Rewrite>
+<Verbatim PAsource="" >offences </Verbatim>
+<Rewrite PAsource="" >relate to </Rewrite>
+<Verbatim PAsource="" >when he </Verbatim>
+<Rewrite PAsource="" >worked </Rewrite>
+<Verbatim PAsource="" >at a Merseyside care home.
+</Verbatim>
+
+<Verbatim PAsource="" >Father-of-four Jones, 43, </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >former Everton player, denies </Verbatim>
+<Rewrite PAsource="" >all the </Rewrite>
+<Verbatim PAsource="" >charges.
+</Verbatim>
+
+<Verbatim PAsource="" >Liverpool magistrates adjourned the case for committal </Verbatim>
+<Rewrite PAsource="" >proceedings.
+</Rewrite>
+
+
+</body>
+</meterdocument>

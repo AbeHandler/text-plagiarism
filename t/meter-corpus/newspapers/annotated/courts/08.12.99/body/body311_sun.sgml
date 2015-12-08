@@ -1,0 +1,47 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/body/body312_sun.sgml" newspaper="sun" domain="courts" classification="non-derived" pagenumber="13" date="08.12.99" catchline="body">
+
+<body>
+
+
+<Verbatim PAsource="" >SMITH </Verbatim>
+<New PAsource="" >was cleared of murdering tragic </New>
+<Verbatim PAsource="" >Sarah Crump </Verbatim>
+<New PAsource="" >at the Old Bailey in 1993 after his lawyer accused police of a "scandalous cover-up".
+</New>
+
+<New PAsource="" >QC Ronald Thwaites said officers had failed to disclose information about other fingerprints found in Sarah's flat because they were certain they had the right man.
+</New>
+
+<New PAsource="" >Medical receptionist </New>
+<Verbatim PAsource="" >Sarah</Verbatim>
+<New PAsource="" >, 33, who was pregnant, had been secretly working as a call girl from her home in Southall, West London. </New>
+<New PAsource="" >Her killer cut off her breasts and carried out other mutilations, matching surgical scars on the body of a woman Smith was obsessed with. </New>
+<New PAsource="" >When he walked free from court horrified relatives of </New>
+<Verbatim PAsource="" >Sarah</Verbatim>
+<New PAsource="" >, convinced he was guilty, sobbed: "He'll be back."
+</New>
+
+<Verbatim PAsource="" >Detective Inspector Jill McTigue</Verbatim>
+<New PAsource="" >, who led the hunt for Sarah's killer, was severely criticised after the case. </New>
+<New PAsource="" >It was a blow to the police, who believed Smith could go on to become a serial killer after a lifetime of ridicule and rejection by women.
+</New>
+
+<New PAsource="" >DI McTigue, who was in court for the second trial, said at the time: "He is the most dangerous man I have ever had anything to do with."
+</New>
+
+<New PAsource="" >Sarah's mum </New>
+<Verbatim PAsource="" >Pat Rhodes </Verbatim>
+<New PAsource="" >said last night: </New>
+<Verbatim PAsource="" >"We feel there has been unfinished business while Smith </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >free."
+
+
+</Verbatim>
+
+
+</body>
+</meterdocument>

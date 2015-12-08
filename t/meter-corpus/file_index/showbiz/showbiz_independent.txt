@@ -1,0 +1,10 @@
+/meter_corpus/newspapers/rawtexts/showbiz/09.08.99/oasis/oasis32_independent.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/10.08.99/bbc/bbc58_independent.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/12.08.99/blackadder/blackadder76_independent.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/13.08.99/hitchcock/hitchcock83_independent.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/21.06.00/beckham/beckham108_independent.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/17.04.00/jagger/jagger114_independent.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/27.01.00/oasis/oasis139_independent.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/22.11.99/christmas/christmas161_independent.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/14.12.99/mccartney/mccartney177_independent.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/14.12.99/united/united178_independent.txt 

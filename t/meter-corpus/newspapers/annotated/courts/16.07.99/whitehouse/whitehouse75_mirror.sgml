@@ -1,0 +1,52 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/16.07.99/whitehouse/whitehouse75_mirror.sgml" newspaper="mirror" domain="courts" classification="partially-derived" pagenumber="19" date="16.07.99" catchline="whitehouse">
+
+<body>
+
+
+<Verbatim PAsource="" >A CHIEF constable's daughter was </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >ordered </Verbatim>
+<Rewrite PAsource="" >to perform </Rewrite>
+<Verbatim PAsource="" >150 hours' community service </Verbatim>
+<Rewrite PAsource="" >for </Rewrite>
+<Verbatim PAsource="" >assaulting two officers in her father's force. </Verbatim>
+<Verbatim PAsource="" >Frances Whitehouse, 18, </Verbatim>
+<Rewrite PAsource="" >whose father </Rewrite>
+<Verbatim PAsource="" >Paul </Verbatim>
+<Rewrite PAsource="" >is head of </Rewrite>
+<Verbatim PAsource="" >Sussex </Verbatim>
+<Rewrite PAsource="" >Police, </Rewrite>
+<Verbatim PAsource="" >had drunk </Verbatim>
+<Rewrite PAsource="" >up to </Rewrite>
+<Verbatim PAsource="" >five pints of strong cider </Verbatim>
+<Rewrite PAsource="" >before pushing one constable </Rewrite>
+<New PAsource="" >in the chest </New>
+<Rewrite PAsource="" >and kicking another. </Rewrite>
+<Verbatim PAsource="" >Whitehouse</Verbatim>
+<Rewrite PAsource="" >, a student, </Rewrite>
+<New PAsource="" >remained expressionless as the sentence was read out at </New>
+<Verbatim PAsource="" >Brighton magistrates court </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >East Sussex</Verbatim>
+<Rewrite PAsource="" >.
+</Rewrite>
+
+<Rewrite PAsource="" >She </Rewrite>
+<Verbatim PAsource="" >left </Verbatim>
+<Rewrite PAsource="" >court </Rewrite>
+<Verbatim PAsource="" >arm in arm </Verbatim>
+<Rewrite PAsource="" >with </Rewrite>
+<Verbatim PAsource="" >her father</Verbatim>
+<Rewrite PAsource="" >.
+
+ 
+
+
+</Rewrite>
+
+
+</body>
+</meterdocument>

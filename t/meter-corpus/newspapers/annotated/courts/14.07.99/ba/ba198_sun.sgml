@@ -1,0 +1,62 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/14.07.99/ba/ba198_sun.sgml" newspaper="sun" domain="courts" classification="partially-derived" pagenumber="17" date="14.07.99" catchline="ba">
+
+<body>
+
+
+<Verbatim PAsource="" >BRITISH Airways was fined £4million </Verbatim>
+<Rewrite PAsource="" >yesterday for paying </Rewrite>
+<Verbatim PAsource="" >travel agents </Verbatim>
+<Rewrite PAsource="" >to encourage customers to book its flights.</Rewrite>
+
+
+<Verbatim PAsource="" >The European Commission said </Verbatim>
+<Rewrite PAsource="" >the bonus scheme broke </Rewrite>
+<Verbatim PAsource="" >competition </Verbatim>
+<Rewrite PAsource="" >laws.</Rewrite>
+
+
+<Verbatim PAsource="" >The ruling </Verbatim>
+<Rewrite PAsource="" >follows </Rewrite>
+<New PAsource="" >a two-year </New>
+<Rewrite PAsource="" >probe </Rewrite>
+<Verbatim PAsource="" >triggered by complaints from rival Virgin Atlantic.</Verbatim>
+
+
+<Verbatim PAsource="" >Virgin said </Verbatim>
+<Rewrite PAsource="" >it was </Rewrite>
+<Verbatim PAsource="" >unfair </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >BA </Verbatim>
+<Rewrite PAsource="" >to </Rewrite>
+<Verbatim PAsource="" >offer agents extra commission if they could </Verbatim>
+<Rewrite PAsource="" >show </Rewrite>
+<Verbatim PAsource="" >ticket sales were up compared </Verbatim>
+<Rewrite PAsource="" >to those of </Rewrite>
+<Verbatim PAsource="" >rival airlines.</Verbatim>
+
+
+<Verbatim PAsource="" >Virgin boss Richard Branson said </Verbatim>
+<Rewrite PAsource="" >the fine was good news for smaller </Rewrite>
+<Verbatim PAsource="" >airlines </Verbatim>
+<Rewrite PAsource="" >and travellers. </Rewrite>
+<Rewrite PAsource="" >But </Rewrite>
+<Verbatim PAsource="" >BA </Verbatim>
+<Rewrite PAsource="" >said </Rewrite>
+<Verbatim PAsource="" >it would appeal </Verbatim>
+<Rewrite PAsource="" >and blasted </Rewrite>
+<Verbatim PAsource="" >the ruling </Verbatim>
+<Rewrite PAsource="" >as </Rewrite>
+<Verbatim PAsource="" >wrong in fact and law."</Verbatim>
+
+
+<Verbatim PAsource="" >Sales director Dale Moss said: "This is normal business practice."</Verbatim>
+
+
+
+
+
+</body>
+</meterdocument>

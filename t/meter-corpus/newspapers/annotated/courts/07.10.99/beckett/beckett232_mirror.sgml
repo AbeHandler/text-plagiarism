@@ -1,0 +1,29 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/07.10.99/beckett/beckett232_mirror.sgml" newspaper="mirror" domain="courts" classification="wholly-derived" pagenumber="23" date="07.10.99" catchline="beckett">
+
+<body>
+
+
+<Rewrite PAsource="" >THE </Rewrite>
+<Verbatim PAsource="" >Deputy Chief Constable of Surrey </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >in court </Verbatim>
+<Rewrite PAsource="" >yesterday charged with </Rewrite>
+<Verbatim PAsource="" >four </Verbatim>
+<Rewrite PAsource="" >sex attacks.
+</Rewrite>
+
+<Verbatim PAsource="" >Ian Beckett, 53, was given bail. </Verbatim>
+<Rewrite PAsource="" >He </Rewrite>
+<Verbatim PAsource="" >is accused of assaulting two </Verbatim>
+<Rewrite PAsource="" >staff </Rewrite>
+<Verbatim PAsource="" >at </Verbatim>
+<Rewrite PAsource="" >police HQ </Rewrite>
+<Verbatim PAsource="" >in Guildford.
+</Verbatim>
+
+
+</body>
+</meterdocument>

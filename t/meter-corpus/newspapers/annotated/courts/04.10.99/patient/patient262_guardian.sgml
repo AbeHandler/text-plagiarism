@@ -1,0 +1,33 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/04.10.99/patient/patient262_guardian.sgml" newspaper="guardian" domain="courts" classification="wholly-derived" pagenumber="8" date="04.10.99" catchline="patient">
+
+<body>
+
+
+<Verbatim PAsource="" >A retired miner </Verbatim>
+<Verbatim PAsource="" >was killed </Verbatim>
+<Rewrite PAsource="" >by </Rewrite>
+<Verbatim PAsource="" >being given a "massive overdose" of morphine, Teesside crown court heard yesterday.
+
+A nurse gave 30 times the safe dose </Verbatim>
+<Rewrite PAsource="" >to </Rewrite>
+<Verbatim PAsource="" >Billy Brettwood, </Verbatim>
+<Verbatim PAsource="" >77, </Verbatim>
+<Verbatim PAsource="" >at Seaton View nursing home in Seaham, </Verbatim>
+<Rewrite PAsource="" >Co </Rewrite>
+<Verbatim PAsource="" >Durham. </Verbatim>
+<Verbatim PAsource="" >Nursing staff and a GP failed to take appropriate action. </Verbatim>
+<Verbatim PAsource="" >Maureen Usher, 66, </Verbatim>
+<Verbatim PAsource="" >Vicky Haswell, 25, Jane Gustafsson, 48, and Michelle Wilson, 36, </Verbatim>
+<Verbatim PAsource="" >all deny </Verbatim>
+<Verbatim PAsource="" >manslaughter.</Verbatim>
+<New PAsource="" >
+
+
+</New>
+
+
+</body>
+</meterdocument>

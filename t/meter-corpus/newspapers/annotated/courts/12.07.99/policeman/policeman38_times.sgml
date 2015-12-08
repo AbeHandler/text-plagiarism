@@ -1,0 +1,27 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.07.99/policeman/policeman38_times.sgml" newspaper="times" domain="courts" classification="wholly-derived" pagenumber="8" date="12.07.99" catchline="policeman">
+
+<body>
+
+
+<Rewrite PAsource="" >A </Rewrite>
+<Verbatim PAsource="" >verdict </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >accidental death was recorded </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >an inquest </Verbatim>
+<Rewrite PAsource="" >into </Rewrite>
+<Verbatim PAsource="" >Andrew Gibb, 35, a police </Verbatim>
+<Rewrite PAsource="" >constable and </Rewrite>
+<Verbatim PAsource="" >father of two</Verbatim>
+<Rewrite PAsource="" >, of </Rewrite>
+<Verbatim PAsource="" >Rufford, Lancashire, who was found by his wife hanged and </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >women's clothing.
+</Verbatim>
+
+
+</body>
+</meterdocument>

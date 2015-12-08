@@ -1,0 +1,41 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/hamilton/hamilton326_star.sgml" newspaper="star" domain="courts" classification="partially-derived" pagenumber="7" date="08.12.99" catchline="hamilton">
+
+<body>
+
+
+<Verbatim PAsource="" >NEIL HAMILTON </Verbatim>
+<New PAsource="" >last night scrapped his fight to get High Court libel damages from </New>
+<Verbatim PAsource="" >Mohamed Al Fayed </Verbatim>
+<New PAsource="" >for allegedly wrecking his chances of a top job with the Tories. </New>
+<New PAsource="" >After just 22 </New>
+<Verbatim PAsource="" >minutes </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >cross-examination by </Verbatim>
+<New PAsource="" >top libel lawyer </New>
+<Verbatim PAsource="" >George Carman </Verbatim>
+<New PAsource="" >QC, ex-MP </New>
+<Verbatim PAsource="" >Hamilton </Verbatim>
+<New PAsource="" >dropped that claim.
+</New>
+
+<New PAsource="" >He admitted that his own actions had probably cost him his chances of a </New>
+<Verbatim PAsource="" >shadow cabinet </Verbatim>
+<Rewrite PAsource="" >post or a job in another </Rewrite>
+<Verbatim PAsource="" >Tory </Verbatim>
+<Rewrite PAsource="" >administration.
+</Rewrite>
+
+<New PAsource="" >But </New>
+<Verbatim PAsource="" >Hamilton </Verbatim>
+<New PAsource="" >still seeks damages for his claims that Al Fayed's lies ended his career as an MP and wrecked his chances of a top job outside Parliament. 
+</New>
+
+<Rewrite PAsource="" >The case continues.
+</Rewrite>
+
+
+</body>
+</meterdocument>

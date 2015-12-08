@@ -1,0 +1,38 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.07.99/axe/axe36_times.sgml" newspaper="times" domain="courts" classification="wholly-derived" pagenumber="8" date="12.07.99" catchline="axe">
+
+<body>
+
+
+<Verbatim PAsource="" >A drifter who killed three friends was jailed for life </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >Reading Crown Court. Alan Hobbs, 3Z was high on amphetamines and drink </Verbatim>
+<Rewrite PAsource="" >when he </Rewrite>
+<Verbatim PAsource="" >murdered Gillian Harvey, 30, her boyfriend, Ian Brown, 36, </Verbatim>
+<Rewrite PAsource="" >and her </Rewrite>
+<Verbatim PAsource="" >former boyfriend Peter Smith, 31,</Verbatim>
+<Rewrite PAsource="" >in a </Rewrite>
+<Verbatim PAsource="" >flat in Slough, Berkshire.
+</Verbatim>
+
+<Rewrite PAsource="" >He said that he killed </Rewrite>
+<Verbatim PAsource="" >Ms Harvey with a chisel </Verbatim>
+<Rewrite PAsource="" >when they argued after </Rewrite>
+<Verbatim PAsource="" >sex</Verbatim>
+<Rewrite PAsource="" >. </Rewrite>
+<Rewrite PAsource="" >Whenthe two men called separately, he tied them up and hit them with </Rewrite>
+<Verbatim PAsource="" >an axe</Verbatim>
+<Rewrite PAsource="" >. </Rewrite>
+<Verbatim PAsource="" >Hobbs was arrested </Verbatim>
+<Rewrite PAsource="" >after using Mr </Rewrite>
+<Verbatim PAsource="" >Smith's cashcard.
+
+
+
+</Verbatim>
+
+
+</body>
+</meterdocument>

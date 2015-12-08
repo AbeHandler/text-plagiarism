@@ -1,0 +1,55 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/01.03.00/francis/francis385_express.sgml" newspaper="express" domain="courts" classification="partially-derived" pagenumber="28" date="01.03.00" catchline="francis">
+
+<body>
+
+
+<New PAsource="" >A DRUG baron who duped the authorities by working as a counsellor for addicts while building up his empire has been jailed.
+</New>
+
+<Verbatim PAsource="" >David Francis, 37, </Verbatim>
+<New PAsource="" >posed as the concerned head of Nottingham's Home Office-funded </New>
+<Verbatim PAsource="" >Crack Awareness Team </Verbatim>
+<New PAsource="" >for four years while building up a market to supply drugs to the people he was meant to help.
+
+A year ago Nottingham police swooped on the home of the man they believed was the city's number one supplier of heroin and crack cocaine. </New>
+<Verbatim PAsource="" >Francis</Verbatim>
+<New PAsource="" > was caught with </New>
+<Verbatim PAsource="" >half-a-kilo of heroin. </Verbatim>
+<New PAsource="" >He was jailed for </New>
+<Verbatim PAsource="" >seven </Verbatim>
+<Rewrite PAsource="" >years after pleading </Rewrite>
+<Verbatim PAsource="" >guilty </Verbatim>
+<Verbatim PAsource="" >to </Verbatim>
+<Verbatim PAsource="" >possessing heroin with a street value of </Verbatim>
+<New PAsource="" >around £72,000. </New>
+<Rewrite PAsource="" >Other members of his gang received jail terms totalling more than 10 </Rewrite>
+<Verbatim PAsource="" >years.</Verbatim>
+
+
+<New PAsource="" >As a result of the raid on Francis, </New>
+<Verbatim PAsource="" >132 </Verbatim>
+<Rewrite PAsource="" >street </Rewrite>
+<Verbatim PAsource="" >dealers </Verbatim>
+<Rewrite PAsource="" >were also arrested.</Rewrite>
+
+
+<Verbatim PAsource="" >Judge Dudley Bennett </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >Nottingham Crown Court </Verbatim>
+<Rewrite PAsource="" >told </Rewrite>
+<Verbatim PAsource="" >Francis: </Verbatim>
+<New PAsource="" >"You more than anybody else should have known the misery of people who had become addicted."
+
+In 1993 </New>
+<Verbatim PAsource="" >Francis </Verbatim>
+<New PAsource="" >was made head of the </New>
+<Verbatim PAsource="" >Crack Awareness Team </Verbatim>
+<New PAsource="" >set up by the Association for the Prevention of Addiction charity which gets £3.5million from the </New>
+<Verbatim PAsource="" >Home Office. </Verbatim>
+<New PAsource="" >He attended anti-drugs meetings with Nottinghamshire police, sitting across from Assistant Chief Constable Robin Searle. Even after addicts gave the charity evidence of Francis's role in supplying drugs, he was cleared by an inquiry.</New>
+
+</body>
+</meterdocument>

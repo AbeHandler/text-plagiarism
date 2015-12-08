@@ -1,0 +1,30 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/09.08.99/mother/mother158_times.sgml" newspaper="times" domain="courts" classification="wholly-derived" pagenumber="8" date="09.08.99" catchline="mother">
+
+<body>
+
+
+<Verbatim PAsource="" >A man was jailed for 12 months </Verbatim>
+<Rewrite PAsource="" >for </Rewrite>
+<Verbatim PAsource="" >letting his mother die from neglect </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >his home in Bolton.</Verbatim>
+
+
+<Verbatim PAsource="" >Sean Buckle, 31, </Verbatim>
+<Verbatim PAsource="" >was sentenced at </Verbatim>
+<Verbatim PAsource="" >Manchester Crown Court. </Verbatim>
+<Rewrite PAsource="" >He pleaded </Rewrite>
+<Verbatim PAsource="" >guilty </Verbatim>
+<Verbatim PAsource="" >to </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >manslaughter </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Ursula Whitehead at an earlier hearing.</Verbatim>
+
+
+
+</body>
+</meterdocument>

@@ -1,0 +1,22 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/air/air371_independent.sgml" newspaper="independent" domain="courts" classification="wholly-derived" pagenumber="10" date="08.12.99" catchline="air">
+
+<body>
+
+
+<Verbatim PAsource="" >FIVE IRISH tourists charged in connection with an alleged air-rage incident </Verbatim>
+<Rewrite PAsource="" >will </Rewrite>
+<Verbatim PAsource="" >face trial at a Crown Court. </Verbatim>
+<Rewrite PAsource="" >They </Rewrite>
+<Verbatim PAsource="" >were among a group of 12 ordered off an Airtours flight from Gatwick to Montego Bay, </Verbatim>
+<New PAsource="" >Jamaica, </New>
+<Verbatim PAsource="" >after it was diverted to Norfolk, Virginia, </Verbatim>
+<Rewrite PAsource="" >in the US, </Rewrite>
+<Verbatim PAsource="" >on 31 January.</Verbatim>
+
+
+
+</body>
+</meterdocument>

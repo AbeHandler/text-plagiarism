@@ -1,0 +1,39 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/14.07.99/fowler/fowler203_star.sgml" newspaper="star" domain="courts" classification="wholly-derived" pagenumber="2" date="14.07.99" catchline="fowler">
+
+<body>
+
+
+<Verbatim PAsource="" >A MAN accused of assaulting Liverpool star Robbie Fowler had the charge dropped yesterday.
+
+
+
+Paul McCarthy, 41, of Netherfield, Everton, </Verbatim>
+<Rewrite PAsource="" >is </Rewrite>
+<Verbatim PAsource="" >still accused of assaulting Anthony Murphy, 23, </Verbatim>
+<Rewrite PAsource="" >causing </Rewrite>
+<Verbatim PAsource="" >actual bodily harm. </Verbatim>
+<Rewrite PAsource="" >He </Rewrite>
+<Verbatim PAsource="" >is also charged with possessing ecstasy.
+
+Paul Noon, 23, of Everton, is charged with causing Fowler grievous bodily harm at </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >Liverpool hotel, </Verbatim>
+<Rewrite PAsource="" >and possessing </Rewrite>
+<Verbatim PAsource="" >and offering to supply cocaine.
+
+Liverpool magistrates adjourned the </Verbatim>
+<Rewrite PAsource="" >cases </Rewrite>
+<Verbatim PAsource="" >and </Verbatim>
+<Rewrite PAsource="" >released </Rewrite>
+<Verbatim PAsource="" >McCarthy and Noon on unconditional ball. </Verbatim>
+<Verbatim PAsource="" >Reporting restrictions were not lifted.</Verbatim>
+<New PAsource="" >
+</New>
+
+
+
+</body>
+</meterdocument>

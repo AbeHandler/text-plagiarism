@@ -1,0 +1,79 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/02.11.99/cruelty/cruelty300_guardian.sgml" newspaper="guardian" domain="courts" classification="partially-derived" pagenumber="6" date="02.11.99" catchline="cruelty">
+
+<body>
+
+
+<Verbatim PAsource="" >Farmer Roger Baker was </Verbatim>
+<Rewrite PAsource="" >jailed </Rewrite>
+<Verbatim PAsource="" >for five and a half months </Verbatim>
+<Rewrite PAsource="" >by </Rewrite>
+<Verbatim PAsource="" >Truro magistrates </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >Cornwall </Verbatim>
+<Rewrite PAsource="" >yesterday for causing </Rewrite>
+<Verbatim PAsource="" >cruelty </Verbatim>
+<Rewrite PAsource="" >to more than 260 </Rewrite>
+<Verbatim PAsource="" >sheep and cattle.
+</Verbatim>
+
+<Verbatim PAsource="" >Baker, 57, </Verbatim>
+<Rewrite PAsource="" >defied a previous </Rewrite>
+<Verbatim PAsource="" >life ban from keeping sheep </Verbatim>
+<Rewrite PAsource="" >and has </Rewrite>
+<Verbatim PAsource="" >been sent to prison seven times </Verbatim>
+<Rewrite PAsource="" >before for a string of previous convictions </Rewrite>
+<Verbatim PAsource="" >for animal cruelty </Verbatim>
+<Rewrite PAsource="" >spanning </Rewrite>
+<New PAsource="" >31 </New>
+<Verbatim PAsource="" >years. </Verbatim>
+<Verbatim PAsource="" >He </Verbatim>
+<Rewrite PAsource="" >admitted 23 </Rewrite>
+<Verbatim PAsource="" >charges of causing unnecessary suffering </Verbatim>
+<Rewrite PAsource="" >to animals, </Rewrite>
+<New PAsource="" >failing to provide them with proper care, </New>
+<Rewrite PAsource="" >and failing </Rewrite>
+<Verbatim PAsource="" >to dispose of </Verbatim>
+<Rewrite PAsource="" >animal </Rewrite>
+<Verbatim PAsource="" >carcasses.
+</Verbatim>
+
+<New PAsource="" >When his farm near </New>
+<Verbatim PAsource="" >Truro </Verbatim>
+<New PAsource="" >was raided by </New>
+<Verbatim PAsource="" >RSPCA </Verbatim>
+<New PAsource="" >officers </New>
+<Verbatim PAsource="" >they found dead sheep and others in </Verbatim>
+<Rewrite PAsource="" >a weak and </Rewrite>
+<Verbatim PAsource="" >emaciated </Verbatim>
+<Rewrite PAsource="" >state.</Rewrite>
+
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >magistrates </Verbatim>
+<Rewrite PAsource="" >also imposed another </Rewrite>
+<Verbatim PAsource="" >life </Verbatim>
+<Rewrite PAsource="" >ban on </Rewrite>
+<Verbatim PAsource="" >Baker keeping </Verbatim>
+<Rewrite PAsource="" >any </Rewrite>
+<Verbatim PAsource="" >animals. </Verbatim>
+<Rewrite PAsource="" >After the hearing, </Rewrite>
+<Verbatim PAsource="" >Rob Skinner, </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >RSPCA inspector </Verbatim>
+<New PAsource="" >who led the investigation, </New>
+<Verbatim PAsource="" >said: "Baker is the most </Verbatim>
+<Rewrite PAsource="" >consistently </Rewrite>
+<Verbatim PAsource="" >cruel </Verbatim>
+<Rewrite PAsource="" >man we have </Rewrite>
+<Verbatim PAsource="" >ever </Verbatim>
+<Rewrite PAsource="" >dealt </Rewrite>
+<Verbatim PAsource="" >with. </Verbatim>
+<New PAsource="" >His fields looked like the killing fields.</New>
+<Verbatim PAsource="" >"
+</Verbatim>
+
+
+</body>
+</meterdocument>

@@ -1,0 +1,70 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/14.07.99/lara/lara222_telegraph.sgml" newspaper="telegraph" domain="courts" classification="wholly-derived" pagenumber="0" date="14.07.99" catchline="lara">
+
+<body>
+
+
+<Verbatim PAsource="" >A HIGH Court judge </Verbatim>
+<Rewrite PAsource="" >yesterday ordered </Rewrite>
+<Verbatim PAsource="" >Playboy </Verbatim>
+<Rewrite PAsource="" >to remove the </Rewrite>
+<Verbatim PAsource="" >name </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Lara Croft, heroine </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >the computer game Tomb Raider, </Verbatim>
+<Rewrite PAsource="" >from </Rewrite>
+<Verbatim PAsource="" >its August </Verbatim>
+<Rewrite PAsource="" >issue.</Rewrite>
+
+
+<Verbatim PAsource="" >George Hamer, for Core Design Ltd, </Verbatim>
+<Rewrite PAsource="" >owners of the </Rewrite>
+<Verbatim PAsource="" >Tomb Raider trademark, </Verbatim>
+<Rewrite PAsource="" >claimed </Rewrite>
+<Verbatim PAsource="" >that the character's "squeaky-clean" image would be "tarnished for all time" by </Verbatim>
+<Rewrite PAsource="" >an </Rewrite>
+<Verbatim PAsource="" >association with soft-core pornography.</Verbatim>
+
+
+<Verbatim PAsource="" >Mr Justice Lloyd granted an injunction requiring Playboy to </Verbatim>
+<Rewrite PAsource="" >blank </Rewrite>
+<Verbatim PAsource="" >out Lara Croft's name and the Tomb Raider logo from the cover of 20,000 copies of its August edition. </Verbatim>
+<Verbatim PAsource="" >About 5,000 copies of </Verbatim>
+<Rewrite PAsource="" >the magazine have </Rewrite>
+<Verbatim PAsource="" >already </Verbatim>
+<Rewrite PAsource="" >been </Rewrite>
+<Verbatim PAsource="" >distributed and </Verbatim>
+<Rewrite PAsource="" >no action will be taken against </Rewrite>
+<Verbatim PAsource="" >the magazine's website.</Verbatim>
+
+
+<Rewrite PAsource="" >Next month's </Rewrite>
+<Verbatim PAsource="" >Playboy </Verbatim>
+<Rewrite PAsource="" >features </Rewrite>
+<Verbatim PAsource="" >Nell McAndrew, </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >model said by the magazine to be the real-life incarnation of Lara Croft </Verbatim>
+<New PAsource="" >who appears in </New>
+<Verbatim PAsource="" >the computer game </Verbatim>
+<New PAsource="" >in a tight T-shirt and shorts.</New>
+
+
+<Verbatim PAsource="" >Piers Acland, </Verbatim>
+<Rewrite PAsource="" >for </Rewrite>
+<Verbatim PAsource="" >Playboy, said the </Verbatim>
+<Rewrite PAsource="" >magazine's </Rewrite>
+<Verbatim PAsource="" >"honest use" of the Lara Croft image would promote the reputation of the Tomb Raider game.</Verbatim>
+
+
+<Verbatim PAsource="" >Playboy was ordered to pay Core </Verbatim>
+<Rewrite PAsource="" >Design's </Rewrite>
+<Verbatim PAsource="" >£15,000 costs.</Verbatim>
+
+
+
+
+</body>
+</meterdocument>

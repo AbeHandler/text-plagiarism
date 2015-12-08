@@ -1,0 +1,32 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/policeman/policeman350_telegraph.sgml" newspaper="telegraph" domain="courts" classification="non-derived" pagenumber="2" date="08.12.99" catchline="policeman">
+
+<body>
+
+
+<Verbatim PAsource="" >A police sergeant </Verbatim>
+<New PAsource="" >has been charged with </New>
+<Verbatim PAsource="" >two </Verbatim>
+<New PAsource="" >counts </New>
+<Verbatim PAsource="" >of rape</Verbatim>
+<New PAsource="" >, one at a police station. </New>
+<Verbatim PAsource="" >Paul Banfield, 32, </Verbatim>
+<New PAsource="" >a Cambridgesbire officer, has also been charged with indecent assault, theft and burglary.
+</New>
+
+<New PAsource="" >The police station rape is alleged to have taken place at Parkside, Cambridge, </New>
+<Verbatim PAsource="" >on </Verbatim>
+<Rewrite PAsource="" >Oct </Rewrite>
+<Verbatim PAsource="" >9</Verbatim>
+<New PAsource="" >, where Sgt Banfield, a former Metropolitan Police officer, was based. </New>
+<New PAsource="" >The indecent assault and theft charges relate to incidents on the same day.
+</New>
+
+<New PAsource="" >A second count of rape and the burglary charge are both alleged to have taken place at Waterbeach, Cambs.
+</New>
+
+
+</body>
+</meterdocument>

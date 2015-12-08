@@ -1,0 +1,74 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/14.07.99/exams/exams215_guardian.sgml" newspaper="guardian" domain="courts" classification="partially-derived" pagenumber="8" date="14.07.99" catchline="exams">
+
+<body>
+
+
+<Rewrite PAsource="" >A student </Rewrite>
+<New PAsource="" >at one of Britain's most prestigious </New>
+<Verbatim PAsource="" >public schools hanged herself </Verbatim>
+<Rewrite PAsource="" >just before the start of </Rewrite>
+<Verbatim PAsource="" >her A-levels </Verbatim>
+<Rewrite PAsource="" >because she could no longer cope with exam pressure, </Rewrite>
+<Verbatim PAsource="" >an inquest heard </Verbatim>
+<Rewrite PAsource="" >yesterday.</Rewrite>
+
+
+<Verbatim PAsource="" >Yolanda MacPherson, 18, </Verbatim>
+<Rewrite PAsource="" >killed </Rewrite>
+<Verbatim PAsource="" >herself </Verbatim>
+<New PAsource="" >after being told her work at </New>
+<Verbatim PAsource="" >Stowe School was '</Verbatim>
+<New PAsource="" >messy and </New>
+<Verbatim PAsource="" >disorganised'.</Verbatim>
+
+
+<Verbatim PAsource="" >She had been underachieving </Verbatim>
+<Rewrite PAsource="" >in her subjects - </Rewrite>
+<Verbatim PAsource="" >art, English and history </Verbatim>
+<New PAsource="" >- and suddenly realised she had left the necessary studying too late.</New>
+
+
+<Verbatim PAsource="" >A cleaner found </Verbatim>
+<Rewrite PAsource="" >her </Rewrite>
+<Verbatim PAsource="" >on April 30, hanging </Verbatim>
+<Rewrite PAsource="" >by </Rewrite>
+<Verbatim PAsource="" >a scarf from her </Verbatim>
+<Rewrite PAsource="" >bedroom </Rewrite>
+<Verbatim PAsource="" >door.</Verbatim>
+
+
+<Verbatim PAsource="" >Jane Hamblett-Jahn, her housemistress at the £15,000-a-year school, told the the inquest at Stoke Mandeville hospital, Buckinghamshire, </Verbatim>
+<Rewrite PAsource="" >that the girl </Rewrite>
+<Verbatim PAsource="" >was painfully shy and lacked confidence. </Verbatim>
+<New PAsource="" >"She was the sort of person who always needed to have a boyfriend and would pick up when she had one but if not she would nosedive."</New>
+
+
+<Rewrite PAsource="" >Ms </Rewrite>
+<Verbatim PAsource="" >Hamblett-Jahn said </Verbatim>
+<New PAsource="" >staff Had alerted her mother and a school counsellor. </New>
+<New PAsource="" >"She was very able but not working hard enough and she realised she had left it a bit late."</New>
+
+
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >inquest </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >told </Verbatim>
+<Rewrite PAsource="" >that </Rewrite>
+<Verbatim PAsource="" >the girl, </Verbatim>
+<Rewrite PAsource="" >from </Rewrite>
+<Verbatim PAsource="" >Wootton, Shrophire, </Verbatim>
+<Rewrite PAsource="" >had consumed alcohol before killing </Rewrite>
+<Verbatim PAsource="" >herself.</Verbatim>
+
+
+<Verbatim PAsource="" >Coroner Richard Hulett </Verbatim>
+<Rewrite PAsource="" >recorded </Rewrite>
+<Verbatim PAsource="" >a verdict of suicide.</Verbatim>
+
+
+
+</body>
+</meterdocument>

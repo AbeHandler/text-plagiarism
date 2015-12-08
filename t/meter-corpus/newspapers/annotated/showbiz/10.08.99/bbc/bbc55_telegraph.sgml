@@ -1,0 +1,99 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/10.08.99/bbc/bbc55_telegraph.sgml" newspaper="telegraph" domain="showbiz" classification="partially-derived" pagenumber="9" date="10.08.99" catchline="bbc">
+
+<body>
+
+
+<Rewrite PAsource="" >THE </Rewrite>
+<Verbatim PAsource="" >controller </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >BBC1 </Verbatim>
+<Rewrite PAsource="" >television, </Rewrite>
+<Verbatim PAsource="" >Peter Salmon, defended his channel yesterday, </Verbatim>
+<New PAsource="" >attacking its commercial competitors for </New>
+<Verbatim PAsource="" >poaching</Verbatim> 
+<Rewrite PAsource="" >its </Rewrite>
+<Verbatim PAsource="" >stars </Verbatim>
+<Rewrite PAsource="" >and </Rewrite>
+<Verbatim PAsource="" >imitating </Verbatim>
+<Rewrite PAsource="" >its programmes.</Rewrite>
+<New PAsource="" >
+</New>
+
+<Verbatim PAsource="" >Mr Salmon admitted </Verbatim>
+<Rewrite PAsource="" >that it </Rewrite>
+<Verbatim PAsource="" >had been a difficult year </Verbatim>
+<Rewrite PAsource="" >with increasing </Rewrite>
+<Verbatim PAsource="" >commercial competition. </Verbatim>
+<Verbatim PAsource="" >consultation on the BBC licence fee review and </Verbatim>
+<Rewrite PAsource="" >criticism </Rewrite>
+<Verbatim PAsource="" >from the </Verbatim>
+<Rewrite PAsource="" >corporation's </Rewrite>
+<Verbatim PAsource="" >governors </Verbatim>
+<New PAsource="" >of the channel's obsession with ratings.
+</New>
+
+<Verbatim PAsource="" >He said </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >£195 million autumn programme schedule, </Verbatim>
+<Rewrite PAsource="" >which includes a </Rewrite>
+<Verbatim PAsource="" >new Dawn French </Verbatim>
+<Rewrite PAsource="" >and </Rewrite>
+<Verbatim PAsource="" >Jennifer Saunders sitcom, </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >science series </Verbatim>
+<Rewrite PAsource="" >about </Rewrite>
+<Verbatim PAsource="" >dinosaurs and a trilogy of programmes about war, </Verbatim>
+<Verbatim PAsource="" >"will confound the Jeremiahs prophesying the imminent demise of BBC1".</Verbatim>
+<New PAsource="" >
+
+A week after the embarrassment of the defection </New>
+<Verbatim PAsource="" >to ITV </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Des Lynam, </Verbatim>
+<New PAsource="" >the </New>
+<Rewrite PAsource="" >sports presenter, </Rewrite>
+<Verbatim PAsource="" >Mr Salmon </Verbatim>
+<New PAsource="" >claimed that his channel's new season was </New>
+<Verbatim PAsource="" >"not about poaching stars, </Verbatim>
+<Verbatim PAsource="" >it's not about imitating innovative, formats. </Verbatim>
+<Verbatim PAsource="" >It's about ambition, quality, commitment and talent".</Verbatim>
+<New PAsource="" >
+</New>
+
+<Verbatim PAsource="" >Docusoaps </Verbatim>
+<Rewrite PAsource="" >are overshadowed in the schedule by </Rewrite>
+<Verbatim PAsource="" >drama, science and factual programming. </Verbatim>
+<Verbatim PAsource="" >Andrew Davies, </Verbatim>
+<Rewrite PAsource="" >who adapted </Rewrite>
+<Verbatim PAsource="" >Pride and Prejudice, </Verbatim>
+<Verbatim PAsource="" >has </Verbatim>
+<Rewrite PAsource="" >done the same for </Rewrite>
+<Verbatim PAsource="" >Elizabeth Gaskell's Wives and Daughters. </Verbatim>
+<Verbatim PAsource="" >French and Saunders star in Let Them Eat Cake, </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >sitcom </Verbatim>
+<Rewrite PAsource="" >set </Rewrite>
+<Verbatim PAsource="" >in the court of Louis XVI.</Verbatim>
+<New PAsource="" >
+</New>
+
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >prehistoric </Verbatim>
+<Verbatim PAsource="" >natural history </Verbatim>
+<Verbatim PAsource="" >series </Verbatim>
+<Verbatim PAsource="" >Walking With Dinosaurs </Verbatim>
+<Rewrite PAsource="" >took </Rewrite>
+<Verbatim PAsource="" >three years </Verbatim>
+<Rewrite PAsource="" >to make </Rewrite>
+<Verbatim PAsource="" >using </Verbatim>
+<Rewrite PAsource="" >advanced </Rewrite>
+<Verbatim PAsource="" >computer animation.</Verbatim>
+<New PAsource="" >
+
+Mr Salmon said a trio of programmes about the British at war had a "personal meaning" for him in remembering members of his own family and others who had been "scarred by war".</New>
+
+</body>
+</meterdocument>

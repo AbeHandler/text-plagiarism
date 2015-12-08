@@ -1,0 +1,28 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/chief/chief349_times.sgml" newspaper="times" domain="courts" classification="wholly-derived" pagenumber="11" date="08.12.99" catchline="chief">
+
+<body>
+
+
+<Verbatim PAsource="" >Ian Beckett, 53, </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >Deputy Chief Constable </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Surrey, pleaded not guilty to indecently assaulting two women. </Verbatim>
+<Rewrite PAsource="" >In </Rewrite>
+<Verbatim PAsource="" >a six-minute hearing </Verbatim>
+<Rewrite PAsource="" >for </Rewrite>
+<Verbatim PAsource="" >plea and directions at Southwark Crown Court, </Verbatim>
+<Rewrite PAsource="" >he was </Rewrite>
+<Verbatim PAsource="" >told that his trial </Verbatim>
+<Rewrite PAsource="" >will </Rewrite>
+<Verbatim PAsource="" >start on March 27. </Verbatim>
+<Rewrite PAsource="" >He is on </Rewrite>
+<Verbatim PAsource="" >unconditional bail.</Verbatim>
+
+
+
+</body>
+</meterdocument>

@@ -1,0 +1,36 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/02.11.99/titanic/titanic296_telegraph.sgml" newspaper="telegraph" domain="courts" classification="wholly-derived" pagenumber="6" date="02.11.99" catchline="titanic">
+
+<body>
+
+
+<Rewrite PAsource="" >THE </Rewrite>
+<Verbatim PAsource="" >chef Marco Pierre White </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >won </Verbatim>
+<Rewrite PAsource="" >a dispute over </Rewrite>
+<Verbatim PAsource="" >the Titanic and Atlantic restaurants. </Verbatim>
+<Verbatim PAsource="" >Oliver Peyton, owner of the Atlantic, had tried to </Verbatim>
+<Rewrite PAsource="" >close White's </Rewrite>
+<Verbatim PAsource="" >new Titanic restaurant, housed in the same West End hotel in London, by seeking damages against </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >landlords, Forte Hotels, and </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >High Court injunction.</Verbatim>
+
+
+<Rewrite PAsource="" >He </Rewrite>
+<Verbatim PAsource="" >claimed that the Titanic was a replica of the Atlantic and should not be allowed to trade in competition at the Regent Palace Hotel.</Verbatim>
+
+
+<Verbatim PAsource="" >But </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >the Atlantic announced in court </Verbatim>
+<Rewrite PAsource="" >that </Rewrite>
+<Verbatim PAsource="" >it had reached a confidential agreement with the landlords and was discontinuing the action. </Verbatim>
+<Verbatim PAsource="" >The legal costs of the abandoned claim, estimated at more than £500,000, will be paid by Forte Hotels under the terms of the settlement with Mr Peyton.</Verbatim>
+
+</body>
+</meterdocument>

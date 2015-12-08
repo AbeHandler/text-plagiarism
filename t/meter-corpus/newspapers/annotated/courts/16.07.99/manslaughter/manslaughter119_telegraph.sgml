@@ -1,0 +1,123 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/16.07.99/manslaughter/manslaughter119_telegraph.sgml" newspaper="telegraph" domain="courts" classification="partially-derived" pagenumber="12" date="16.07.99" catchline="manslaughter">
+
+<body>
+
+
+<Rewrite PAsource="" >THE </Rewrite>
+<Verbatim PAsource="" >killer </Verbatim>
+<Rewrite PAsource="" >of a </Rewrite>
+<Verbatim PAsource="" >Cambridge </Verbatim>
+<Rewrite PAsource="" >scholar who was attacked by a group of strangers as he enjoyed an </Rewrite>
+<Verbatim PAsource="" >evening stroll </Verbatim>
+<Rewrite PAsource="" >with his family on a </Rewrite>
+<Verbatim PAsource="" >Thames </Verbatim>
+<Rewrite PAsource="" >towpath, </Rewrite>
+<Verbatim PAsource="" >was jailed for </Verbatim>
+<Rewrite PAsource="" >2 1/2 years yesterday.
+</Rewrite>
+
+<Rewrite PAsource="" >Sentencing </Rewrite>
+<Verbatim PAsource="" >Lee Tate, 23, of Acton, west London, who admitted </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >manslaughter </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Seung Jun Lee, </Verbatim>
+<New PAsource="" >30, </New>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >Korean, Judge George Bathurst Norman </Verbatim>
+<Rewrite PAsource="" >said: </Rewrite>
+<Verbatim PAsource="" >"It was wholly shameful and despicable that once you had knocked him to the ground you decided to pursue that attack against him."
+</Verbatim>
+
+<Rewrite PAsource="" >Mr Lee </Rewrite>
+<Verbatim PAsource="" >fell "like a log" </Verbatim>
+<Rewrite PAsource="" >when he was </Rewrite>
+<Verbatim PAsource="" >punched in the face and kicked </Verbatim>
+<Rewrite PAsource="" >by Tate and his friends on the towpath at </Rewrite>
+<Verbatim PAsource="" >Kingston, </Verbatim>
+<New PAsource="" >south-west London, </New>
+<Rewrite PAsource="" >last summer. </Rewrite>
+<Verbatim PAsource="" >As </Verbatim>
+<Rewrite PAsource="" >he was lying on the ground his </Rewrite>
+<Verbatim PAsource="" >wife</Verbatim>
+<New PAsource="" > and a friend </New>
+<Rewrite PAsource="" >tried to help him, </Rewrite>
+<New PAsource="" >but they, too, </New>
+<Rewrite PAsource="" >were attacked.
+</Rewrite>
+
+<New PAsource="" >The group disappeared as passers-by used their mobile phones to call police and an ambulance. </New>
+<New PAsource="" >Because the gates on to the towpath were locked, an ambulance could not get to Mr Lee. </New>
+<New PAsource="" >He was put in a police car, transferred to an ambulance and later airlifted to a specialist neurological unit, </New>
+<Rewrite PAsource="" >but </Rewrite>
+<Verbatim PAsource="" >died five days </Verbatim>
+<Rewrite PAsource="" >later from </Rewrite>
+<Verbatim PAsource="" >head injuries.
+</Verbatim>
+
+<Rewrite PAsource="" >Officers who arrived at the </Rewrite>
+<Verbatim PAsource="" >scene </Verbatim>
+<Rewrite PAsource="" >allegedly did not have proper </Rewrite>
+<Verbatim PAsource="" >first-aid </Verbatim>
+<Rewrite PAsource="" >training and ignored </Rewrite>
+<Verbatim PAsource="" >eye </Verbatim>
+<Rewrite PAsource="" >witness accounts of what had happened.
+</Rewrite>
+
+<Rewrite PAsource="" >Tate and his friends went </Rewrite>
+<Verbatim PAsource="" >to police </Verbatim>
+<Rewrite PAsource="" >after publicity about the attack. </Rewrite>
+<New PAsource="" >William Boyce, prosecuting, said </New>
+<Rewrite PAsource="" >it happened after </Rewrite>
+<Verbatim PAsource="" >Tate pushed </Verbatim>
+<Rewrite PAsource="" >a child's </Rewrite>
+<Verbatim PAsource="" >buggy </Verbatim>
+<Rewrite PAsource="" >into the back of Mr Lee's wife. </Rewrite>
+<Rewrite PAsource="" >When Mr Lee remonstrated with the group he was attacked.
+</Rewrite>
+
+<Rewrite PAsource="" >Last month, a jury at </Rewrite>
+<Verbatim PAsource="" >Southwark Crown Court cleared Tate of murder, </Verbatim>
+<Rewrite PAsource="" >but </Rewrite>
+<Verbatim PAsource="" >convicted </Verbatim>
+<Rewrite PAsource="" >him </Rewrite>
+<Verbatim PAsource="" >of attempting to cause grievous bodily harm. </Verbatim>
+<New PAsource="" >It could not reach a decision on a manslaughter charge and a retrial was ordered. </New>
+<Rewrite PAsource="" >But yesterday, </Rewrite>
+<Verbatim PAsource="" >Tate admitted manslaughter.
+</Verbatim>
+
+<Rewrite PAsource="" >His friends, </Rewrite>
+<Verbatim PAsource="" >Mark Picard, </Verbatim>
+<Rewrite PAsource="" >and </Rewrite>
+<Verbatim PAsource="" >Earl Petrie, </Verbatim>
+<Rewrite PAsource="" >both </Rewrite>
+<Verbatim PAsource="" >24 </Verbatim>
+<Rewrite PAsource="" >and both of </Rewrite>
+<Verbatim PAsource="" >Kingston</Verbatim>
+<Rewrite PAsource="" >, were </Rewrite>
+<Verbatim PAsource="" >jailed for three months </Verbatim>
+<Rewrite PAsource="" >and </Rewrite>
+<Verbatim PAsource="" >12 months </Verbatim>
+<Rewrite PAsource="" >respectively for their parts in the attack on Mr Lee and a man trying to help him. </Rewrite>
+<Verbatim PAsource="" >Mr Lee's widow, Nan-Joo </Verbatim>
+<New PAsource="" >Yang, </New>
+<Verbatim PAsource="" >left </Verbatim>
+<Rewrite PAsource="" >court without </Rewrite>
+<Verbatim PAsource="" >comment. </Verbatim>
+<Rewrite PAsource="" >She had earlier complained about the attitude of police who arrived at the scene. </Rewrite>
+<Verbatim PAsource="" >A </Verbatim>
+<Rewrite PAsource="" >Metropolitan Police </Rewrite>
+<Verbatim PAsource="" >spokesman said </Verbatim>
+<Rewrite PAsource="" >a complaint about the investigation had been referred to the </Rewrite>
+<Verbatim PAsource="" >Police Complaints Authority.
+</Verbatim>
+
+
+
+
+</body>
+</meterdocument>

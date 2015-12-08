@@ -1,0 +1,42 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/doctor/doctor340_express.sgml" newspaper="express" domain="courts" classification="wholly-derived" pagenumber="34" date="08.12.99" catchline="doctor">
+
+<body>
+
+
+<Verbatim PAsource="" >DOCTOR Harold Shipman </Verbatim>
+<Rewrite PAsource="" >falsified </Rewrite>
+<Verbatim PAsource="" >documents to ensure two of his alleged murder victims were cremated, </Verbatim>
+<Rewrite PAsource="" >it was claimed yesterday. </Rewrite>
+<Rewrite PAsource="" >The GP </Rewrite>
+<Verbatim PAsource="" >tried to deceive the registrar responsible for authorising cremations </Verbatim>
+<Rewrite PAsource="" >over the deaths of </Rewrite>
+<Verbatim PAsource="" >Marie West, 81, and Lizzie Adams, 77, </Verbatim>
+<Rewrite PAsource="" >a jury heard.</Rewrite>
+
+
+<Verbatim PAsource="" >Shipman recorded that both he and a friend were </Verbatim>
+<Rewrite PAsource="" >at Mrs West's home when she died </Rewrite>
+<Verbatim PAsource="" >because </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >cremation was "more likely to be granted if two people were present" </Verbatim>
+<Rewrite PAsource="" >prosecutor </Rewrite>
+<Verbatim PAsource="" >Richard Henriques QC told Preston Crown Court. </Verbatim>
+<Rewrite PAsource="" >He made a </Rewrite>
+<Verbatim PAsource="" >similar </Verbatim>
+<Rewrite PAsource="" >claim about </Rewrite>
+<Verbatim PAsource="" >Mrs Adams. Shipman, 53, of Mottram, </Verbatim>
+<Rewrite PAsource="" >Cheshire, </Rewrite>
+<Verbatim PAsource="" >denies murdering 15 women </Verbatim>
+<Rewrite PAsource="" >with </Rewrite>
+<Verbatim PAsource="" >morphine </Verbatim>
+<Rewrite PAsource="" >injections </Rewrite>
+<Verbatim PAsource="" >and forging the will of one of them. </Verbatim>
+<Rewrite PAsource="" >The trial continues.</Rewrite>
+
+
+
+</body>
+</meterdocument>

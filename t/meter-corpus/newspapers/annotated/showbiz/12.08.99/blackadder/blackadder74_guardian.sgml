@@ -1,0 +1,20 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/12.08.99/blackadder/blackadder74_guardian.sgml" newspaper="guardian" domain="showbiz" classification="wholly-derived" pagenumber="3" date="12.08.99" catchline="blackadder">
+
+<body>
+
+
+<Verbatim PAsource="" >TV's Blackadder was at the centre of a row </Verbatim>
+<Rewrite PAsource="" >last night after </Rewrite>
+<Verbatim PAsource="" >Sky claimed </Verbatim>
+<Rewrite PAsource="" >it had beaten the </Rewrite>
+<Verbatim PAsource="" >BBC </Verbatim>
+<Rewrite PAsource="" >to the rights to </Rewrite>
+<Verbatim PAsource="" >be the first to screen a one-off millennium special of the sitcom.
+</Verbatim>
+
+
+</body>
+</meterdocument>

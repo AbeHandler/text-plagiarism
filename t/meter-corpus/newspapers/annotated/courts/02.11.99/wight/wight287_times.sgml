@@ -1,0 +1,21 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/02.11.99/wight/wight287_times.sgml" newspaper="times" domain="courts" classification="wholly-derived" pagenumber="2" date="02.11.99" catchline="wight">
+
+<body>
+
+
+<Verbatim PAsource="" >The Isle of Wight </Verbatim>
+<Rewrite PAsource="" >began </Rewrite>
+<Verbatim PAsource="" >a High Court battle for "a fair share" of British and European grant funding. </Verbatim>
+<Verbatim PAsource="" >Islanders </Verbatim>
+<Rewrite PAsource="" >accuse </Rewrite>
+<Verbatim PAsource="" >the Government of blocking access to regional aid and subsidies </Verbatim>
+<Rewrite PAsource="" >that </Rewrite>
+<Verbatim PAsource="" >would make a significant contribution to regenerating their ailing economy.</Verbatim>
+
+
+
+</body>
+</meterdocument>

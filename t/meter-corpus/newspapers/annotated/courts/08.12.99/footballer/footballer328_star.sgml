@@ -1,0 +1,67 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/footballer/footballer328_star.sgml" newspaper="star" domain="courts" classification="wholly-derived" pagenumber="8" date="08.12.99" catchline="footballer">
+
+<body>
+
+
+<Rewrite PAsource="" >SOCCER star </Rewrite>
+<Verbatim PAsource="" >Nathan Blake was cleared </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >of obstructing a police officer after </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >friend </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >racially abused in a kebab shop.
+</Verbatim>
+
+<Verbatim PAsource="" >Afterwards, </Verbatim>
+<Rewrite PAsource="" >their </Rewrite>
+<Verbatim PAsource="" >solicitor David Miller said Blackburn Rovers and Wales striker Blake, 27, </Verbatim>
+<Rewrite PAsource="" >and </Rewrite>
+<Verbatim PAsource="" >his </Verbatim>
+<Rewrite PAsource="" >mate </Rewrite>
+<Verbatim PAsource="" >Anthony Junior Chambers, </Verbatim>
+<New PAsource="" >33, were still angry.
+</New>
+
+<Rewrite PAsource="" >They had been </Rewrite>
+<Verbatim PAsource="" >charged </Verbatim>
+<Rewrite PAsource="" >after verbally showing their </Rewrite>
+<Verbatim PAsource="" >upset </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >being racially abused, </Verbatim>
+<Rewrite PAsource="" >while the bigots were never prosecuted.
+</Rewrite>
+
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >friends, </Verbatim>
+<Rewrite PAsource="" >both from </Rewrite>
+<Verbatim PAsource="" >Newport</Verbatim>
+<Rewrite PAsource="" >, were involved in a row after </Rewrite>
+<Verbatim PAsource="" >Chambers </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >told to "go back to where you come from, you wog" at the Oasis Kebab Shop in </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >south Wales </Verbatim>
+<Rewrite PAsource="" >town.
+</Rewrite>
+
+<Rewrite PAsource="" >Police arrested him for abusive </Rewrite>
+<Verbatim PAsource="" >language </Verbatim>
+<Rewrite PAsource="" >and </Rewrite>
+<Verbatim PAsource="" >Blake </Verbatim>
+<Rewrite PAsource="" >for intervening and shouting </Rewrite>
+<Verbatim PAsource="" >towards officers "you lot are a f****** joke" as </Verbatim>
+<Rewrite PAsource="" >they led his friend </Rewrite>
+<Verbatim PAsource="" >away. </Verbatim>
+<Verbatim PAsource="" >During the one-day trial, Blake, 27, said: "I knew for a fact that officer wanted to arrest Junior. I could see it in his face."
+
+
+</Verbatim>
+
+
+
+</body>
+</meterdocument>

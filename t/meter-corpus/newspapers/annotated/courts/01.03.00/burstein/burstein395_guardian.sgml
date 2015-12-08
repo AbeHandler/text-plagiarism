@@ -1,0 +1,76 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/01.03.00/burstein/burstein395_guardian.sgml" newspaper="guardian" domain="courts" classification="partially-derived" pagenumber="10" date="01.03.00" catchline="burstein">
+
+<body>
+<Rewrite PAsource="" >A </Rewrite>
+<Verbatim PAsource="" >composer </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >told the high court </Verbatim>
+<New PAsource="" >that he could not believe his eyes when he read in </New>
+<Verbatim PAsource="" >the Times diary </Verbatim>
+<New PAsource="" >that he had gone about </New>
+<Verbatim PAsource="" >"wrecking" performances </Verbatim>
+<Rewrite PAsource="" >by other artists. </Rewrite>
+<New PAsource="" >Simon </New>
+<Verbatim PAsource="" >Burstein </Verbatim>
+<New PAsource="" >is seeking damages for what he calls a "straightforward lie".</New>
+
+
+<Rewrite PAsource="" >He told the jury: </Rewrite>
+<Verbatim PAsource="" >"</Verbatim>
+<New PAsource="" >I just couldn't believe it. </New>
+<Verbatim PAsource="" >I just looked at </Verbatim>
+<New PAsource="" >[the diary story] </New>
+<Verbatim PAsource="" >in disbelief, </Verbatim>
+<New PAsource="" >and then was shocked and dismayed. </New>
+<New PAsource="" >I thought, if people believe what they have said, then I have lost my personal and professional credibility</New>
+<Verbatim PAsource="" >".</Verbatim>
+
+
+<Verbatim PAsource="" >The item, in 1997, referred to a forthcoming </Verbatim>
+<Rewrite PAsource="" >memorial </Rewrite>
+<Verbatim PAsource="" >concert. </Verbatim>
+<Verbatim PAsource="" >It </Verbatim>
+<Rewrite PAsource="" >said: </Rewrite>
+<Verbatim PAsource="" >"The music is by Keith Burstein, an aggressively self-righteous, rather slushy composer who used to organise bands of hecklers to go about wrecking performances of modern atonal music, particularly anything by Sir Harrison Birtwistle."</Verbatim>
+
+
+<Verbatim PAsource="" >The judge, Richard Walker, has ruled as a matter of law that the words are libellous, </Verbatim>
+<Rewrite PAsource="" >and </Rewrite>
+<Verbatim PAsource="" >the jury </Verbatim>
+<Rewrite PAsource="" >is being asked to </Rewrite>
+<Verbatim PAsource="" >decide the </Verbatim>
+<Rewrite PAsource="" >scale </Rewrite>
+<Verbatim PAsource="" >of damages, </Verbatim>
+<New PAsource="" >which Mr Burstein's solicitor advocate said should be between £20,000 and £50,000. </New>
+
+
+<New PAsource="" >In the witness box Mr </New>
+<Verbatim PAsource="" >Burstein </Verbatim>
+<Rewrite PAsource="" >admitted </Rewrite>
+<Verbatim PAsource="" >that he did </Verbatim>
+<Rewrite PAsource="" >once </Rewrite>
+<Verbatim PAsource="" >"voice disapproval" at a performance of Sir Harrison Birtwistle's work, </Verbatim>
+<Rewrite PAsource="" >and had </Rewrite>
+<Verbatim PAsource="" >"heckled and booed" at the end of the concert at Covent Garden in 1994. </Verbatim>
+<Rewrite PAsource="" >He said </Rewrite>
+<Verbatim PAsource="" >it was "perfectly acceptable to voice pleasure or disapproval".</Verbatim>
+
+
+<Rewrite PAsource="" >However, he had not organised bands of hecklers to wreck performances. </Rewrite>
+<Verbatim PAsource="" >Justin Rushbrooke, </Verbatim>
+<Rewrite PAsource="" >for </Rewrite>
+<Verbatim PAsource="" >the Times, </Verbatim>
+<Rewrite PAsource="" >said: </Rewrite>
+<New PAsource="" >"We say libel it is, but it's a very, very long way from being a grave libel. We say that he has taken offence at the piece as a whole; as far as this wrecking allegation goes, he's blown it up out of proportion." </New>
+<Verbatim PAsource="" >The judge </Verbatim>
+<Rewrite PAsource="" >is to </Rewrite>
+<Verbatim PAsource="" >sum up </Verbatim>
+<Rewrite PAsource="" >today </Rewrite>
+<New PAsource="" >before the jury retires.</New>
+
+
+</body>
+</meterdocument>

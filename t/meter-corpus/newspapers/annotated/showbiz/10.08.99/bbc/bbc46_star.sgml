@@ -1,0 +1,56 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/10.08.99/bbc/bbc46_star.sgml" newspaper="star" domain="showbiz" classification="partially-derived" pagenumber="17" date="10.08.99" catchline="bbc">
+
+<body>
+
+
+<New PAsource="" >MEET Del Boy as you've never seen him before - as a First World War hero ... and as the Beeb's big weapon in its ratings war with ITV.
+</New>
+
+<New PAsource="" >Only Fools And Horses star </New>
+<Verbatim PAsource="" >David Jason </Verbatim>
+<New PAsource="" >plays a captain </New>
+<Verbatim PAsource="" >in All The King's Men, </Verbatim>
+<Rewrite PAsource="" >which tells </Rewrite>
+<Verbatim PAsource="" >of the </Verbatim>
+<New PAsource="" >mysterious </New>
+<Verbatim PAsource="" >disappearance of a </Verbatim>
+<Rewrite PAsource="" >whole </Rewrite>
+<Verbatim PAsource="" >company </Verbatim>
+<New PAsource="" >of soldiers.
+</New>
+
+<Rewrite PAsource="" >The drama heads </Rewrite>
+<Verbatim PAsource="" >the BBC's £l95million autumn schedule, </Verbatim>
+<Rewrite PAsource="" >which was </Rewrite>
+<Verbatim PAsource="" >unveiled </Verbatim>
+<Rewrite PAsource="" >yesterday. </Rewrite>
+<New PAsource="" >Also </New>
+<Rewrite PAsource="" >in the line-up are </Rewrite>
+<New PAsource="" >funnygirls </New>
+<Verbatim PAsource="" >Dawn French and Jennifer Saunders in their first sit-com together, Let Them Eat Cake. </Verbatim>
+<Rewrite PAsource="" >There's </Rewrite>
+<Verbatim PAsource="" >more comedy in Starting Out, </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >new </Verbatim>
+<Rewrite PAsource="" >show </Rewrite>
+<Verbatim PAsource="" >from Birds Of A Feather writers Laurence Marks and Maurice Gran. </Verbatim>
+<Verbatim PAsource="" >The Royle Family </Verbatim>
+<Rewrite PAsource="" >moves </Rewrite>
+<Verbatim PAsource="" >to BBC1 for its second series, </Verbatim>
+<Rewrite PAsource="" >while </Rewrite>
+<Verbatim PAsource="" >Jonathan Creek, Casualty, Holby City, Dangerfield and Ballykissangel </Verbatim>
+<Rewrite PAsource="" >all return.
+</Rewrite>
+
+<Rewrite PAsource="" >And </Rewrite>
+<Verbatim PAsource="" >Walking With Dinosaurs </Verbatim>
+<Rewrite PAsource="" >promises to recreate </Rewrite>
+<Verbatim PAsource="" >prehistoric life, using computer animation.
+</Verbatim>
+
+
+</body>
+</meterdocument>

@@ -1,0 +1,14 @@
+/meter_corpus/newspapers/rawtexts/showbiz/08.08.99/edmonds/edmonds8_mail.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/08.08.99/edmonds/edmonds9_mail.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/08.08.99/shaw/shaw10_mail.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/09.08.99/stretch/stretch27_mail.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/10.08.99/bbc/bbc49_mail.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/10.08.99/enfield/enfield48_mail.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/10.08.99/grant/grant47_mail.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/12.08.99/blackadder/blackadder71_mail.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/12.08.99/street/street70_mail.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/14.07.99/starwars/starwars89_mail.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/27.01.00/oasis/oasis133_mail.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/27.01.00/posh/posh132_mail.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/22.11.99/bond/bond159_mail.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/14.12.99/mccartney/mccartney171_mail.txt 

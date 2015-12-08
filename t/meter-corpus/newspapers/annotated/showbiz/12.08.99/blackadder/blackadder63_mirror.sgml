@@ -1,0 +1,37 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/12.08.99/blackadder/blackadder63_mirror.sgml" newspaper="mirror" domain="showbiz" classification="non-derived" pagenumber="14" date="12.08.99" catchline="blackadder">
+
+<body>
+
+
+<Verbatim PAsource="" >THE BBC </Verbatim>
+<New PAsource="" >was dealt another blow last night </New>
+<Rewrite PAsource="" >when a </Rewrite>
+<Verbatim PAsource="" >Rowan Atkinson Blackadder special </Verbatim>
+<Rewrite PAsource="" >for the </Rewrite>
+<Verbatim PAsource="" >millennium </Verbatim>
+<Rewrite PAsource="" >was snatched by </Rewrite>
+<Verbatim PAsource="" >Sky.
+</Verbatim>
+
+<Rewrite PAsource="" >The episode, based on the classic </Rewrite>
+<Verbatim PAsource="" >BBC </Verbatim>
+<Rewrite PAsource="" >comedy </Rewrite>
+<Verbatim PAsource="" >series, </Verbatim>
+<Rewrite PAsource="" >was commissioned </Rewrite>
+<Verbatim PAsource="" >to be shown at the </Verbatim>
+<Rewrite PAsource="" >Millennium </Rewrite>
+<Verbatim PAsource="" >Dome. </Verbatim>
+<Rewrite PAsource="" >But its </Rewrite>
+<Verbatim PAsource="" >first TV </Verbatim>
+<Rewrite PAsource="" >screening will be on satellite.
+</Rewrite>
+
+<New PAsource="" >Sky chief Elisabeth Murdoch said "Securing exclusive UK TV rights is tremendous."
+</New>
+
+
+</body>
+</meterdocument>

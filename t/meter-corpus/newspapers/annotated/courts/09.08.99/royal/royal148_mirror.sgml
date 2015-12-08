@@ -1,0 +1,51 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/09.08.99/royal/royal148_mirror.sgml" newspaper="mirror" domain="courts" classification="partially-derived" pagenumber="14" date="09.08.99" catchline="royal">
+
+<body>
+
+
+<Verbatim PAsource="" >A </Verbatim>
+<Rewrite PAsource="" >BOOZY </Rewrite>
+<Verbatim PAsource="" >driver </Verbatim>
+<Rewrite PAsource="" >who smashed </Rewrite>
+<Verbatim PAsource="" >into the Queen </Verbatim>
+<Rewrite PAsource="" >Mum's chauffeur-driven </Rewrite>
+<Verbatim PAsource="" >Daimler </Verbatim>
+<New PAsource="" >minutes after she had been dropped off </New>
+<Verbatim PAsource="" >was banned for two years and fined £700 </Verbatim>
+<Rewrite PAsource="" >yesterday.</Rewrite>
+
+
+<Verbatim PAsource="" >Eamon Reidy, 32, fled across fields </Verbatim>
+<New PAsource="" >in Windsor Great Park after the crash, </New>
+<Rewrite PAsource="" >the court heard. </Rewrite>
+<New PAsource="" >Grandad </New>
+<Verbatim PAsource="" >John Horton, 56, </Verbatim>
+<New PAsource="" >head gardener on the royal estate, chased him in his slippers for </New>
+<Verbatim PAsource="" >one and a half miles </Verbatim>
+<New PAsource="" >as armed cops, dogs and helicopter joined in the pursuit. </New>
+<Verbatim PAsource="" >John </Verbatim>
+<Rewrite PAsource="" >caught up with the fugitive and grabbed </Rewrite>
+<Verbatim PAsource="" >his arm. </Verbatim>
+<Rewrite PAsource="" >But when </Rewrite>
+<Verbatim PAsource="" >Reidy threatened him </Verbatim>
+<New PAsource="" >- "he decided discretion was the better part of valour and let him go," </New>
+<Verbatim PAsource="" >Woking magistrates were told.</Verbatim>
+
+
+<Verbatim PAsource="" >Police discovered airport worker Reidy lying in undergrowth </Verbatim>
+<New PAsource="" >near the Queen Mum's Royal Lodge on the Crown estate. </New>
+<Rewrite PAsource="" >He was found to be </Rewrite>
+<Verbatim PAsource="" >two-and-a-half times over the </Verbatim>
+<Rewrite PAsource="" >legal </Rewrite>
+<Verbatim PAsource="" >limit. </Verbatim>
+<Verbatim PAsource="" >Reidy, of Langley, Berks, </Verbatim>
+<New PAsource="" >admitted drink- driving and failing to stop.</New>
+
+
+
+
+</body>
+</meterdocument>

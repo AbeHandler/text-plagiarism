@@ -1,0 +1,63 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/08.08.99/edmonds/edmonds16_guardian.sgml" newspaper="guardian" domain="showbiz" classification="partially-derived" pagenumber="5" date="08.08.99" catchline="edmonds">
+
+<body>
+
+
+<Verbatim PAsource="" >Noel Edmonds </Verbatim>
+<Rewrite PAsource="" >has told </Rewrite>
+<Verbatim PAsource="" >the BBC he </Verbatim>
+<Rewrite PAsource="" >is </Rewrite>
+<Verbatim PAsource="" >quitting,</Verbatim>
+<Rewrite PAsource="" >just </Rewrite>
+<Verbatim PAsource="" >a week after </Verbatim>
+<Rewrite PAsource="" >Desmond </Rewrite>
+<Verbatim PAsource="" >Lynam </Verbatim>
+<Rewrite PAsource="" >defected </Rewrite>
+<Verbatim PAsource="" >to ITV </Verbatim>
+<Verbatim PAsource="" >Edmonds, 50, </Verbatim>
+<Rewrite PAsource="" >who brought </Rewrite>
+<Verbatim PAsource="" >Mr Blobby </Verbatim>
+<Rewrite PAsource="" >and </Rewrite>
+<Verbatim PAsource="" >Telly Addicts </Verbatim>
+<Rewrite PAsource="" >to living rooms, </Rewrite>
+<New PAsource="" >criticised the corporation for a lack of innovation, and said he was "heartbroken" by changes in its culture which, he claimed, had led to programme makers losing power to accountants and consultants.
+</New>
+
+<Rewrite PAsource="" >He will leave </Rewrite>
+<Verbatim PAsource="" >after 30 years' </Verbatim>
+<Rewrite PAsource="" >service when his </Rewrite>
+<Verbatim PAsource="" >four-year contract </Verbatim>
+<Rewrite PAsource="" >expires in </Rewrite>
+<Verbatim PAsource="" >March. </Verbatim>
+<New PAsource="" >He told a newspaper: "Name something that is on BBC1 that gets people excited and talking about it. You're struggling. I feel demotivated to a point where feel it is time to say goodbye."
+</New>
+
+<New PAsource="" >Edmonds was reported to be upset by the handling of a Saturday night show intended to replace Noel's house party, which was dropped in March. He was also said to be angry that many of his ideas had been rejected.
+</New>
+
+<Verbatim PAsource="" >The BBC said </Verbatim>
+<Rewrite PAsource="" >yesterday it was saddened at his departure. </Rewrite>
+<Verbatim PAsource="" >"Noel has given the BBC a lifetime of great work ... he has been a great performer and come up with some fantastic, </Verbatim>
+<Rewrite PAsource="" >inventive </Rewrite>
+<Verbatim PAsource="" >ideas."
+</Verbatim>
+
+<New PAsource="" >The once ubiquitous </New>
+<Verbatim PAsource="" >Mr Edmonds </Verbatim>
+<Rewrite PAsource="" >has spent time as a </Rewrite>
+<Verbatim PAsource="" >Radio 1 DJ </Verbatim>
+<Rewrite PAsource="" >as well as presenting programmes such as the </Rewrite>
+<Verbatim PAsource="" >MultiColoured Swap Shop </Verbatim>
+<New PAsource="" >for children in the 1970s. </New>
+<Rewrite PAsource="" >He went on to front </Rewrite>
+<Verbatim PAsource="" >the Late Late Breakfast Show and Noel's House Party.
+</Verbatim>
+
+<Verbatim PAsource="" >Paul Pascoe, a spokesman for Edmonds, said yesterday: "I know that he has not been stimulated by television for the BBC for 18 months or two years or so. So he has decided not to extend his contract at the end of March."</Verbatim>
+
+
+</body>
+</meterdocument>

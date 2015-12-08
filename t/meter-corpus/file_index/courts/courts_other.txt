@@ -1,0 +1,5 @@
+/meter_corpus/newspapers/rawtexts/courts/28.09.99/inqshot/inqshot598_morningstar.txt
+/meter_corpus/newspapers/rawtexts/courts/28.09.99/pinochet/pinochet597_morningstar.txt
+/meter_corpus/newspapers/rawtexts/courts/28.09.99/sleep/sleep596_morningstar.txt
+/meter_corpus/newspapers/rawtexts/courts/12.07.99/places/places63_ft.txt
+/meter_corpus/newspapers/rawtexts/courts/14.07.99/ba/ba219_ft.txt

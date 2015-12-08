@@ -1,0 +1,44 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/12.08.99/street/street59_sun.sgml" newspaper="sun" domain="showbiz" classification="non-derived" pagenumber="3" date="12.08.99" catchline="street">
+
+<body>
+
+
+<Verbatim PAsource="" >CORONATION Street </Verbatim>
+<Rewrite PAsource="" >star </Rewrite>
+<Verbatim PAsource="" >Saeed Jaffrsy is </Verbatim>
+<Rewrite PAsource="" >being </Rewrite>
+<Verbatim PAsource="" >written out </Verbatim>
+<Rewrite PAsource="" >of the hit soap,</Rewrite>
+<New PAsource="" > it was revealed last night.
+</New>
+
+<Verbatim PAsource="" >Saeed, </Verbatim>
+<New PAsource="" >70, </New>
+<Rewrite PAsource="" >who plays </Rewrite>
+<Verbatim PAsource="" >corner shop </Verbatim>
+<Rewrite PAsource="" >owner </Rewrite>
+<Verbatim PAsource="" >Ravi Desai, </Verbatim>
+<New PAsource="" >will leave in the autumn.
+
+A Granada spokesman said: "There will be a very definite storyline which will take him away from Weatherfield - he won't just disappear."
+
+But he added: "The door will be left open for him to return."
+</New>
+
+<Rewrite PAsource="" >Street bosses insisted their </Rewrite>
+<Verbatim PAsource="" >decision </Verbatim>
+<Rewrite PAsource="" >had </Rewrite>
+<Verbatim PAsource="" >nothing to do with the actor's arrest </Verbatim>
+<Rewrite PAsource="" >for being drunk on </Rewrite>
+<Verbatim PAsource="" >a train last month.</Verbatim>
+<New PAsource="" >
+
+Saeed and his screen kids Vikram and Nita became the first Asian family in the Street when they took over Fred Elliott's corner shop.
+
+</New>
+
+</body>
+</meterdocument>

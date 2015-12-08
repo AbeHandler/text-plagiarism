@@ -1,0 +1,109 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/04.10.99/heart/heart254_telegraph.sgml" newspaper="telegraph" domain="courts" classification="partially-derived" pagenumber="15" date="04.10.99" catchline="heart">
+
+<body>
+
+
+<Verbatim PAsource="" >HEALTH Department </Verbatim>
+<Rewrite PAsource="" >officials were accused </Rewrite>
+<Verbatim PAsource="" >yesterday </Verbatim>
+<Rewrite PAsource="" >of hampering the work of </Rewrite>
+<Verbatim PAsource="" >the public </Verbatim>
+<Verbatim PAsource="" >inquiry </Verbatim>
+<Rewrite PAsource="" >into </Rewrite>
+<Verbatim PAsource="" >the Bristol heart babies scandal </Verbatim>
+<New PAsource="" >set up by Frank Dobson, the Health Secretary.</New>
+
+
+<Rewrite PAsource="" >Prof </Rewrite>
+<Verbatim PAsource="" >Ian Kennedy, </Verbatim>
+<New PAsource="" >chairman of the </New>
+<Verbatim PAsource="" >Bristol Royal Infirmary </Verbatim>
+<New PAsource="" >inquiry, attacked Whitehall after it failed to provide support for a witness who appeared before him.</New>
+
+
+<Verbatim PAsource="" >Catherine Hawkins, </Verbatim>
+<Verbatim PAsource="" >the former general manager of the South West Regional Health Authority, </Verbatim>
+<New PAsource="" >arrived to testify without the documents and legal representation which should have been provided for her.
+
+The inquiry heard that a meeting </New>
+<Verbatim PAsource="" >Miss Hawkins </Verbatim>
+<New PAsource="" >was to have had with departmental counsel before giving evidence had been cancelled at the last minute.
+
+Prof </New>
+<Verbatim PAsource="" >Kennedy </Verbatim>
+<New PAsource="" >said he would complain to senior officials. </New>
+<Verbatim PAsource="" >"There is an apparent failure </Verbatim>
+<Verbatim PAsource="" >on </Verbatim>
+<New PAsource="" >the part of </New>
+<Verbatim PAsource="" >the Department of Health properly to respond to or to take sufficiently seriously this inquiry's legitimate needs. The department is not above this inquiry. </Verbatim>
+<Verbatim PAsource="" >We therefore expect, </Verbatim>
+<Verbatim PAsource="" >first, </Verbatim>
+<Verbatim PAsource="" >some explanation; </Verbatim>
+<Verbatim PAsource="" >secondly an assurance of full co-operation in </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >future."</Verbatim>
+
+
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >inquiry </Verbatim>
+<Rewrite PAsource="" >plans </Rewrite>
+<Verbatim PAsource="" >to hear </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >evidence </Verbatim>
+<Rewrite PAsource="" >of a </Rewrite>
+<Verbatim PAsource="" >key </Verbatim>
+<Rewrite PAsource="" >witness by </Rewrite>
+<Verbatim PAsource="" >video link.</Verbatim>
+
+
+<Verbatim PAsource="" >Dr Stephen Bolsin, </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >consultant anaesthetist </Verbatim>
+<New PAsource="" >who exposed the scandal of </New>
+<Verbatim PAsource="" >high </Verbatim>
+<Rewrite PAsource="" >infant </Rewrite>
+<Verbatim PAsource="" >death </Verbatim>
+<Rewrite PAsource="" >rates </Rewrite>
+<New PAsource="" >in cardiac surgery </New>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >Bristol, </Verbatim>
+<Verbatim PAsource="" >now works </Verbatim>
+<Verbatim PAsource="" >in</Verbatim> 
+<New PAsource="" >Australia. </New>
+<Verbatim PAsource="" >Because of his commitments </Verbatim>
+<Rewrite PAsource="" >there, </Rewrite>
+<New PAsource="" >the inquiry has been unable to arrange for him to appear in person.
+
+Mr Dobson set up the £10 million inquiry after the </New>
+<Verbatim PAsource="" >General Medical Council </Verbatim>
+<Verbatim PAsource="" >struck off </Verbatim>
+<New PAsource="" >James Wisheart, former medical director of the </New>
+<Verbatim PAsource="" >Bristol Royal Infirmary, </Verbatim>
+<New PAsource="" >and </New>
+<Verbatim PAsource="" >John Roylance, </Verbatim>
+<New PAsource="" >its former chief executive.</New>
+
+
+<Verbatim PAsource="" >Janardhan Dhasmana, </Verbatim>
+<New PAsource="" >who worked with Mr </New>
+<Verbatim PAsource="" >Wisheart, </Verbatim>
+<Verbatim PAsource="" >was banned from operating on children for three years </Verbatim>
+<New PAsource="" >and later sacked.
+
+All three doctors were found </New>
+<Verbatim PAsource="" >guilty of serious professional misconduct.</Verbatim>
+
+
+<Verbatim PAsource="" >The inquiry </Verbatim>
+<Verbatim PAsource="" >is considering </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >deaths </Verbatim>
+<Rewrite PAsource="" >of some </Rewrite>
+<Verbatim PAsource="" >2,000 </Verbatim>
+<Rewrite PAsource="" >babies.</Rewrite>
+
+</body>
+</meterdocument>

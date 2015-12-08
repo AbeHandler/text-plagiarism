@@ -1,0 +1,21 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/16.07.99/teacher/teacher109_times.sgml" newspaper="times" domain="courts" classification="wholly-derived" pagenumber="13" date="16.07.99" catchline="teacher">
+
+<body>
+
+
+<Verbatim PAsource="" >John Skermer, 51, a maths teacher at King Henry VIII School, Coventry, </Verbatim>
+<Rewrite PAsource="" >was given </Rewrite>
+<Verbatim PAsource="" >a three-month suspended </Verbatim>
+<Rewrite PAsource="" >prison sentence by </Rewrite>
+<Verbatim PAsource="" >Warwick Crown Court </Verbatim>
+<Rewrite PAsource="" >after </Rewrite>
+<Verbatim PAsource="" >he admitted taking indecent photographs of </Verbatim>
+<Rewrite PAsource="" >pupils.</Rewrite>
+
+
+
+</body>
+</meterdocument>

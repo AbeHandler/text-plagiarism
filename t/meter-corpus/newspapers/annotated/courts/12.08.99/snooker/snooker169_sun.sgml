@@ -1,0 +1,51 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.08.99/snooker/snooker169_sun.sgml" newspaper="sun" domain="courts" classification="partially-derived" pagenumber="1" date="12.08.99" catchline="snooker">
+
+<body>
+
+
+<Verbatim PAsource="" >THE Metropolitan Police </Verbatim>
+<Rewrite PAsource="" >faced </Rewrite>
+<Verbatim PAsource="" >a </Verbatim>
+<Rewrite PAsource="" >new </Rewrite>
+<Verbatim PAsource="" >race </Verbatim>
+<Rewrite PAsource="" >storm </Rewrite>
+<Verbatim PAsource="" >last night after a black </Verbatim>
+<Rewrite PAsource="" >WPC </Rewrite>
+<Verbatim PAsource="" >was cleared of </Verbatim>
+<Rewrite PAsource="" >assaulting </Rewrite>
+<Verbatim PAsource="" >a </Verbatim>
+<Rewrite PAsource="" >white </Rewrite>
+<Verbatim PAsource="" >sergeant with a snooker cue.
+</Verbatim>
+
+<Verbatim PAsource="" >Joy Hendricks, </Verbatim>
+<New PAsource="" >35, </New>
+<Rewrite PAsource="" >who claims she suffered </Rewrite>
+<Verbatim PAsource="" >five years of racist abuse, </Verbatim>
+<New PAsource="" >wept </New>
+<Rewrite PAsource="" >as a </Rewrite>
+<Verbatim PAsource="" >court </Verbatim>
+<Rewrite PAsource="" >accepted </Rewrite>
+<Verbatim PAsource="" >she acted in self-defence.
+</Verbatim>
+
+<Verbatim PAsource="" >She claimed </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >row </Verbatim>
+<Rewrite PAsource="" >flared after </Rewrite>
+<Verbatim PAsource="" >Sgt Mark Workman, 36, </Verbatim>
+<New PAsource="" >made a </New>
+<Rewrite PAsource="" >jibe </Rewrite>
+<New PAsource="" >about murdered black teenager Stephen </New>
+<Verbatim PAsource="" >Lawrence. </Verbatim>
+<Verbatim PAsource="" >Joy said </Verbatim>
+<Rewrite PAsource="" >afterwards: </Rewrite>
+<Verbatim PAsource="" >"This is going to open a can of worms."
+</Verbatim>
+
+
+</body>
+</meterdocument>

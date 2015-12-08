@@ -1,0 +1,53 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/04.10.99/patient/patient226_mirror.sgml" newspaper="mirror" domain="courts" classification="non-derived" pagenumber="19" date="04.10.99" catchline="patient">
+
+<body>
+
+
+<Verbatim PAsource="" >A </Verbatim>
+<Rewrite PAsource="" >PENSIONER </Rewrite>
+<Verbatim PAsource="" >died </Verbatim>
+<Rewrite PAsource="" >after </Rewrite>
+<New PAsource="" >a catalogue of </New>
+<Rewrite PAsource="" >blunders by </Rewrite>
+<Verbatim PAsource="" >nursing home staff, a court </Verbatim>
+<Rewrite PAsource="" >was told yesterday.
+</Rewrite>
+
+<Verbatim PAsource="" >A nurse gave Billy Brettwood, 77, a </Verbatim>
+<Rewrite PAsource="" >huge </Rewrite>
+<Verbatim PAsource="" >morphine overdose. </Verbatim>
+<Rewrite PAsource="" >But the pain-killer was </Rewrite>
+<Verbatim PAsource="" >meant for a </Verbatim>
+<Rewrite PAsource="" >dying man </Rewrite>
+<Verbatim PAsource="" >in the next room.
+</Verbatim>
+
+<Rewrite PAsource="" >The acting matron </Rewrite>
+<Verbatim PAsource="" >at the home in Seaham, </Verbatim>
+<Rewrite PAsource="" >Co </Rewrite>
+<Verbatim PAsource="" >Durham, </Verbatim>
+<Rewrite PAsource="" >let her give </Rewrite>
+<Verbatim PAsource="" >the drug alone </Verbatim>
+<Rewrite PAsource="" >despite a rule that </Rewrite>
+<Verbatim PAsource="" >two nurses </Verbatim>
+<Rewrite PAsource="" >must do it.
+</Rewrite>
+
+<New PAsource="" >A doctor ordered Billy to be monitored instead of calling for an ambulance. But a night nurse left him unchecked for three hours.
+</New>
+
+<Verbatim PAsource="" >All </Verbatim>
+<Rewrite PAsource="" >four </Rewrite>
+<Verbatim PAsource="" >deny man slaughter. 
+</Verbatim>
+
+<Verbatim PAsource="" >The Teesside </Verbatim>
+<Rewrite PAsource="" >trial continues.
+</Rewrite>
+
+
+</body>
+</meterdocument>

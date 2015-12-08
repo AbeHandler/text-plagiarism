@@ -1,0 +1,57 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/02.11.99/plane/plane298_telegraph.sgml" newspaper="telegraph" domain="courts" classification="partially-derived" pagenumber="11" date="02.11.99" catchline="plane">
+
+<body>
+
+
+<Verbatim PAsource="" >AN 11-year-old boy was killed when a model aeroplane </Verbatim>
+<New PAsource="" >crashed into him at 70mph after its pilot lost control, </New>
+<Verbatim PAsource="" >an inquest </Verbatim>
+<Rewrite PAsource="" >was told yesterday.
+</Rewrite>
+
+<Verbatim PAsource="" >Adam Kirby, from Watford, </Verbatim>
+<New PAsource="" >was unable to hear warning calls from other members of the </New>
+<Verbatim PAsource="" >Phoenix Model Flying Club </Verbatim>
+<New PAsource="" >because of the noise made by another aeroplane that was sitting on the ground, the inquest at </New>
+<Verbatim PAsource="" >St Albans </Verbatim>
+<New PAsource="" >heard.
+</New>
+
+<New PAsource="" >The accident happened in March, when Adam's father Alan took him to the club on </New>
+<Verbatim PAsource="" >Colney Heath</Verbatim>
+<New PAsource="" >, Hertfordshire, for the first time.
+</New>
+
+<New PAsource="" >A post-mortem examination revealed that Adam died instantly from severe skull fractures and brain injuries.
+</New>
+
+<New PAsource="" >The plane, flown by </New>
+<Verbatim PAsource="" >Graham Reid, </Verbatim>
+<New PAsource="" >an examiner for the British Model Flying Association, went out of control because another pilot was sharing the same frequency, the inquest was told.
+</New>
+
+<New PAsource="" >The club operated a system where fliers would stake a claim to a particular frequency by putting a named and numbered clothes peg on a large board.
+</New>
+
+<New PAsource="" >Mr Reid's friend </New>
+<Verbatim PAsource="" >Timothy Jenkinson </Verbatim>
+<New PAsource="" >had earlier placed an unmarked peg on the board to claim </New>
+<Verbatim PAsource="" >frequency 67. </Verbatim>
+<New PAsource="" >He took turns with Mr Reid flying their model aircraft.
+</New>
+
+<New PAsource="" >Shortly afterwards </New>
+<Verbatim PAsource="" >a 14-year-old boy, </Verbatim>
+<New PAsource="" >who cannot be named for legal reasons, began flying his model aeroplane on the same frequency after removing the blank peg from the board.
+</New>
+
+<Verbatim PAsource="" >Verdict</Verbatim>
+<New PAsource="" >: accidental death.
+</New>
+
+
+</body>
+</meterdocument>

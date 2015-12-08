@@ -1,0 +1,33 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/footballer/footballer323_mirror.sgml" newspaper="mirror" domain="courts" classification="wholly-derived" pagenumber="18" date="08.12.99" catchline="footballer">
+
+<body>
+
+
+<Verbatim PAsource="" >WALES and Blackburn Rovers footballer Nathan Blake was </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >cleared of obstructing a police officer and harassment after an argument in a kebab shop.
+</Verbatim>
+
+<Verbatim PAsource="" >The 27-year-old black striker was arrested after his friend Anthony Chambers </Verbatim>
+<Rewrite PAsource="" >was racially abused.
+</Rewrite>
+
+<Verbatim PAsource="" >During the </Verbatim>
+<Rewrite PAsource="" >hearing </Rewrite>
+<Verbatim PAsource="" >at Newport, South Wales, Blake </Verbatim>
+<Rewrite PAsource="" >told of the </Rewrite>
+<Verbatim PAsource="" >everyday abuse he </Verbatim>
+<Rewrite PAsource="" >suffers. Later his </Rewrite>
+<Verbatim PAsource="" >lawyer said </Verbatim>
+<Rewrite PAsource="" >he was </Rewrite>
+<New PAsource="" >"pleased" </New>
+<Rewrite PAsource="" >at the outcome.
+</Rewrite>
+
+
+
+</body>
+</meterdocument>

@@ -1,0 +1,23 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/10.08.99/aled/aled38_mirror.sgml" newspaper="mirror" domain="showbiz" classification="wholly-derived" pagenumber="8" date="10.08.99" catchline="aled">
+
+<body>
+
+
+<Verbatim PAsource="" >CHILD singing star Aled Jones, </Verbatim>
+<Rewrite PAsource="" >now </Rewrite>
+<Verbatim PAsource="" >28,</Verbatim>
+<Verbatim PAsource="" > has recorded a duet </Verbatim>
+<Verbatim PAsource="" >with </Verbatim>
+<Rewrite PAsource="" >himself at the age of 13 for an </Rewrite>
+<Verbatim PAsource="" >album </Verbatim>
+<Rewrite PAsource="" >due out in </Rewrite>
+<Verbatim PAsource="" >September.</Verbatim>
+<New PAsource="" ></New>
+
+
+
+</body>
+</meterdocument>

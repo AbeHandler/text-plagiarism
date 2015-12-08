@@ -1,0 +1,31 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/07.10.99/beckett/beckett255_telegraph.sgml" newspaper="telegraph" domain="courts" classification="wholly-derived" pagenumber="7" date="07.10.99" catchline="beckett">
+
+<body>
+
+
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >Deputy Chief Constable </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Surrey appeared before magistrates </Verbatim>
+<Verbatim PAsource="" >yesterday accused of indecently assaulting two </Verbatim>
+<Rewrite PAsource="" >female </Rewrite>
+<Verbatim PAsource="" >civilian workers.</Verbatim>
+<New PAsource="" >
+</New>
+
+<Verbatim PAsource="" >Ian Beckett, 53, of Chertsey, </Verbatim>
+<Verbatim PAsource="" >faces four charges of indecent assault. </Verbatim>
+<Verbatim PAsource="" >He was </Verbatim>
+<Rewrite PAsource="" >granted </Rewrite>
+<Verbatim PAsource="" >bail </Verbatim>
+<Rewrite PAsource="" >by </Rewrite>
+<Verbatim PAsource="" >City of London magistrates.</Verbatim>
+<New PAsource="" >
+</New>
+
+
+</body>
+</meterdocument>

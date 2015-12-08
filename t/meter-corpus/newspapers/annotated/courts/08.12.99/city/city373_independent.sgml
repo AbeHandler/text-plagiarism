@@ -1,0 +1,27 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/city/city373_independent.sgml" newspaper="independent" domain="courts" classification="wholly-derived" pagenumber="10" date="08.12.99" catchline="city">
+
+<body>
+
+
+<Verbatim PAsource="" >A PEACEFUL Reclaim the Streets protester, Anthony Jones, 35, </Verbatim>
+<Rewrite PAsource="" >who was swept </Rewrite>
+<Verbatim PAsource="" >by a violent mob </Verbatim>
+<Rewrite PAsource="" >into </Rewrite>
+<Verbatim PAsource="" >a London financial trading centre, was </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >cleared </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >court of violent disorder. </Verbatim>
+<Rewrite PAsource="" >Mr </Rewrite>
+<Verbatim PAsource="" >Jones, </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >welder, of no fixed address, </Verbatim>
+<Rewrite PAsource="" >had been identified from a newspaper photograph.</Rewrite>
+
+
+
+</body>
+</meterdocument>

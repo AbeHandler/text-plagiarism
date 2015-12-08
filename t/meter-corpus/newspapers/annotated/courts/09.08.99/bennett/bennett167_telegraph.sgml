@@ -1,0 +1,25 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/09.08.99/bennett/bennett167_telegraph.sgml" newspaper="telegraph" domain="courts" classification="wholly-derived" pagenumber="2" date="09.08.99" catchline="bennett">
+
+<body>
+
+ 
+<Verbatim PAsource="" >Thomas AlIsop, 45, </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Ludlow Square </Verbatim>
+<Rewrite PAsource="" >in north </Rewrite>
+<Verbatim PAsource="" >Belfast, appeared in court </Verbatim>
+<Rewrite PAsource="" >yesterday charged </Rewrite>
+<Verbatim PAsource="" >with the murder of </Verbatim>
+<Rewrite PAsource="" >Mr </Rewrite>
+<Verbatim PAsource="" >Bennett. </Verbatim>
+<Verbatim PAsource="" >He was remanded in custody </Verbatim>
+<Rewrite PAsource="" >until </Rewrite>
+<Verbatim PAsource="" >Aug 25.	
+</Verbatim>
+
+
+</body>
+</meterdocument>

@@ -1,0 +1,24 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/07.10.99/beckett/beckett249_times.sgml" newspaper="times" domain="courts" classification="wholly-derived" pagenumber="13" date="07.10.99" catchline="beckett">
+
+<body>
+
+
+<Verbatim PAsource="" >Ian Beckett, 52, </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >Deputy Chief Constable of Surrey Police, </Verbatim>
+<Rewrite PAsource="" >has </Rewrite>
+<Verbatim PAsource="" >been </Verbatim>
+<Rewrite PAsource="" >remanded </Rewrite>
+<Verbatim PAsource="" >by London magistrates on four charges of indecent assault </Verbatim>
+<Rewrite PAsource="" >against </Rewrite>
+<Verbatim PAsource="" >two women at the </Verbatim>
+<New PAsource="" >Mount Browne </New>
+<Verbatim PAsource="" >headquarters.</Verbatim>
+
+
+
+</body>
+</meterdocument>

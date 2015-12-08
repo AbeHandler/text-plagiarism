@@ -1,0 +1,21 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/01.03.00/wagstaff/wagstaff391_telegraph.sgml" newspaper="telegraph" domain="courts" classification="wholly-derived" pagenumber="16" date="01.03.00" catchline="wagstaff">
+
+<body>
+
+
+<Verbatim PAsource="" >Elizabeth Wagstaff, 38, presenter </Verbatim>
+<Rewrite PAsource="" >of BBC1's </Rewrite>
+<Verbatim PAsource="" >Changing Rooms, </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >denied conning colleagues and others out of more than £55,000 by pretending she had terminal cancer.</Verbatim>
+
+
+<Rewrite PAsource="" >She was charged at </Rewrite>
+<Verbatim PAsource="" >Inner London Crown Court with 15 counts of obtaining money by deception and four of obtaining property by deception. </Verbatim>
+<Rewrite PAsource="" >She was bailed.</Rewrite>
+
+</body>
+</meterdocument>

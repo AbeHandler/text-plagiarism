@@ -1,0 +1,27 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/01.03.00/football/football382_star.sgml" newspaper="star" domain="courts" classification="wholly-derived" pagenumber="12" date="01.03.00" catchline="football">
+
+<body>
+
+
+<Verbatim PAsource="" >SIX football fans will</Verbatim>
+<Rewrite PAsource="" > find out </Rewrite>
+<Rewrite PAsource="" >today </Rewrite>
+<Rewrite PAsource="" >whether they have won their fight to stop </Rewrite>
+<Verbatim PAsource="" >Newcastle United </Verbatim>
+<Rewrite PAsource="" >moving </Rewrite>
+<Verbatim PAsource="" >their seats. </Verbatim>
+<Verbatim PAsource="" >Mr Justice Blackburne, sitting at Newcastle High Court, </Verbatim>
+<Rewrite PAsource="" >will reveal </Rewrite>
+<Verbatim PAsource="" >his </Verbatim>
+<Rewrite PAsource="" >decision over the </Rewrite>
+<Verbatim PAsource="" >season ticket holders' </Verbatim>
+<Rewrite PAsource="" >battle </Rewrite>
+<Verbatim PAsource="" >at noon.</Verbatim>
+
+
+
+</body>
+</meterdocument>

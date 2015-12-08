@@ -1,0 +1,22 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/16.07.99/vagrants/vagrants120_telegraph.sgml" newspaper="telegraph" domain="courts" classification="wholly-derived" pagenumber="12" date="16.07.99" catchline="vagrants">
+
+<body>
+
+
+<Verbatim PAsource="" >A woman jailed for life at Reading Crown Court 10 years ago for murdering </Verbatim>
+<Rewrite PAsource="" >two men </Rewrite>
+<Verbatim PAsource="" >who died in a fire at a squat was freed by the Court of Appeal </Verbatim>
+<Rewrite PAsource="" >yesterday.
+</Rewrite>
+
+<Verbatim PAsource="" >Three judges in London ruled that the convictions of Mary Druhan, </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >vagrant now in her fifties, were unsafe.
+</Verbatim>
+
+
+</body>
+</meterdocument>

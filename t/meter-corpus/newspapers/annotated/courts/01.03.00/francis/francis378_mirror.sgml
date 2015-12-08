@@ -1,0 +1,49 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/01.03.00/francis/francis378_mirror.sgml" newspaper="mirror" domain="courts" classification="partially-derived" pagenumber="16" date="01.03.00" catchline="francis">
+
+<body>
+
+
+<New PAsource="" >A FORMER anti-drugs campaigner </New>
+<Rewrite PAsource="" >was jailed for </Rewrite>
+<Verbatim PAsource="" >seven </Verbatim>
+<Rewrite PAsource="" >years - </Rewrite>
+<Verbatim PAsource="" >for </Verbatim>
+<Rewrite PAsource="" >dealing in </Rewrite>
+<Verbatim PAsource="" >heroin.</Verbatim>
+
+
+<New PAsource="" >For four years </New>
+<Verbatim PAsource="" >David Francis, 37, </Verbatim>
+<New PAsource="" >counselled addicts as team leader of a Home Office-funded drug awareness drive.</New>
+
+
+<New PAsource="" >During that time he had high-level meetings with police and gave evidence to a Commons committee. </New>
+<New PAsource="" >But after quitting the job, he cynically supplied the people he had been recruited to help.</New>
+
+
+<Verbatim PAsource="" >Francis, </Verbatim>
+<New PAsource="" >who used boys as young as 12 as couriers, was caught with </New>
+<Verbatim PAsource="" >heroin </Verbatim>
+<New PAsource="" >worth £72,000 </New>
+<Verbatim PAsource="" >after </Verbatim>
+<New PAsource="" >months of surveillance. </New>
+<Rewrite PAsource="" >He admitted at </Rewrite>
+<Verbatim PAsource="" >Nottingham Crown Court </Verbatim>
+<New PAsource="" >possessing </New>
+<Verbatim PAsource="" >heroin. </Verbatim>
+<Rewrite PAsource="" >Two of his lieutenants were given jail terms totalling </Rewrite>
+<New PAsource="" >10 </New>
+<Verbatim PAsource="" >and a half years.</Verbatim>
+
+
+<New PAsource="" >Jailing </New>
+<Verbatim PAsource="" >Francis, Judge Dudley Bennett </Verbatim>
+<New PAsource="" >said "You more than anybody else should have known the misery of people who had become addicted."</New>
+
+
+
+</body>
+</meterdocument>

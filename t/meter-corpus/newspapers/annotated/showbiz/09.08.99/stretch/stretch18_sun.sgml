@@ -1,0 +1,66 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/09.08.99/stretch/stretch18_sun.sgml" newspaper="sun" domain="showbiz" classification="non-derived" pagenumber="15" date="09.08.99" catchline="stretch">
+
+<body>
+
+
+<Verbatim PAsource="" >ANGIE </Verbatim>
+<New PAsource="" >was back in the arms of </New>
+<Verbatim PAsource="" >Dirty Den </Verbatim>
+<New PAsource="" >yesterday - as the pair were pictured together </New>
+<Verbatim PAsource="" >for the first time since </Verbatim>
+<New PAsource="" >their </New>
+<Verbatim PAsource="" >EastEnders </Verbatim>
+<New PAsource="" >days ten years ago.
+</New>
+
+<Verbatim PAsource="" >Leslie Grantham and Anita Dobson, </Verbatim>
+<New PAsource="" >whose soap marriage battles wowed millions, are playing </New>
+<Rewrite PAsource="" >husband </Rewrite>
+<Verbatim PAsource="" >and wife on screen again.
+</Verbatim>
+
+<Verbatim PAsource="" >Leslie, </Verbatim>
+<New PAsource="" >52, </New>
+<Rewrite PAsource="" >stars as crook </Rewrite>
+<Verbatim PAsource="" >Terry Green and Anita, </Verbatim>
+<New PAsource="" >50, </New>
+<Rewrite PAsource="" >is </Rewrite>
+<Verbatim PAsource="" >his long-suffering wife Sam in The Stretch.
+</Verbatim>
+
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >four-part drama will be </Verbatim>
+<Rewrite PAsource="" >screened </Rewrite>
+<Verbatim PAsource="" >on Sky Premier next year. </Verbatim>
+<Verbatim PAsource="" >Leslie, </Verbatim>
+<New PAsource="" >who played the Queen Vic's landlord, </New>
+<Verbatim PAsource="" >said: "</Verbatim>
+<Rewrite PAsource="" >TV </Rewrite>
+<Verbatim PAsource="" >companies have been trying to get us together </Verbatim>
+<New PAsource="" >again </New>
+<Verbatim PAsource="" >for years. </Verbatim>
+<Verbatim PAsource="" >Now the time is right".
+</Verbatim>
+
+<Verbatim PAsource="" >Anita </Verbatim>
+<New PAsource="" >- former lover of Queen rocker Brian May, 51 - </New>
+<Verbatim PAsource="" >said: "It wasn't until I left </Verbatim>
+<New PAsource="" >EastEnders </New>
+<Verbatim PAsource="" >that I realised how much people loved us. </Verbatim>
+<Verbatim PAsource="" >Sam is more together </Verbatim>
+<New PAsource="" >than Angle. </New>
+<New PAsource="" >But </New>
+<Verbatim PAsource="" >when Terry </Verbatim>
+<New PAsource="" >is </New>
+<Verbatim PAsource="" >arrested everything </Verbatim>
+<New PAsource="" >seems </New>
+<Verbatim PAsource="" >under threat."
+</Verbatim>
+
+
+
+</body>
+</meterdocument>

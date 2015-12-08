@@ -1,0 +1,36 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/09.08.99/spray/spray161_telegraph.sgml" newspaper="telegraph" domain="courts" classification="wholly-derived" pagenumber="5" date="09.08.99" catchline="spray">
+
+<body>
+
+
+<Verbatim PAsource="" >A police officer </Verbatim>
+<Verbatim PAsource="" >broke down in tears </Verbatim>
+<Rewrite PAsource="" >when a </Rewrite>
+<Verbatim PAsource="" >jury at Manchester Crown Court </Verbatim>
+<Rewrite PAsource="" >cleared </Rewrite>
+<New PAsource="" >him of </New>
+<Verbatim PAsource="" >assaulting three people, </Verbatim>
+<Verbatim PAsource="" >including a female colleague, </Verbatim>
+<Verbatim PAsource="" >with </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >CS spray.</Verbatim>
+
+<New PAsource="" ></New>
+
+<New PAsource="" >Pc </New>
+<Verbatim PAsource="" >Andrew Bateson, 28, </Verbatim>
+<Verbatim PAsource="" >of Greater Manchester Police, </Verbatim>
+<Rewrite PAsource="" >had denied </Rewrite>
+<Verbatim PAsource="" >three charges of causing actual bodily harm </Verbatim>
+<Verbatim PAsource="" >while breaking up </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >disturbance in Bolton, Greater Manchester, in November 1997.</Verbatim>
+
+<New PAsource="" ></New>
+
+
+</body>
+</meterdocument>

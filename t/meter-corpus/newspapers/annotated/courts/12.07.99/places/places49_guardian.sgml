@@ -1,0 +1,150 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.07.99/places/places49_guardian.sgml" newspaper="guardian" domain="courts" classification="partially-derived" pagenumber="5" date="12.07.99" catchline="places">
+
+<body>
+
+
+<Rewrite PAsource="" >A high court judge yesterday </Rewrite>
+<Verbatim PAsource="" >accused </Verbatim>
+<Rewrite PAsource="" >Tony Blair </Rewrite>
+<Verbatim PAsource="" >of breaking </Verbatim>
+<Rewrite PAsource="" >election </Rewrite>
+<Verbatim PAsource="" >promises </Verbatim>
+<Rewrite PAsource="" >that </Rewrite>
+<Verbatim PAsource="" >Labour would allow children to keep </Verbatim>
+<Rewrite PAsource="" >their </Rewrite>
+<Verbatim PAsource="" >assisted places at private schools.</Verbatim>
+
+
+<Verbatim PAsource="" >Mr Justice Maurice Kay said the prime minister </Verbatim>
+<Rewrite PAsource="" >gave </Rewrite>
+<Verbatim PAsource="" >"an incorrect representation of policy" </Verbatim>
+<Rewrite PAsource="" >when he wrote last year that no pupil would lose out.</Rewrite>
+
+
+<Rewrite PAsource="" >He also criticised </Rewrite>
+<Verbatim PAsource="" >David Blunkett, education and employment secretary</Verbatim>
+<Rewrite PAsource="" >, for giving a false sense of reassurance to parents of children at a fee-paying prep school that they would continue to get the subsidy after transfer to an attached senior school.</Rewrite>
+
+
+<Verbatim PAsource="" >It is a sorry state of affairs when </Verbatim>
+<Rewrite PAsource="" >a secretary of state </Rewrite>
+<Verbatim PAsource="" >has to explain away his own letters as mistaken </Verbatim>
+<Rewrite PAsource="" >or </Rewrite>
+<Verbatim PAsource="" >unclear and a statement </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >the prime minister as an incorrect representation of policy taken out of context," the judge said </Verbatim>
+<Rewrite PAsource="" >at the high court in London.</Rewrite>
+
+
+<Rewrite PAsource="" >He ruled that Mr Blunkett did not act unlawfully when he </Rewrite>
+<Verbatim PAsource="" >decided last year </Verbatim>
+<Rewrite PAsource="" >that </Rewrite>
+<Verbatim PAsource="" >Heather Begbie, 10, </Verbatim>
+<Rewrite PAsource="" >should not be entitled to an assisted place when she transfers next term to the </Rewrite>
+<Verbatim PAsource="" >Leys school, Cambridge, </Verbatim>
+<Rewrite PAsource="" >from </Rewrite>
+<Verbatim PAsource="" >St Faith's</Verbatim>
+<Rewrite PAsource="" >, its </Rewrite>
+<Verbatim PAsource="" >junior </Verbatim>
+<Rewrite PAsource="" >branch.</Rewrite>
+
+
+<Rewrite PAsource="" >Her mother, Rachel, had </Rewrite>
+<Verbatim PAsource="" >accused </Verbatim>
+<Rewrite PAsource="" >Mr </Rewrite>
+<Verbatim PAsource="" >Blunkett of breaking pre-election and post-election promises that pupils in her daughter's position would keep their assisted places until </Verbatim>
+<Rewrite PAsource="" >aged </Rewrite>
+<Verbatim PAsource="" >18</Verbatim>
+<Rewrite PAsource="" >.</Rewrite>
+
+
+<Rewrite PAsource="" >The judge </Rewrite>
+<Verbatim PAsource="" >ruled that such promises were "irrelevant" and Mr Blunkett, when in goverment, was bound by policy at the time. </Verbatim>
+<Verbatim PAsource="" >To decide otherwise would be </Verbatim>
+<Rewrite PAsource="" >an interference </Rewrite>
+<Verbatim PAsource="" >with his statutory duty.</Verbatim>
+
+
+<Rewrite PAsource="" >The case centred on Labour's promise before the last </Rewrite>
+<Verbatim PAsource="" >election </Verbatim>
+<Rewrite PAsource="" >to phase out </Rewrite>
+<Verbatim PAsource="" >the assisted places scheme, </Verbatim>
+<New PAsource="" >saving £180m a year that could be diverted into cutting class sizes for under-sevens in all primary schools.</New>
+
+
+<Rewrite PAsource="" >Mr Blunkett gave assurances that pupils with assisted places at independent secondary schools would keep them until completing their private education. </Rewrite>
+<New PAsource="" >In most of his public statements on the topic, </New>
+<Rewrite PAsource="" >he warned that those with assisted places at prep schools would lose them when transferring to secondary school.</Rewrite>
+
+
+<New PAsource="" >But the court was told of a series of letters that led parents to believe that the subsidies would continue.</New>
+
+
+<Verbatim PAsource="" >A Labour party official told </Verbatim>
+<Rewrite PAsource="" >one </Rewrite>
+<Verbatim PAsource="" >mother that a pupil with an assisted place at an "all through" school </Verbatim>
+<Rewrite PAsource="" >(with junior and senior branches) would keep the subsidy until </Rewrite>
+<Verbatim PAsource="" >18</Verbatim>
+<Rewrite PAsource="" >.</Rewrite>
+
+
+<Rewrite PAsource="" >Mr Blair said in a letter to the Evening Standard </Rewrite>
+<Verbatim PAsource="" >in February </Verbatim>
+<Rewrite PAsource="" >last year: </Rewrite>
+<Verbatim PAsource="" >"No child currently at private school under the scheme who has already got a place has lost out. They will be able to continue their education".</Verbatim>
+
+
+<Rewrite PAsource="" >A month later Mr </Rewrite>
+<Verbatim PAsource="" >Blunkett </Verbatim>
+<Rewrite PAsource="" >told </Rewrite>
+<Verbatim PAsource="" >Mrs B Teed, a grandparent, that where there had been "a clear promise" of a place at an "all through" school "we have agreed to honour that promise".</Verbatim>
+
+
+<Verbatim PAsource="" >In </Verbatim>
+<Rewrite PAsource="" >the same month he </Rewrite>
+<Verbatim PAsource="" >wrote to Mrs Begbie saying that undertakings given during the passage of the bill phasing out the assisted places scheme "will be met".</Verbatim>
+
+
+<Verbatim PAsource="" >But Mrs Begbie was then told her daughter's place would not be funded after she </Verbatim>
+<Rewrite PAsource="" >finished </Rewrite>
+<Verbatim PAsource="" >her primary education at the end of </Verbatim>
+<Rewrite PAsource="" >that </Rewrite>
+<Verbatim PAsource="" >school year</Verbatim>
+<Rewrite PAsource="" >. </Rewrite>
+<New PAsource="" >She appealed under rules allowing parents to claim continued subsidy if a child's education would be disrupted for medical or other special reasons.</New>
+
+
+<Verbatim PAsource="" >Philip Engelman, appearing for the family, argued that Mr Biunkett's decision was "irrational and unreasonable" and breached the European convention on human rights.</Verbatim>
+
+
+<Verbatim PAsource="" >But the judge agreed with Neil Garnham, appearing for the department for education and employment, who argued the government had been folowing a lawful policy.</Verbatim>
+
+
+<Verbatim PAsource="" >Mr Justice Kay said that, although the letters of reassurance sent to Mrs Teed and Mrs Begbie "do the secretary of state no credit", they did not provide </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >legal </Verbatim>
+<Rewrite PAsource="" >basis </Rewrite>
+<Verbatim PAsource="" >for a successful application for judicial review.</Verbatim>
+
+
+<Verbatim PAsource="" >James Clappison, </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >Conservative education spokesman, said: "The general conduct of the government is shameful. Ministers should be ashamed of themselves for falling to keep the pre-election promises given to the parents."</Verbatim>
+
+
+<New PAsource="" >But a DFEE spokeswoman said Mr Blunkett clearly set out the policy on many occasions. </New>
+<Rewrite PAsource="" >He had used his discretionary powers to continue subsidies for </Rewrite>
+<Verbatim PAsource="" >184 </Verbatim>
+<Rewrite PAsource="" >children in special circumstances - </Rewrite>
+<Verbatim PAsource="" >more than half </Verbatim>
+<Rewrite PAsource="" >the cases in which parents appealed.</Rewrite>
+
+
+
+
+
+</body>
+</meterdocument>

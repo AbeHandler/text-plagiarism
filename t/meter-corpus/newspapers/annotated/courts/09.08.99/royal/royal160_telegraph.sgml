@@ -1,0 +1,42 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/09.08.99/royal/royal160_telegraph.sgml" newspaper="telegraph" domain="courts" classification="partially-derived" pagenumber="2" date="09.08.99" catchline="royal">
+
+<body>
+
+
+<Verbatim PAsource="" >A driver was </Verbatim>
+<Rewrite PAsource="" >almost three times </Rewrite>
+<Verbatim PAsource="" >over the limit when he crashed </Verbatim>
+<Rewrite PAsource="" >into </Rewrite>
+<New PAsource="" >Queen Elizabeth </New>
+<Verbatim PAsource="" >the Queen Mother's Daimler </Verbatim>
+<Rewrite PAsource="" >then </Rewrite>
+<Verbatim PAsource="" >fled</Verbatim>
+<Rewrite PAsource="" >, a court was told yesterday.</Rewrite>
+
+
+<Verbatim PAsource="" >Eamon Reidy, 32, reversed </Verbatim>
+<Rewrite PAsource="" >away but crashed his </Rewrite>
+<Verbatim PAsource="" >Citroen BX </Verbatim>
+<Rewrite PAsource="" >into </Rewrite>
+<Verbatim PAsource="" >a wall </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >Egham, </Verbatim>
+<New PAsource="" >near Windsor Great Park, </New>
+<Verbatim PAsource="" >Surrey. </Verbatim>
+<Rewrite PAsource="" >He then ran off and was caught after a mile-and-a-half chase.</Rewrite>
+
+
+<Verbatim PAsource="" >Reidy of Langley, Berks, was banned for two years and fined £700 </Verbatim>
+<Rewrite PAsource="" >with </Rewrite>
+<Verbatim PAsource="" >£50 costs </Verbatim>
+<Rewrite PAsource="" >by </Rewrite>
+<Verbatim PAsource="" >magistrates </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >Woking, Surrey</Verbatim>
+<New PAsource="" >, after admitting drink-driving and failing to stop after an accident.</New>
+
+</body>
+</meterdocument>

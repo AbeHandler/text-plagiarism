@@ -1,0 +1,33 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/01.03.00/diver/diver396_guardian.sgml" newspaper="guardian" domain="courts" classification="wholly-derived" pagenumber="10" date="01.03.00" catchline="diver">
+
+<body>
+
+
+<Verbatim PAsource="" >A deep-sea diver who </Verbatim>
+<Rewrite PAsource="" >broke his </Rewrite>
+<Verbatim PAsource="" >back in an accident hundreds of feet under the North Sea has received £115,000 in an out-of-court settlement, it was revealed </Verbatim>
+<Rewrite PAsource="" >yesterday. </Rewrite>
+<Verbatim PAsource="" >Andrew Binney, 46, fractured his back in two places after a crane on a support ship lowered a metal lifting frame on top of him while he was working off the coast of Denmark. </Verbatim>
+<Verbatim PAsource="" >He returned to work six months after the accident in 1992 but two years </Verbatim>
+<Rewrite PAsource="" >later </Rewrite>
+<Verbatim PAsource="" >doctors declared him medically unfit to continue. </Verbatim>
+<Verbatim PAsource="" >He took out a civil action against his former employer, Aberdeen-based Rockwater, claiming £300,000 in lost earnings. </Verbatim>
+<Verbatim PAsource="" >The company argued that the accident was Mr Binney's fault because he had breached safety procedures by working underneath the lifting frame. </Verbatim>
+<Verbatim PAsource="" >But Mr Binney, of Crookes, Sheffield, claimed the company was to blame because his supervisor failed to check whether he was under the frame before passing on his request to lower the crane. </Verbatim>
+<Verbatim PAsource="" >The £115,000 settlement was agreed out of court yesterday, halting proceedings in Sheffield high court and ending an eight-year legal fight.</Verbatim>
+
+
+<Verbatim PAsource="" >The court was told the settlement meant the blame was split between the company and Mr Binney.</Verbatim>
+
+
+<Verbatim PAsource="" >After leaving his job Mr Binney, who has a partner and two children, was forced to sell his £200,000 detached home to make ends meet. "I'm not saying we are on the streets but our lives have changed because of this accident. What I have been given is the equivalent of a year's salary."</Verbatim>
+
+
+<Verbatim PAsource="" >He now works part-time for Sainsbury's Homebase. </Verbatim>
+<Verbatim PAsource="" >A Rockwater spokesman said that the company had no comment to make.</Verbatim>
+
+</body>
+</meterdocument>

@@ -1,0 +1,61 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/08.08.99/plaque/plaque17_guardian.sgml" newspaper="guardian" domain="showbiz" classification="partially-derived" pagenumber="7" date="08.08.99" catchline="plaque">
+
+<body>
+
+
+<Verbatim PAsource="" >A blue plaque </Verbatim>
+<Rewrite PAsource="" >to </Rewrite>
+<Verbatim PAsource="" >honour the Manchester-born comedian Les Dawson was unveiled </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >at </Verbatim>
+<Rewrite PAsource="" >the city's </Rewrite>
+<Verbatim PAsource="" >Palace theatre.
+</Verbatim>
+
+<Verbatim PAsource="" >The tribute to </Verbatim>
+<Rewrite PAsource="" >the exponent </Rewrite>
+<Verbatim PAsource="" >of the mother-in-law joke and former host of BBC1's Blankety Blank </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >unveiled by his close friend and comedy partner Roy Barraclough Coronation Street's Alec Gilroy.
+</Verbatim>
+
+<New PAsource="" >Speaking from the steps of the theatre, in front of more than 100 of Dawson's fans, Barraclough said: "He really was a one off. He was wonderfully funny, offstage and on it." </New>
+<New PAsource="" >The comedian Ken Dodd said: "I'm sure Les would be delighted to see he had kept so many people out of church!"
+</New>
+
+<Verbatim PAsource="" >The ceremony </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >followed by the unveiling Of a second plaque, </Verbatim>
+<New PAsource="" >by Nicholas Parsons, </New>
+<Verbatim PAsource="" >honouring one of Dawson's greatest influences, the late Rochdale-born variety star Norman Evans.
+</Verbatim>
+
+<Verbatim PAsource="" >Dawson, who died in 1993, rated Evans as one of the funniest comedians of his era and regularly named him as an inspiration. </Verbatim>
+<Verbatim PAsource="" >Both comedians played </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >Manchester theatres regularly.
+</Verbatim>
+
+<Verbatim PAsource="" >Dawson received the honour from Comic Heritage in conjunction with his widow Tracey, </Verbatim>
+<New PAsource="" >who said Les would have been delighted.
+</New>
+
+<Verbatim PAsource="" >Comic Heritage combines the commemoration of Britain's comedy heritage with charity fund-raising. </Verbatim>
+<Verbatim PAsource="" >Since 1991, more than 30 comedians have been honoured.</Verbatim>
+<New PAsource="" >A ministatue of the comedian was auctioned at the meal to raise funds to have a life-size version erected on Blackpool Promenade, near the theatres where the star often played and not far from his family home in Lytham St Anne's.
+</New>
+
+<Verbatim PAsource="" >Profits from the tributes in Manchester will be donated to the local division of Childline, as well as other national charities supported by </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >Comic Heritage Charitable Trust.
+
+
+</Verbatim>
+
+
+
+</body>
+</meterdocument>

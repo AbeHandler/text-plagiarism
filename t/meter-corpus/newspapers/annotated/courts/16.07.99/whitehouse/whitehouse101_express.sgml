@@ -1,0 +1,32 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/16.07.99/whitehouse/whitehouse101_express.sgml" newspaper="express" domain="courts" classification="wholly-derived" pagenumber="32" date="16.07.99" catchline="whitehouse">
+
+<body>
+
+
+<Verbatim PAsource="" >CHIEF constable's daughter Frances Whitehouse assaulted two </Verbatim>
+<Rewrite PAsource="" >policemen </Rewrite>
+<Verbatim PAsource="" >after drinking a litre of cider, </Verbatim>
+<Rewrite PAsource="" >a court heard yesterday.</Rewrite>
+
+
+<Verbatim PAsource="" >Whitehouse, 18, of Hove, Sussex, swore at one and kicked another </Verbatim>
+<Rewrite PAsource="" >during </Rewrite>
+<Verbatim PAsource="" >a row </Verbatim>
+<Rewrite PAsource="" >with </Rewrite>
+<Verbatim PAsource="" >her boyfriend.</Verbatim>
+
+
+<Rewrite PAsource="" >She </Rewrite>
+<Verbatim PAsource="" >was ordered to do 150 hours' community service and pay the injured </Verbatim>
+<Rewrite PAsource="" >PC </Rewrite>
+<Verbatim PAsource="" >£400 compensation.</Verbatim>
+
+
+
+
+
+</body>
+</meterdocument>

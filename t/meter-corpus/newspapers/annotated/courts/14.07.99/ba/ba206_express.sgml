@@ -1,0 +1,76 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/14.07.99/ba/ba206_express.sgml" newspaper="express" domain="courts" classification="partially-derived" pagenumber="9" date="14.07.99" catchline="ba">
+
+<body>
+
+
+<Rewrite PAsource="" >THE COST of </Rewrite>
+<Verbatim PAsource="" >air </Verbatim>
+<Rewrite PAsource="" >travel is set to fall after </Rewrite>
+<Verbatim PAsource="" >British Airways was fined £4million </Verbatim>
+<Rewrite PAsource="" >and reprimanded for manipulating </Rewrite>
+<Verbatim PAsource="" >travel agents </Verbatim>
+<Rewrite PAsource="" >to give biased advice yesterday.</Rewrite>
+
+
+<Rewrite PAsource="" >In a move designed to boost </Rewrite>
+<Verbatim PAsource="" >competition </Verbatim>
+<Rewrite PAsource="" >among </Rewrite>
+<Verbatim PAsource="" >airlines, </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >European Commission </Verbatim>
+<Rewrite PAsource="" >ruled </Rewrite>
+<Verbatim PAsource="" >that BA had illegally provided cash incentives to </Verbatim>
+<Rewrite PAsource="" >increase </Rewrite>
+<Verbatim PAsource="" >ticket sales.</Verbatim>
+
+
+<Rewrite PAsource="" >Welcoming the verdict, </Rewrite>
+<Verbatim PAsource="" >Richard Branson, </Verbatim>
+<Rewrite PAsource="" >whose </Rewrite>
+<Verbatim PAsource="" >airline Virgin Atlantic triggered the inquiry </Verbatim>
+<Rewrite PAsource="" >with </Rewrite>
+<Verbatim PAsource="" >two complaints, said </Verbatim>
+<Rewrite PAsource="" >he now expected </Rewrite>
+<Verbatim PAsource="" >fares </Verbatim>
+<Rewrite PAsource="" >to fall.</Rewrite>
+
+
+<Verbatim PAsource="" >"For a long time, BA </Verbatim>
+<New PAsource="" >has </New>
+<Verbatim PAsource="" >had the travel trade trapped in the bear hug of their monopolistic control of the British airline markets," </Verbatim>
+<Rewrite PAsource="" >he said.</Rewrite>
+
+
+<Verbatim PAsource="" >"The travel trade will be free to give independent, impartial advice to travellers and offer the best deals on each route without having to meet the pressures of BA's competitive sales targets. </Verbatim>
+<New PAsource="" >For passengers it means competition will increase.</New>
+<Verbatim PAsource="" >"</Verbatim>
+
+
+<Verbatim PAsource="" >British Airways </Verbatim>
+<Rewrite PAsource="" >condemned the fine as </Rewrite>
+<Verbatim PAsource="" >"wrong in fact and law" </Verbatim>
+<Rewrite PAsource="" >and launched an </Rewrite>
+<Verbatim PAsource="" >appeal against the ruling </Verbatim>
+<Rewrite PAsource="" >by </Rewrite>
+<Verbatim PAsource="" >the Commission </Verbatim>
+<New PAsource="" >in one of the EU's top courts.</New>
+
+
+<New PAsource="" >It stressed it did not have the monopoly on sales and emphasised that the so-called fidelity scheme had ended in January.</New>
+
+
+<Verbatim PAsource="" >Mr Branson </Verbatim>
+<New PAsource="" >is now pursuing a similar case in America. </New>
+<New PAsource="" >If he is successful, </New>
+<Verbatim PAsource="" >BA </Verbatim>
+<New PAsource="" >could be forced to pay </New>
+<Verbatim PAsource="" >Virgin </Verbatim>
+<New PAsource="" >billions of pounds.</New>
+
+
+
+</body>
+</meterdocument>

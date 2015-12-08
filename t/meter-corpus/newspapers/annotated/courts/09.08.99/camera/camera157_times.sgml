@@ -1,0 +1,48 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/09.08.99/camera/camera157_times.sgml" newspaper="times" domain="courts" classification="wholly-derived" pagenumber="8" date="09.08.99" catchline="camera">
+
+<body>
+
+
+<Verbatim PAsource="" >A railway engineer was convicted </Verbatim>
+<Verbatim PAsource="" >of indecently assaulting an office worker on a </Verbatim>
+<New PAsource="" >station </New>
+<Verbatim PAsource="" >platform after he was caught on camera. </Verbatim>
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >CCTV video </Verbatim>
+<Rewrite PAsource="" >showed </Rewrite>
+<Verbatim PAsource="" >Paul Frew </Verbatim>
+<Verbatim PAsource="" >attacking </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >24-year-old </Verbatim>
+<Verbatim PAsource="" >woman, </Verbatim>
+<Rewrite PAsource="" >who </Rewrite>
+<Verbatim PAsource="" >had been celebrating St Patrick's Day with fellow workers. </Verbatim>
+<New PAsource="" >She had been </New>
+<Rewrite PAsource="" >drinking and </Rewrite>
+<Verbatim PAsource="" >had no memory of the assault </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >Harrow and Wealdstone station </Verbatim>
+<New PAsource="" >in northwest London.</New>
+
+<New PAsource="" ></New>
+
+<Verbatim PAsource="" >She told the Old Bailey: </Verbatim>
+<Verbatim PAsource="" >"I was shocked and became hysterical when I saw the video. </Verbatim>
+<Verbatim PAsource="" >I don't remember any of it. </Verbatim>
+<Verbatim PAsource="" >That made it all the more upsetting." </Verbatim>
+<Verbatim PAsource="" >Frew, 35, from Milton Keynes </Verbatim>
+<Rewrite PAsource="" >in Bucking hamshire, </Rewrite>
+<Verbatim PAsource="" >was convicted of indecent assault and remanded for pre-sentence reports. </Verbatim>
+<Verbatim PAsource="" >He had denied the charge. </Verbatim>
+<Verbatim PAsource="" >He was cleared of attempted rape on </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >order of the judge.</Verbatim>
+
+<New PAsource="" ></New>
+
+
+</body>
+</meterdocument>

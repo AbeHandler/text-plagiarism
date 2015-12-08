@@ -1,0 +1,59 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/02.11.99/jones/jones272_sun.sgml" newspaper="sun" domain="courts" classification="partially-derived" pagenumber="22" date="02.11.99" catchline="jones">
+
+<body>
+
+
+<Verbatim PAsource="" >SOUTHAMPTON football club manager </Verbatim>
+<Rewrite PAsource="" >David </Rewrite>
+<Verbatim PAsource="" >Jones appeared </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >court </Verbatim>
+<Rewrite PAsource="" >yesterday on </Rewrite>
+<Verbatim PAsource="" >ten child abuse charges.
+</Verbatim>
+
+<Verbatim PAsource="" >Jones, 43, </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >former Everton defender, denied four charges of indecent assault </Verbatim>
+<Rewrite PAsource="" >and </Rewrite>
+<Verbatim PAsource="" >six </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >cruelty </Verbatim>
+<Rewrite PAsource="" >while </Rewrite>
+<Verbatim PAsource="" >he </Verbatim>
+<Rewrite PAsource="" >worked </Rewrite>
+<Verbatim PAsource="" >at a Merseyside </Verbatim>
+<Rewrite PAsource="" >boys' </Rewrite>
+<Verbatim PAsource="" >home </Verbatim>
+<Rewrite PAsource="" >between </Rewrite>
+<Verbatim PAsource="" >1987 </Verbatim>
+<Rewrite PAsource="" >and </Rewrite>
+<Verbatim PAsource="" >1990.
+</Verbatim>
+
+<Verbatim PAsource="" >Father-of-four Jones was </Verbatim>
+<Rewrite PAsource="" >remanded on </Rewrite>
+<Verbatim PAsource="" >bail </Verbatim>
+<Rewrite PAsource="" >by </Rewrite>
+<New PAsource="" >Dale Street </New>
+<Verbatim PAsource="" >magistrates, Liverpool.
+</Verbatim>
+
+<Verbatim PAsource="" >The case </Verbatim>
+<Rewrite PAsource="" >follows </Rewrite>
+<Verbatim PAsource="" >allegations </Verbatim>
+<New PAsource="" >by four former residents at the </New>
+<Verbatim PAsource="" >home </Verbatim>
+<Rewrite PAsource="" >during an ongoing police </Rewrite>
+<Verbatim PAsource="" >investigation </Verbatim>
+<Rewrite PAsource="" >codenamed </Rewrite>
+<Verbatim PAsource="" >"Operation Care".
+</Verbatim>
+
+
+
+</body>
+</meterdocument>

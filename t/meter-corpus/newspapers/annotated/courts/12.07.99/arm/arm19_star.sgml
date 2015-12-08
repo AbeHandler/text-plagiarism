@@ -1,0 +1,25 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.07.99/arm/arm19_star.sgml" newspaper="star" domain="courts" classification="partially-derived" pagenumber="6" date="12.07.99" catchline="arm">
+
+<body>
+
+
+<Verbatim PAsource="" >A FAMILY-RUN timber merchants was yesterday fined £30,000 after worker Tom Harrocks, 17, lost </Verbatim>
+<Rewrite PAsource="" >an </Rewrite>
+<Verbatim PAsource="" >arm </Verbatim>
+<Rewrite PAsource="" >when </Rewrite>
+<Verbatim PAsource="" >it became caught </Verbatim>
+<Rewrite PAsource="" >in machinery. </Rewrite>
+<Verbatim PAsource="" >Wenban-Smith, of Worthing, West Sussex, </Verbatim>
+<Rewrite PAsource="" >admitted </Rewrite>
+<Verbatim PAsource="" >liability for </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >accident last December</Verbatim>
+<Rewrite PAsource="" >.</Rewrite>
+
+
+
+</body>
+</meterdocument>

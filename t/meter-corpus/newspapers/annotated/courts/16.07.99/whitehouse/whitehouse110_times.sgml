@@ -1,0 +1,24 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/16.07.99/whitehouse/whitehouse110_times.sgml" newspaper="times" domain="courts" classification="wholly-derived" pagenumber="13" date="16.07.99" catchline="whitehouse">
+
+<body>
+
+
+<Verbatim PAsource="" >Frances Whitehouse, 18, </Verbatim>
+<Rewrite PAsource="" >from </Rewrite>
+<Verbatim PAsource="" >Hove, the daughter of </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >Chief Constable of Sussex, was ordered to do 150 hours community service </Verbatim>
+<Rewrite PAsource="" >for </Rewrite>
+<Verbatim PAsource="" >assaulting two </Verbatim>
+<Rewrite PAsource="" >of his </Rewrite>
+<Verbatim PAsource="" >officers </Verbatim>
+<Rewrite PAsource="" >while drunk </Rewrite>
+<Verbatim PAsource="" >in Brighton.</Verbatim>
+
+
+
+</body>
+</meterdocument>

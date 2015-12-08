@@ -1,0 +1,62 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/body/body355_telegraph.sgml" newspaper="telegraph" domain="courts" classification="partially-derived" pagenumber="5" date="08.12.99" catchline="body">
+
+<body>
+
+
+<Rewrite PAsource="" >A </Rewrite>
+<Verbatim PAsource="" >SEX offender </Verbatim>
+<New PAsource="" >who </New>
+<Verbatim PAsource="" >boasted </Verbatim>
+<New PAsource="" >in prison that he had got away with killing one woman and had murdered several others was yesterday jailed for life for murdering a young mother whose mutilated body was found in a shallow grave in Surrey.
+</New>
+
+<New PAsource="" >Police say that </New>
+<Verbatim PAsource="" >David Smith, 43, </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Hampton</Verbatim>
+<New PAsource="" >, west London, may be questioned about other unsolved killings.
+</New>
+
+<New PAsource="" >Smith had denied murdering </New>
+<Verbatim PAsource="" >Amanda Walker, 21, </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Leeds, </Verbatim>
+<New PAsource="" >West Yorks. who worked as a prostitute in Paddington.
+</New>
+
+<New PAsource="" >The </New>
+<Verbatim PAsource="" >Old Bailey </Verbatim>
+<New PAsource="" >jury heard that her body was found near Wisley six weeks after she disappeared, but </New>
+<Verbatim PAsource="" >Smith </Verbatim>
+<New PAsource="" >had been charged with her murder three days earlier after his bloodstains and finger prints were found on her belongings.
+</New>
+
+<Verbatim PAsource="" >Stephen Williams, a </Verbatim>
+<New PAsource="" >convicted </New>
+<Verbatim PAsource="" >sex offender, </Verbatim>
+<New PAsource="" >told the court that, while in prison on remand, Smith told him that he had murdered several women and had got away with one killing. </New>
+<New PAsource="" >Williams said Smith described the killings to him.
+</New>
+
+<Verbatim PAsource="" >Smith, </Verbatim>
+<New PAsource="" >who has a conviction for rape, was cleared six years ago of murdering </New>
+<Verbatim PAsource="" >Sarah Crump, 33. </Verbatim>
+<New PAsource="" >Her mutilated body was discovered at her flat in west London.
+</New>
+
+<Verbatim PAsource="" >Sarah Crump's mother, Mrs Pat Rhodes, </Verbatim>
+<Rewrite PAsource="" >issued a </Rewrite>
+<Verbatim PAsource="" >statement </Verbatim>
+<New PAsource="" >to say the family was relieved at yesterday's verdict. </New>
+<Verbatim PAsource="" >"Nothing will bring Sarah back, but we feel there has been unfinished business while Smith has been free. </Verbatim>
+<New PAsource="" >My condolences to the Walker family.</New>
+<Verbatim PAsource="" >"
+</Verbatim>
+
+
+
+</body>
+</meterdocument>

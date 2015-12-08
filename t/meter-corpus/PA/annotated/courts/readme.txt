@@ -1,0 +1,1 @@
+This directory contains 24 sub-directories, each contains PA copy on court cases on the given days identified.  Each day contains a number of catchlines - where a catchline is a word that identifies each court case on a given day.

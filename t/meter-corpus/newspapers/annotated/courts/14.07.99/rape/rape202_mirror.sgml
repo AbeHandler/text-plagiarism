@@ -1,0 +1,65 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/14.07.99/rape/rape202_mirror.sgml" newspaper="mirror" domain="courts" classification="partially-derived" pagenumber="24" date="14.07.99" catchline="rape">
+
+<body>
+
+
+<Rewrite PAsource="" >A WOMAN told </Rewrite>
+<Verbatim PAsource="" >a court </Verbatim>
+<Rewrite PAsource="" >yesterday how she was fondled by a top </Rewrite>
+<Verbatim PAsource="" >gynaecologist </Verbatim>
+<Rewrite PAsource="" >accused of </Rewrite>
+<Verbatim PAsource="" >assaulting </Verbatim>
+<Rewrite PAsource="" >victims </Rewrite>
+<Verbatim PAsource="" >after </Verbatim>
+<Rewrite PAsource="" >putting them in a trance.
+</Rewrite>
+
+<Verbatim PAsource="" >The patient </Verbatim>
+<Rewrite PAsource="" >claims she found herself sitting </Rewrite>
+<Verbatim PAsource="" >on </Verbatim>
+<Rewrite PAsource="" >the specialist's </Rewrite>
+<Verbatim PAsource="" >knee </Verbatim>
+<Rewrite PAsource="" >as </Rewrite>
+<Verbatim PAsource="" >he nibbled </Verbatim>
+<Rewrite PAsource="" >her </Rewrite>
+<Verbatim PAsource="" >ear.
+</Verbatim>
+
+<New PAsource="" >He massaged her over her clothes, </New>
+<Rewrite PAsource="" >passing his </Rewrite>
+<Verbatim PAsource="" >hands over her breasts, she told Manchester Crown Court.
+</Verbatim>
+
+<Verbatim PAsource="" >The </Verbatim>
+<Rewrite PAsource="" >woman, </Rewrite>
+<New PAsource="" >now 47, </New>
+<Verbatim PAsource="" >said Darwish Hasan Darwish </Verbatim>
+<Rewrite PAsource="" >used a </Rewrite>
+<Verbatim PAsource="" >relaxation </Verbatim>
+<Rewrite PAsource="" >technique on </Rewrite>
+<Verbatim PAsource="" >her at St. Catherine's Hospital, </Verbatim>
+<New PAsource="" >Birkenhead.
+</New>
+
+<New PAsource="" >She said. "I had trouble gathering my thoughts. I could not get off his knee."
+</New>
+
+<Verbatim PAsource="" >Darwish, 52, </Verbatim>
+<Rewrite PAsource="" >denies </Rewrite>
+<Verbatim PAsource="" >one charge of rape and 11 </Verbatim>
+<Rewrite PAsource="" >counts </Rewrite>
+<Verbatim PAsource="" >of indecent assault </Verbatim>
+<Rewrite PAsource="" >on patients </Rewrite>
+<New PAsource="" >between </New>
+<Verbatim PAsource="" >1981 </Verbatim>
+<New PAsource="" >and 1990. </New>
+<Verbatim PAsource="" >The </Verbatim>
+<Rewrite PAsource="" >trial continues.
+</Rewrite>
+
+
+</body>
+</meterdocument>

@@ -1,0 +1,19 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/04.10.99/zoo/zoo240_times.sgml" newspaper="times" domain="courts" classification="wholly-derived" pagenumber="2" date="04.10.99" catchline="zoo">
+
+<body>
+
+
+<Verbatim PAsource="" >Chester Zoo in Cheshire lost its High Court battle for the right to be exempt from VAT on admission charges because it provided the public with education </Verbatim>
+<Rewrite PAsource="" >about </Rewrite>
+<Verbatim PAsource="" >animals and the environment. </Verbatim>
+<Verbatim PAsource="" >Permission to appeal </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >refused.</Verbatim>
+
+
+
+</body>
+</meterdocument>

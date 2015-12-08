@@ -1,0 +1,52 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.07.99/boy/boy62_independent.sgml" newspaper="independent" domain="courts" classification="partially-derived" pagenumber="10" date="12.07.99" catchline="boy">
+
+<body>
+
+
+<Rewrite PAsource="" >THE TRIAL of a </Rewrite>
+<Verbatim PAsource="" >13-year-old youth accused of </Verbatim>
+<Rewrite PAsource="" >killing a boy of nine by setting his petrol-soaked clothes alight collapsed yesterdaywhen the judge </Rewrite>
+<Verbatim PAsource="" >ruled that the</Verbatim>
+<Rewrite PAsource="" >teenager could </Rewrite>
+<Verbatim PAsource="" >not understand </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >proceedings</Verbatim>
+<Rewrite PAsource="" >.
+</Rewrite>
+
+<New PAsource="" >The decision at the High Court in Glasgow may have ramifications for the two boys jailed for James Bulger's murder in 1993.
+</New>
+
+<New PAsource="" >Later this year the European Court of Human Rights will hear an appeal by lawyers for the boys, who were aged ten when they killed the two-year-old on Merseyside. </New>
+<New PAsource="" >The Jon Venables and Robert Thompson case hinges on whether the boys' human rights were infringed on the grounds that they were too young to understand the proceedings of an adult court. </New>
+<Rewrite PAsource="" >In the Scottish case, </Rewrite>
+<Verbatim PAsource="" >Lord Caplan ruled </Verbatim>
+<Rewrite PAsource="" >that the </Rewrite>
+<Verbatim PAsource="" >13-year-old was mentally unfit to stand trial for murder. </Verbatim>
+<Rewrite PAsource="" >He said: </Rewrite>
+<Verbatim PAsource="" >"The reason is that given the age of the accused and the disability </Verbatim>
+<Rewrite PAsource="" >with </Rewrite>
+<Verbatim PAsource="" >which he suffers he would be unable to understand court proceedings or conduct a full and proper defence on his own."
+</Verbatim>
+
+<Verbatim PAsource="" >The youth, who cannot be named for legal reasons, was accused of murdering Charles McFall, aged nine, </Verbatim>
+<Rewrite PAsource="" >from </Rewrite>
+<Verbatim PAsource="" >Uddingston, Lanarkshire in June </Verbatim>
+<Rewrite PAsource="" >1998.
+</Rewrite>
+
+<Rewrite PAsource="" >Although the trial collapsed, </Rewrite>
+<Verbatim PAsource="" >Lord Caplan said </Verbatim>
+<Rewrite PAsource="" >that </Rewrite>
+<Verbatim PAsource="" >a public hearing </Verbatim>
+<Rewrite PAsource="" >would be </Rewrite>
+<Verbatim PAsource="" >held to establish the facts of the case.
+</Verbatim>
+
+
+
+</body>
+</meterdocument>

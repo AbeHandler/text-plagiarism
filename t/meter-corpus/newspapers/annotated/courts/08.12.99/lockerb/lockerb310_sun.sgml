@@ -1,0 +1,58 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/lockerb/lockerb310_sun.sgml" newspaper="sun" domain="courts" classification="partially-derived" pagenumber="2" date="08.12.99" catchline="lockerb">
+
+<body>
+
+
+<Verbatim PAsource="" >WITNESSES </Verbatim>
+<Rewrite PAsource="" >cannot wear </Rewrite>
+<Verbatim PAsource="" >"Shirley Bassey" </Verbatim>
+<Verbatim PAsource="" >disguises </Verbatim>
+<Verbatim PAsource="" >in the trial </Verbatim>
+<Verbatim PAsource="" >of two Libyans </Verbatim>
+<Verbatim PAsource="" >accused of </Verbatim>
+<Verbatim PAsource="" >the Lockerbie </Verbatim>
+<Rewrite PAsource="" >jet </Rewrite>
+<Verbatim PAsource="" >bomb, </Verbatim>
+<Verbatim PAsource="" >a judge </Verbatim>
+<Verbatim PAsource="" >warned yesterday. </Verbatim>
+<Verbatim PAsource="" >Lord Sutherland </Verbatim>
+<Verbatim PAsource="" >rejected prosecution </Verbatim>
+<Rewrite PAsource="" >pleas that </Rewrite>
+<Verbatim PAsource="" >key witnesses </Verbatim>
+<Rewrite PAsource="" >such as </Rewrite>
+<Verbatim PAsource="" >CIA </Verbatim>
+<Rewrite PAsource="" >agents </Rewrite>
+<Verbatim PAsource="" >could be at risk </Verbatim>
+<Verbatim PAsource="" >if </Verbatim>
+<Rewrite PAsource="" >they were identified.</Rewrite>
+<New PAsource="" >
+</New>
+
+<Verbatim PAsource="" >Defence </Verbatim>
+<Verbatim PAsource="" >QC William Taylor </Verbatim>
+<Rewrite PAsource="" >had told the hearing </Rewrite>
+<Rewrite PAsource="" >in Holland: </Rewrite>
+<Verbatim PAsource="" >"If a witness</Verbatim>
+<New PAsource="" > wears a </New>
+<Verbatim PAsource="" >Shirley Bassey wig </Verbatim>
+<Verbatim PAsource="" >and </Verbatim>
+<Verbatim PAsource="" >make-up </Verbatim>
+<Verbatim PAsource="" >how am I to determine that witness is credible?"</Verbatim>
+<New PAsource="" >
+</New>
+
+<Verbatim PAsource="" >The trial </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Abdelbaset Ali Mohmed Al Megrahi, 47, </Verbatim>
+<Verbatim PAsource="" >and Al Amin Khalifa Fhimah, 43, </Verbatim>
+<Rewrite PAsource="" >begins in</Rewrite>
+<Verbatim PAsource="" > May.</Verbatim>
+<New PAsource="" >
+</New>
+
+
+</body>
+</meterdocument>

@@ -1,0 +1,24 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.08.99/rapist/rapist187_times.sgml" newspaper="times" domain="courts" classification="wholly-derived" pagenumber="11" date="12.08.99" catchline="rapist">
+
+<body>
+
+
+<Verbatim PAsource="" >A teenager was sent to a young </Verbatim>
+<Rewrite PAsource="" >offender </Rewrite>
+<Verbatim PAsource="" >institution </Verbatim>
+<Verbatim PAsource="" >for ten years yesterday </Verbatim>
+<Verbatim PAsource="" >for raping a 37-year-old </Verbatim>
+<Verbatim PAsource="" >widow </Verbatim>
+<Verbatim PAsource="" >in her own bed. </Verbatim>
+<Verbatim PAsource="" >Gareth Reader, 18, of Sittingbourne, Kent, </Verbatim>
+<Verbatim PAsource="" >had denied the </Verbatim>
+<Verbatim PAsource="" >offence </Verbatim>
+<Verbatim PAsource="" >at Maidstone Crown Court.</Verbatim>
+
+
+
+</body>
+</meterdocument>

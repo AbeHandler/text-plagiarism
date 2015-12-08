@@ -1,0 +1,15 @@
+/meter_corpus/newspapers/rawtexts/showbiz/08.08.99/edmonds/edmonds15_telegraph.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/08.08.99/plaque/plaque14_telegraph.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/09.08.99/oasis/oasis30_telegraph.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/10.08.99/bbc/bbc55_telegraph.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/10.08.99/grant/grant56_telegraph.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/10.08.99/oasis/oasis54_telegraph.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/14.07.99/coogan/coogan95_telegraph.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/14.07.99/owen/owen94_telegraph.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/14.07.99/starwars/starwars93_telegraph.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/27.09.99/beegees/beegees120_telegraph.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/27.01.00/oasis/oasis135_telegraph.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/27.01.00/webber/webber136_telegraph.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/07.01.00/street/street153_telegraph.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/14.12.99/mccartney/mccartney174_telegraph.txt 
+/meter_corpus/newspapers/rawtexts/showbiz/14.12.99/mccartney/mccartney175_telegraph.txt 

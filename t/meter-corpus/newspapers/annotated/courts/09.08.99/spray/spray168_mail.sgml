@@ -1,0 +1,52 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/09.08.99/spray/spray168_mail.sgml" newspaper="mail" domain="courts" classification="partially-derived" pagenumber="24" date="09.08.99" catchline="spray">
+
+<body>
+
+
+<Rewrite PAsource="" >A POLICEMAN accused of spraying a woman </Rewrite>
+<Verbatim PAsource="" >colleague </Verbatim>
+<Rewrite PAsource="" >with </Rewrite>
+<Verbatim PAsource="" >CS gas </Verbatim>
+<Rewrite PAsource="" >was yesterday cleared by a jury.
+</Rewrite>
+
+<Verbatim PAsource="" >Andrew Bateson, 28, broke down in tears as the verdict was returned at Minshull Street Crown Court </Verbatim>
+<Rewrite PAsource="" >In </Rewrite>
+<Verbatim PAsource="" >Manchester. </Verbatim>
+<Verbatim PAsource="" >It took the Jury half an hour to find him not guilty of causing actual bodily harm to female officer Deborah Davidson, 30, Francis Walsh, 50, and Joanne Bagguley, 24, while breaking up </Verbatim>
+<Rewrite PAsource="" >a fracas at </Rewrite>
+<Verbatim PAsource="" >Farnworth Veterans' Club in Bolton In November 1997.
+</Verbatim>
+
+<Verbatim PAsource="" >PC Bateson and </Verbatim>
+<Rewrite PAsource="" >a colleague </Rewrite>
+<Verbatim PAsource="" >had arrived to find several fights going on </Verbatim>
+<Rewrite PAsource="" >outside the club </Rewrite>
+<Verbatim PAsource="" >and called for back-up.
+</Verbatim>
+
+<Verbatim PAsource="" >The court heard that </Verbatim>
+<Rewrite PAsource="" >WPC </Rewrite>
+<Verbatim PAsource="" >Davidson then arrived and was in the middle of a crowd of people, including Miss Bagguley, whose boyfriend had been arrested, and Mr Walsh,. when they were sprayed with the disabling gas.
+</Verbatim>
+
+<New PAsource="" >WPC Davidson claimed she was left writhing in agony and temporarily blinded after </New>
+<Verbatim PAsource="" >PC Bateson 'overreacted' to the disturbance. She insisted no warning had been given about the spray being used.
+</Verbatim>
+
+<Verbatim PAsource="" >But PC Bateson told the </Verbatim>
+<Rewrite PAsource="" >court </Rewrite>
+<Verbatim PAsource="" >he had been forced to act because </Verbatim>
+<Rewrite PAsource="" >WPC </Rewrite>
+<Verbatim PAsource="" >Davidson was 'doing nothing' </Verbatim>
+<Rewrite PAsource="" >to stop the trouble. </Rewrite>
+<Verbatim PAsource="" >He had shouted 'spray' to warn other officers what was happening, </Verbatim>
+<Rewrite PAsource="" >he added.
+</Rewrite>
+
+
+</body>
+</meterdocument>

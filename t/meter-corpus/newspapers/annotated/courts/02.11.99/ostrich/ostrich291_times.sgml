@@ -1,0 +1,49 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/02.11.99/ostrich/ostrich291_times.sgml" newspaper="times" domain="courts" classification="wholly-derived" pagenumber="4" date="02.11.99" catchline="ostrich">
+
+<body>
+
+
+<Verbatim PAsource="" >A routine vehicle check </Verbatim>
+<Rewrite PAsource="" >uncovered </Rewrite>
+<Verbatim PAsource="" >a cattle </Verbatim>
+<Rewrite PAsource="" >lorry that </Rewrite>
+<Verbatim PAsource="" >was transporting a cargo of 26 ostriches, two of them injured </Verbatim>
+<Rewrite PAsource="" >and </Rewrite>
+<Verbatim PAsource="" >covered in blood, </Verbatim>
+<Rewrite PAsource="" >to </Rewrite>
+<Verbatim PAsource="" >a slaughterhouse, an animal welfare expert told Birmingham magistrates </Verbatim>
+<Rewrite PAsource="" >yesterday.
+</Rewrite>
+
+<Verbatim PAsource="" >Adrian Shaw, </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >lorry driver </Verbatim>
+<Rewrite PAsource="" >from </Rewrite>
+<Verbatim PAsource="" >Malvern, Worcestershire, and his employer, Edward Gilder, of Cheltenham, Gloucestershire, deny two charges of animal cruelty. 
+</Verbatim>
+
+<Verbatim PAsource="" >Barry Berlin, </Verbatim>
+<Rewrite PAsource="" >for the prosecution, </Rewrite>
+<Verbatim PAsource="" >said the birds </Verbatim>
+<Rewrite PAsource="" >were injured by </Rewrite>
+<Verbatim PAsource="" >sharp edges on the </Verbatim>
+<Rewrite PAsource="" >lorry's </Rewrite>
+<Verbatim PAsource="" >partition gates. 
+</Verbatim>
+
+<Verbatim PAsource="" >The defence said </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >injuries </Verbatim>
+<Rewrite PAsource="" >were caused by other birds. 
+</Rewrite>
+
+<Verbatim PAsource="" >The case was adjourned.
+</Verbatim>
+
+
+
+</body>
+</meterdocument>

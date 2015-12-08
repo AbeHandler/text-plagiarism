@@ -1,0 +1,22 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/12.08.99/spice/spice62_sun.sgml" newspaper="sun" domain="showbiz" classification="partially-derived" pagenumber="19" date="12.08.99" catchline="spice">
+
+<body>
+
+
+<Verbatim PAsource="" >BABY Spice Emma Bunton is to </Verbatim>
+<Rewrite PAsource="" >front a </Rewrite>
+<Verbatim PAsource="" >show </Verbatim>
+<Rewrite PAsource="" >featuring hits of </Rewrite>
+<Verbatim PAsource="" >the past 20 years </Verbatim>
+<New PAsource="" >for satellite and
+
+cable </New>
+<Verbatim PAsource="" >music channel VH1.</Verbatim>
+
+
+
+</body>
+</meterdocument>

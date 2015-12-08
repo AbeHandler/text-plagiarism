@@ -1,0 +1,60 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/09.08.99/oasis/oasis26_star.sgml" newspaper="star" domain="showbiz" classification="non-derived" pagenumber="13" date="09.08.99" catchline="oasis">
+
+<body>
+
+
+<New PAsource="" >ROCK wildman </New>
+<Rewrite PAsource="" >Paul "Bonehead" Arthurs </Rewrite>
+<Rewrite PAsource="" >last night </Rewrite>
+<Verbatim PAsource="" >quit Oasis </Verbatim>
+<New PAsource="" >after months of clashes with band leader Noel Gallagher.
+</New>
+
+<Verbatim PAsource="" >The 34-year-old rhythm guitarist </Verbatim>
+<Rewrite PAsource="" >claimed he has </Rewrite>
+<Verbatim PAsource="" >had an amicable split </Verbatim>
+<Rewrite PAsource="" >after </Rewrite>
+<Verbatim PAsource="" >eight years </Verbatim>
+<Rewrite PAsource="" >with the group.
+</Rewrite>
+
+<New PAsource="" >But sources said multi-millionaire Bonehead, a founder member of the band, had repeated disagreements with songwriter Noel.
+</New>
+
+<New PAsource="" >The pair had fallen out while recording their fourth album, which is viewed as being crucial to the Manchester band's continued success after their last CD was slated.
+</New>
+
+<New PAsource="" >Gushing
+</New>
+
+<New PAsource="" >At one point, as tension rose in the studios, Noel was said to have "let go" temporarily of Bonehead's services. He had told pals that Bonehead's personality had begun to get on his nerves.
+</New>
+
+<New PAsource="" >But </New>
+<Verbatim PAsource="" >in a statement </Verbatim>
+<Rewrite PAsource="" >released last night, </Rewrite>
+<Verbatim PAsource="" >Bonehead </Verbatim>
+<New PAsource="" >insisted </New>
+<Rewrite PAsource="" >the reason for his departure was to allow him do </Rewrite>
+<Verbatim PAsource="" >other things. </Verbatim>
+<New PAsource="" >In the gushing announcement, </New>
+<Verbatim PAsource="" >he said: "After a lot of consideration I have decided to call it a day with Oasis."
+</Verbatim>
+
+<Verbatim PAsource="" >"I've had a fantastic eight years in one of the best bands ever to come out of Britain, and now feel I have come to the stage where I'd like to concentrate on other things in my life, outside of the demands of being in a successful rock and roll band."
+</Verbatim>
+
+<Verbatim PAsource="" >"I've made some great friends along the way and wish everyone in the band every success with the next album, and intend to enjoy watching the band go on to further success in the coming years."
+</Verbatim>
+
+<Verbatim PAsource="" >"I would like to thank the band and everyone around it, especially the fans, for making it so special."
+</Verbatim>
+
+<Verbatim PAsource="" >"See you at the next show!"</Verbatim>
+
+
+</body>
+</meterdocument>

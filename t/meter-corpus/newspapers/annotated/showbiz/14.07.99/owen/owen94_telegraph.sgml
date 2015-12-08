@@ -1,0 +1,36 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/14.07.99/owen/owen94_telegraph.sgml" newspaper="telegraph" domain="showbiz" classification="wholly-derived" pagenumber="11" date="14.07.99" catchline="owen">
+
+<body>
+
+
+<Verbatim PAsource="" >A POIGNANT demise for Compo is to be written into scripts for Last Of The Summer Wine </Verbatim>
+<Rewrite PAsource="" >after </Rewrite>
+<Verbatim PAsource="" >the death of </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >actor Bill Owen, who played the character for 26 years.
+</Verbatim>
+
+<Verbatim PAsource="" >The </Verbatim>
+<Rewrite PAsource="" >new </Rewrite>
+<Verbatim PAsource="" >series was midway through filming when Owen died, aged 85, earlier this week. </Verbatim>
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >writer Roy Clarke said: "There is no way we can pretend that Compo has just gone away: that would be an insult to the man and his fans."
+</Verbatim>
+
+<Verbatim PAsource="" >Before his illness, Owen </Verbatim>
+<Rewrite PAsource="" >said </Rewrite>
+<Verbatim PAsource="" >that he planned to be laid to rest in Holmfirth, Yorks, </Verbatim>
+<Rewrite PAsource="" >where </Rewrite>
+<Verbatim PAsource="" >the series </Verbatim>
+<Rewrite PAsource="" >is set.
+
+
+</Rewrite>
+
+
+
+</body>
+</meterdocument>

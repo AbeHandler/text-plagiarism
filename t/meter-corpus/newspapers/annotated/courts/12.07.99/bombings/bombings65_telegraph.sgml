@@ -1,0 +1,23 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.07.99/bombings/bombings65_telegraph.sgml" newspaper="telegraph" domain="courts" classification="wholly-derived" pagenumber="13" date="12.07.99" catchline="bombings">
+
+<body>
+
+
+<Verbatim PAsource="" >Two </Verbatim>
+<Rewrite PAsource="" >Egyptians </Rewrite>
+<Verbatim PAsource="" >appeared </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >Bow Street magistrates' court yesterday in connectionwith the bombings last year of two American embassies in Africa.
+</Verbatim>
+
+<Verbatim PAsource="" >Ibrahim Hussein Eidarous, 42, and Adel Muhammad Abdul Bary, 39, were arrested in London on United States extradition warrants. </Verbatim>
+<Rewrite PAsource="" >They </Rewrite>
+<Verbatim PAsource="" >were remanded in custody for a week.
+</Verbatim>
+
+
+</body>
+</meterdocument>

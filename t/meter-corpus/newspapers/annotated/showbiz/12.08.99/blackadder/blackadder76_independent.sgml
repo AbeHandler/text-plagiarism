@@ -1,0 +1,48 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/12.08.99/blackadder/blackadder76_independent.sgml" newspaper="independent" domain="showbiz" classification="non-derived" pagenumber="7" date="12.08.99" catchline="blackadder">
+
+<body>
+
+
+<Verbatim PAsource="" >SKY TELEVISION'S </Verbatim>
+<New PAsource="" >attempts to poach </New>
+<Verbatim PAsource="" >BBC </Verbatim>
+<New PAsource="" >talent </New>
+<Rewrite PAsource="" >sparked </Rewrite>
+<Verbatim PAsource="" >a </Verbatim>
+<Rewrite PAsource="" >dispute after </Rewrite>
+<Verbatim PAsource="" >Sky said it had exclusive rights to a millennium Blackadder </Verbatim>
+<Rewrite PAsource="" >programme.
+</Rewrite>
+
+<Rewrite PAsource="" >Its </Rewrite>
+<Verbatim PAsource="" >coup </Verbatim>
+<Rewrite PAsource="" >in obtaining </Rewrite>
+<Verbatim PAsource="" >Time for Blackadder, </Verbatim>
+<Rewrite PAsource="" >starring </Rewrite>
+<Verbatim PAsource="" >Rowan Atkinson and Tony Robinson, </Verbatim>
+<New PAsource="" >is seen as damaging for the BBC, days after Sky signed a #1m contract for a series of Harry Enfield programmes which will prevent him making any more of his Harry Enfield and Chums series for the BBC this year.
+</New>
+
+<Verbatim PAsource="" >The BBC </Verbatim>
+<Rewrite PAsource="" >insisted no </Rewrite>
+<Verbatim PAsource="" >Blackadder deal </Verbatim>
+<Rewrite PAsource="" >had been done. </Rewrite>
+<New PAsource="" >An insider said: "After the deal with Harry Enfield [Sky] is trying to give the impression it's stealing away masses of BBC talent, but that's just not true."
+</New>
+
+<Verbatim PAsource="" >The Millennium Experience, </Verbatim>
+<Rewrite PAsource="" >which commissioned the </Rewrite>
+<Verbatim PAsource="" >Blackadder film, said discussions </Verbatim>
+<Rewrite PAsource="" >about television rights were continuing. </Rewrite>
+<Verbatim PAsource="" >Sky said: "</Verbatim>
+<New PAsource="" >We have a binding agreement. </New>
+<New PAsource="" >Time for Blackadder is coming to Sky ... and the </New>
+<Verbatim PAsource="" >BBC is obviously having difficulty coming to terms with their loss." </Verbatim>
+<New PAsource="" >Sky is said to have paid up to £4m for the deal.</New>
+
+
+</body>
+</meterdocument>

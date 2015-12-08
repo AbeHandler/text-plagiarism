@@ -1,0 +1,18 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/04.10.99/dj/dj265_independent.sgml" newspaper="independent" domain="courts" classification="wholly-derived" pagenumber="6" date="04.10.99" catchline="dj">
+
+<body>
+
+
+<Verbatim PAsource="" >A FORMER BBC local radio DJ pleaded guilty to 41 sex offences against children. Roger Pond, 46, of Gillingham, Kent, also admitted taking indecent </Verbatim>
+<Rewrite PAsource="" >photographs </Rewrite>
+<Verbatim PAsource="" >of children. Pond, </Verbatim>
+<Rewrite PAsource="" >who worked for </Rewrite>
+<Verbatim PAsource="" >Radio Kent, was remanded in custody at Maidstone Crown Court.</Verbatim>
+
+
+
+</body>
+</meterdocument>

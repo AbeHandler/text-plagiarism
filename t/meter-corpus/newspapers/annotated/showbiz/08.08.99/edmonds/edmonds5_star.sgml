@@ -1,0 +1,38 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/08.08.99/edmonds/edmonds5_star.sgml" newspaper="star" domain="showbiz" classification="wholly-derived" pagenumber="3" date="08.08.99" catchline="edmonds">
+
+<body>
+
+
+<Rewrite PAsource="" >TV </Rewrite>
+<New PAsource="" >STAR </New>
+<Verbatim PAsource="" >Noel Edmonds </Verbatim>
+<Rewrite PAsource="" >is </Rewrite>
+<Verbatim PAsource="" >quitting the BBC because the programmes </Verbatim>
+<Rewrite PAsource="" >are </Rewrite>
+<Verbatim PAsource="" >"too boring", he </Verbatim>
+<Rewrite PAsource="" >announced yesterday.
+</Rewrite>
+
+<Verbatim PAsource="" >Edmonds, once one of the </Verbatim>
+<Rewrite PAsource="" >Beeb's </Rewrite>
+<Verbatim PAsource="" >highest paid presenters, was sad to be "throwing in the towel" after 30 years but did not rule out a television comeback if the right offer came along. </Verbatim>
+<Verbatim PAsource="" >Paul Pascoe, a spokesman for Edmonds, said: "He is only 50, he has a lot of life in him yet"
+</Verbatim>
+
+<Verbatim PAsource="" >Mr Pascoe said: "I know that he has not been stimulated by television for the BBC for 18 months or two years or so. He has decided not to extend his contract at the end of March."
+</Verbatim>
+
+<Verbatim PAsource="" >The departure of Edmonds - who earned an estimated £5m in a four-year </Verbatim>
+<Rewrite PAsource="" >deal </Rewrite>
+<Verbatim PAsource="" >to host Noel's House Party, Telly Addicts and Telly Years - comes less than a week after sports </Verbatim>
+<Rewrite PAsource="" >anchorman </Rewrite>
+<Verbatim PAsource="" >Des Lynam </Verbatim>
+<Rewrite PAsource="" >defected </Rewrite>
+<Verbatim PAsource="" >to ITV.</Verbatim>
+
+
+</body>
+</meterdocument>

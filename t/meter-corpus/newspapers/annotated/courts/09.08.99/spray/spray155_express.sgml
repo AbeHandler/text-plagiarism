@@ -1,0 +1,47 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/09.08.99/spray/spray155_express.sgml" newspaper="express" domain="courts" classification="wholly-derived" pagenumber="4" date="09.08.99" catchline="spray">
+
+<body>
+
+
+<Verbatim PAsource="" >A </Verbatim>
+<Rewrite PAsource="" >POLICEMAN wept with relief last night after being cleared </Rewrite>
+<Verbatim PAsource="" >of assaulting a colleague </Verbatim>
+<Rewrite PAsource="" >and two others </Rewrite>
+<Verbatim PAsource="" >with CS gas spray while breaking up a fight.
+</Verbatim>
+
+<Rewrite PAsource="" >WPC </Rewrite>
+<Verbatim PAsource="" >Deborah Davidson, 30, </Verbatim>
+<New PAsource="" >had claimed </New>
+<Rewrite PAsource="" >PC </Rewrite>
+<Verbatim PAsource="" >Andrew Bateson, 28, </Verbatim>
+<New PAsource="" >had "overreacted" </New>
+<Rewrite PAsource="" >when helping her deal with </Rewrite>
+<Verbatim PAsource="" >a </Verbatim>
+<Rewrite PAsource="" >fracas in </Rewrite>
+<Verbatim PAsource="" >Bolton in November 1997, </Verbatim>
+<Rewrite PAsource="" >spraying her and two others in the face.
+</Rewrite>
+
+<Rewrite PAsource="" >She said </Rewrite>
+<Verbatim PAsource="" >she had calmed </Verbatim>
+<Rewrite PAsource="" >the situation but </Rewrite>
+<Verbatim PAsource="" >PC Bateson said </Verbatim>
+<Rewrite PAsource="" >he feared for her </Rewrite>
+<Verbatim PAsource="" >safety. </Verbatim>
+<Rewrite PAsource="" >A </Rewrite>
+<Verbatim PAsource="" >jury </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >Manchester Crown Court </Verbatim>
+<Rewrite PAsource="" >cleared him of </Rewrite>
+<Verbatim PAsource="" >three charges </Verbatim>
+<Rewrite PAsource="" >of assault.</Rewrite>
+
+
+
+
+</body>
+</meterdocument>

@@ -1,0 +1,37 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/04.10.99/cake/cake244_telegraph.sgml" newspaper="telegraph" domain="courts" classification="wholly-derived" pagenumber="2" date="04.10.99" catchline="cake">
+
+<body>
+
+
+<Verbatim PAsource="" >A teenager at a young offenders institute stabbed another to death </Verbatim>
+<Rewrite PAsource="" >in an argument </Rewrite>
+<Verbatim PAsource="" >over a </Verbatim>
+<Rewrite PAsource="" >slice </Rewrite>
+<Verbatim PAsource="" >of birthday cake.
+</Verbatim>
+
+<Verbatim PAsource="" >Maurice Travis, who was 18 at the time, was jailed for life </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >after </Verbatim>
+<Rewrite PAsource="" >admitting </Rewrite>
+<Verbatim PAsource="" >murdering Alan Averall, of Queens Road, Smethwick, during a cookery lesson on his 17th birthday.
+</Verbatim>
+
+<Verbatim PAsource="" >Averall had taunted Travis, telling him he could not have a piece of </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >cake, </Verbatim>
+<Rewrite PAsource="" >baked for him </Rewrite>
+<Verbatim PAsource="" >during the lesson at Stoke Heath young offenders institute, near Market Drayton, Shropshire.
+</Verbatim>
+
+<Verbatim PAsource="" >Travis, who was serving a five-month sentence for robbery, had been bullied and threatened by the younger boy, Wolverhampton Crown Court was told.
+
+
+</Verbatim>
+
+
+</body>
+</meterdocument>

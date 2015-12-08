@@ -1,0 +1,30 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.08.99/granny/granny190_telegraph.sgml" newspaper="telegraph" domain="courts" classification="partially-derived" pagenumber="8" date="12.08.99" catchline="granny">
+
+<body>
+
+
+<Rewrite PAsource="" >A woman who </Rewrite>
+<Verbatim PAsource="" >admitted wounding her daughter's violent lover was </Verbatim>
+<Rewrite PAsource="" >given a </Rewrite>
+<Verbatim PAsource="" >two-year probation </Verbatim>
+<Rewrite PAsource="" >order yesterday.
+</Rewrite>
+
+<New PAsource="" >Nora </New>
+<Verbatim PAsource="" >Pollard, 57, and her daughter, Sharon, 28, </Verbatim>
+<Rewrite PAsource="" >formerly </Rewrite>
+<Verbatim PAsource="" >of Greenwich, south London, </Verbatim>
+<Rewrite PAsource="" >endured </Rewrite>
+<New PAsource="" >"extremely abusive" </New>
+<Rewrite PAsource="" >behaviour from </Rewrite>
+<Verbatim PAsource="" >Darren Lambert, the Old Bailey </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >told.
+</Verbatim>
+
+
+</body>
+</meterdocument>

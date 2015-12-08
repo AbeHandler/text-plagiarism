@@ -1,0 +1,15 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.07.99/strangle/strangle18_star.sgml" newspaper="star" domain="courts" classification="wholly-derived" pagenumber="5" date="12.07.99" catchline="strangle">
+
+<body>
+
+
+<Verbatim PAsource="" >A NIGHTCLUB bouncer who strangled a drug dealer and hid the body in a toy chest under his daughter's bed was jailed for five years yesterday. Bodybuilder Philip Adrian Hicks, 31, was convicted of manslaughter at Exeter.</Verbatim>
+<Rewrite PAsource="" >
+</Rewrite>
+
+
+</body>
+</meterdocument>

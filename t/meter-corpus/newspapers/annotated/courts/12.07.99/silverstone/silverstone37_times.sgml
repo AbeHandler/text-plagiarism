@@ -1,0 +1,23 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.07.99/silverstone/silverstone37_times.sgml" newspaper="times" domain="courts" classification="wholly-derived" pagenumber="8" date="12.07.99" catchline="silverstone">
+
+<body>
+
+
+<Verbatim PAsource="" >An inquest was opened and adjourned into the death of a Royal Navy petty officer. </Verbatim>
+<Verbatim PAsource="" >Ian Chambers, 35, of Salisbury, </Verbatim>
+<Rewrite PAsource="" >was one of </Rewrite>
+<Verbatim PAsource="" >four </Verbatim>
+<Rewrite PAsource="" >men in </Rewrite>
+<Verbatim PAsource="" >an MGB sports car </Verbatim>
+<Rewrite PAsource="" >that overturned </Rewrite>
+<Verbatim PAsource="" >at Silverstone </Verbatim>
+<Rewrite PAsource="" >race track.
+</Rewrite>
+
+
+
+</body>
+</meterdocument>

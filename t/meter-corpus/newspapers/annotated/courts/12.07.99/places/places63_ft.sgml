@@ -1,0 +1,48 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.07.99/places/places63_ft.sgml" newspaper="other" domain="courts" classification="partially-derived" pagenumber="12" date="12.07.99" catchline="places">
+
+<body>
+
+
+<Verbatim PAsource="" >A High Court judge </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >criticised </Verbatim>
+<Rewrite PAsource="" >the government's policy of exceptions to its phasing-out of </Rewrite>
+<Verbatim PAsource="" >assisted places at private schools, </Verbatim>
+<Rewrite PAsource="" >calling </Rewrite>
+<Verbatim PAsource="" >it "a sorry state of affairs"</Verbatim>
+<Rewrite PAsource="" >.
+</Rewrite>
+
+<Rewrite PAsource="" >Court action was brought by a parent </Rewrite>
+<Verbatim PAsource="" >whose </Verbatim>
+<Rewrite PAsource="" >daughter's place at a </Rewrite>
+<Verbatim PAsource="" >secondary school </Verbatim>
+<Rewrite PAsource="" >would be affected, although she had an </Rewrite>
+<Verbatim PAsource="" >assisted place </Verbatim>
+<Rewrite PAsource="" >at a feeder primary school.
+</Rewrite>
+
+<Rewrite PAsource="" >However, the court upheld the government's policy of ending subsidies for children at the end of their primary school years unless in exceptional circumstances.
+</Rewrite>
+
+<Verbatim PAsource="" >The scheme </Verbatim>
+<Rewrite PAsource="" >pays for </Rewrite>
+<Verbatim PAsource="" >children from low-income families to attend </Verbatim>
+<Rewrite PAsource="" >both primary and secondary </Rewrite>
+<Verbatim PAsource="" >private schools</Verbatim>
+<Rewrite PAsource="" >. </Rewrite>
+<Rewrite PAsource="" >When the government announced it was scrapping </Rewrite>
+<Verbatim PAsource="" >the scheme</Verbatim>
+<Rewrite PAsource="" >, it said those already on it would be paid for and, in exceptional cases, primary school pupils could continue on schemes beyond age 11, </Rewrite>
+<New PAsource="" >on medical or other grounds. </New>
+<Rewrite PAsource="" >The judge said the government was legally in the right to
+deny children places on the scheme beyond 11, but that its policy of exceptions was confusing.
+</Rewrite>
+
+
+
+</body>
+</meterdocument>

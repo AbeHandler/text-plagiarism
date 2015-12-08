@@ -1,0 +1,28 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/16.07.99/whitehouse/whitehouse142_independent.sgml" newspaper="independent" domain="courts" classification="wholly-derived" pagenumber="6" date="16.07.99" catchline="whitehouse">
+
+<body>
+
+
+<Verbatim PAsource="" >THE DAUGHTER of </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >Chief Constable </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Sussex was </Verbatim>
+<Rewrite PAsource="" >sentenced </Rewrite>
+<Verbatim PAsource="" >to 150 hours' community service </Verbatim>
+<Rewrite PAsource="" >yesterday.</Rewrite>
+
+
+<Verbatim PAsource="" >Frances Whitehouse, 18, of Hove, East Sussex, was convicted last month of assaulting two </Verbatim>
+<Rewrite PAsource="" >policemen </Rewrite>
+<Verbatim PAsource="" >in her father's force after drinking a litre of strong cider.</Verbatim>
+
+
+
+
+
+</body>
+</meterdocument>

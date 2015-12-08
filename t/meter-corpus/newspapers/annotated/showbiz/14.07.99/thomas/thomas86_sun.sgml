@@ -1,0 +1,43 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/14.07.99/thomas/thomas86_sun.sgml" newspaper="sun" domain="showbiz" classification="partially-derived" pagenumber="9" date="14.07.99" catchline="thomas">
+
+<body>
+
+
+<Verbatim PAsource="" >THOMAS The Tank Engine </Verbatim>
+<Rewrite PAsource="" >is being made into a blockbuster movie.
+
+Actor </Rewrite>
+<Verbatim PAsource="" >Alec Baldwin will play Mr Conductor, </Verbatim>
+<New PAsource="" >a new character specially </New>
+<Verbatim PAsource="" >created </Verbatim>
+<Rewrite PAsource="" >for </Rewrite>
+<Verbatim PAsource="" >Thomas And The Magic Railroad. </Verbatim>
+<Verbatim PAsource="" >Easy Rider </Verbatim>
+<Verbatim PAsource="" >star </Verbatim>
+<Verbatim PAsource="" >Peter Fonda will play Grandpa Burnett Stone.</Verbatim>
+<New PAsource="" >
+
+Filming starts next month on </New>
+<Verbatim PAsource="" >the Isle of Man </Verbatim>
+<Rewrite PAsource="" >and the movie comes out </Rewrite>
+<Verbatim PAsource="" >next </Verbatim>
+<Rewrite PAsource="" >year.</Rewrite>
+<New PAsource="" >
+</New>
+
+<Verbatim PAsource="" >Britt Allcroft, </Verbatim>
+<Rewrite PAsource="" >creator of </Rewrite>
+<Verbatim PAsource="" >Thomas The Tank Engine </Verbatim>
+<Rewrite PAsource="" >on </Rewrite>
+<Verbatim PAsource="" >TV, </Verbatim>
+<Rewrite PAsource="" >said last night: </Rewrite>
+<Verbatim PAsource="" >"I am delighted that Alec and Peter will bring these special characters to life in our first Thomas feature film."</Verbatim>
+
+<New PAsource="" ></New>
+
+
+</body>
+</meterdocument>

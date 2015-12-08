@@ -1,0 +1,23 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.07.99/walker/walker30_express.sgml" newspaper="express" domain="courts" classification="wholly-derived" pagenumber="20" date="12.07.99" catchline="walker">
+
+<body>
+
+
+<Verbatim PAsource="" >RADIO 2 disc jockey Johnnie Walker </Verbatim>
+<Rewrite PAsource="" >appeared </Rewrite>
+<Verbatim PAsource="" >in court </Verbatim>
+<Rewrite PAsource="" >yesterday accused of </Rewrite>
+<Verbatim PAsource="" >dealing in cocaine. Walker, 54, of West London, is charged with possessing the drug and supplying it to an undercover reporter at the Grosvenor House Hotel, Park Lane, in April. </Verbatim>
+<Rewrite PAsource="" >He was remanded on </Rewrite>
+<Verbatim PAsource="" >bail </Verbatim>
+<Rewrite PAsource="" >by </Rewrite>
+<Verbatim PAsource="" >Horseferry Road magistrates until August 31.</Verbatim>
+<Rewrite PAsource="" ></Rewrite>
+
+
+
+</body>
+</meterdocument>

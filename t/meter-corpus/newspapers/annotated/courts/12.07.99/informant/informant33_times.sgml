@@ -1,0 +1,59 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.07.99/informant/informant33_times.sgml" newspaper="times" domain="courts" classification="partially-derived" pagenumber="2" date="12.07.99" catchline="informant">
+
+<body>
+
+
+<Rewrite PAsource="" >A </Rewrite>
+<Verbatim PAsource="" >Crown Prosecution Service official sold information, </Verbatim>
+<Rewrite PAsource="" >including </Rewrite>
+<Verbatim PAsource="" >names of 33 </Verbatim>
+<Rewrite PAsource="" >informers, </Rewrite>
+<Verbatim PAsource="" >to one of the most feared </Verbatim>
+<Rewrite PAsource="" >crime </Rewrite>
+<Verbatim PAsource="" >families </Verbatim>
+<Rewrite PAsource="" >in Britain, </Rewrite>
+<Verbatim PAsource="" >a court was told </Verbatim>
+<Rewrite PAsource="" >yesterday.</Rewrite>
+
+
+<Verbatim PAsource="" >Mark Herbert</Verbatim>
+<Rewrite PAsource="" >, a junior </Rewrite>
+<Verbatim PAsource="" >official at the CPS, allegedly passed </Verbatim>
+<Rewrite PAsource="" >on </Rewrite>
+<Verbatim PAsource="" >details </Verbatim>
+<Rewrite PAsource="" >after getting into </Rewrite>
+<Verbatim PAsource="" >debt</Verbatim>
+<Rewrite PAsource="" >. </Rewrite>
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >information </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >sold for £1,000 </Verbatim>
+<Rewrite PAsource="" >to agents for the </Rewrite>
+<Verbatim PAsource="" >Adams family, Luton Crown Court </Verbatim>
+<Rewrite PAsource="" >heard.</Rewrite>
+
+
+<Rewrite PAsource="" >Mr </Rewrite>
+<Verbatim PAsource="" >Herbert allegedly gave </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >details to Kevin Sumer</Verbatim>
+<Rewrite PAsource="" >, a </Rewrite>
+<Verbatim PAsource="" >bouncer </Verbatim>
+<Rewrite PAsource="" >with links to </Rewrite>
+<Verbatim PAsource="" >the family. </Verbatim>
+<Verbatim PAsource="" >Mr Herbert, 31, of Twickenham, </Verbatim>
+<Verbatim PAsource="" >southwest </Verbatim>
+<Verbatim PAsource="" >London, and Mr Sumer, 41, of Brentford, West London, </Verbatim>
+<Rewrite PAsource="" >pleaded not guilty to </Rewrite>
+<Verbatim PAsource="" >conspiracy to pervert the course of justice and one charge each of corruption. </Verbatim>
+<Verbatim PAsource="" >The case </Verbatim>
+<Rewrite PAsource="" >continues.</Rewrite>
+
+
+
+
+</body>
+</meterdocument>

@@ -1,0 +1,42 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/lockerb/lockerb322_mirror.sgml" newspaper="mirror" domain="courts" classification="wholly-derived" pagenumber="18" date="08.12.99" catchline="lockerb">
+
+<body>
+
+
+<Rewrite PAsource="" >CROWN </Rewrite>
+<Verbatim PAsource="" >witnesses - such as undercover CIA </Verbatim>
+<Rewrite PAsource="" >men </Rewrite>
+<Verbatim PAsource="" >- at the Lockerbie disaster trial </Verbatim>
+<Rewrite PAsource="" >won't </Rewrite>
+<Verbatim PAsource="" >be able to </Verbatim>
+<Rewrite PAsource="" >wear </Rewrite>
+<Verbatim PAsource="" >disguises, a judge warned </Verbatim>
+<Rewrite PAsource="" >yesterday.
+</Rewrite>
+
+<Verbatim PAsource="" >William Taylor QC, </Verbatim>
+<Rewrite PAsource="" >defending </Rewrite>
+<Verbatim PAsource="" >two Libyans accused of murdering 270 </Verbatim>
+<Rewrite PAsource="" >in the </Rewrite>
+<Verbatim PAsource="" >PanAm </Verbatim>
+<Rewrite PAsource="" >bombing, said he'd have no way of telling if </Rewrite>
+<Verbatim PAsource="" >witnesses </Verbatim>
+<Rewrite PAsource="" >were being truthful if they turned up in </Rewrite>
+<Verbatim PAsource="" >"Shirley Bassey wig, make-up</Verbatim>
+<Rewrite PAsource="" > and </Rewrite>
+<Verbatim PAsource="" >contact lenses".
+</Verbatim>
+
+<Verbatim PAsource="" >Lord Sutherland told a pre-trial hearing masks, wigs </Verbatim>
+<Rewrite PAsource="" >or </Rewrite>
+<Verbatim PAsource="" >make-up </Verbatim>
+<Rewrite PAsource="" >would not be </Rewrite>
+<Verbatim PAsource="" >allowed.
+</Verbatim>
+
+
+</body>
+</meterdocument>

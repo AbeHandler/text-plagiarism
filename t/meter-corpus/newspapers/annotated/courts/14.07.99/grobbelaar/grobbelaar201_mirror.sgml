@@ -1,0 +1,39 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/14.07.99/grobbelaar/grobbelaar201_mirror.sgml" newspaper="mirror" domain="courts" classification="wholly-derived" pagenumber="14" date="14.07.99" catchline="grobbelaar">
+
+<body>
+
+
+<Verbatim PAsource="" >BRUCE Grobbelaar </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >told in court yesterday </Verbatim>
+<Rewrite PAsource="" >he was </Rewrite>
+<Verbatim PAsource="" >"a goalkeeper who keeps moving the goalposts".</Verbatim>
+
+<New PAsource="" ></New>
+
+<Verbatim PAsource="" >QC </Verbatim>
+<Verbatim PAsource="" >George Carman </Verbatim>
+<Rewrite PAsource="" >made the claim, </Rewrite>
+<Verbatim PAsource="" >accusing </Verbatim>
+<Verbatim PAsource="" >the ex-Liverpool star </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >"playing with the truth and trimming answers to fit new facts".
+
+"That's simply not true," said Grobbelaar, </Verbatim>
+<Rewrite PAsource="" >who </Rewrite>
+<Verbatim PAsource="" >is suing The Sun </Verbatim>
+<Rewrite PAsource="" >for </Rewrite>
+<Verbatim PAsource="" >libel over allegations </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >match-fixing. The High Court case </Verbatim>
+<Rewrite PAsource="" >goes on.</Rewrite>
+
+<New PAsource="" ></New>
+
+
+
+</body>
+</meterdocument>

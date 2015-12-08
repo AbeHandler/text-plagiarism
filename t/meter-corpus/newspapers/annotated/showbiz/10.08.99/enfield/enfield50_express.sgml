@@ -1,0 +1,55 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/10.08.99/enfield/enfield50_express.sgml" newspaper="express" domain="showbiz" classification="partially-derived" pagenumber="17" date="10.08.99" catchline="enfield">
+
+<body>
+
+
+<New PAsource="" >COMEDIAN </New>
+<Verbatim PAsource="" >Harry Enfield </Verbatim>
+<New PAsource="" >has left </New>
+<Verbatim PAsource="" >the BBC </Verbatim>
+<New PAsource="" >and signed a £1.5million </New>
+<Verbatim PAsource="" >deal </Verbatim>
+<Rewrite PAsource="" >with</Rewrite>
+<Verbatim PAsource="" > Sky </Verbatim>
+<Rewrite PAsource="" >TV, </Rewrite>
+<Verbatim PAsource="" >it emerged last night.</Verbatim>
+<New PAsource="" >
+</New>
+
+<New PAsource="" >The 38-year-old - who hit stardom with his character Loadsamoney - was one of the corporation's biggest comedy names.
+
+His move came as a huge blow to the BBC, still reeling from the loss of veteran sports commentator Des Lynam last week.
+
+Last night Enfield said: It's not just about loads of money. I have been looking for something that really challenges me and this will give me the platform."
+</New>
+
+<Rewrite PAsource="" >In the star's </Rewrite>
+<Verbatim PAsource="" >new show -</Verbatim>
+<Verbatim PAsource="" > The People's Harry Enfield - </Verbatim>
+<Verbatim PAsource="" >members of the public </Verbatim>
+<Rewrite PAsource="" >will </Rewrite>
+<Verbatim PAsource="" >be asked to help create new characters.</Verbatim>
+<New PAsource="" >
+</New>
+
+<New PAsource="" >Last night </New>
+<Verbatim PAsource="" >the BBC </Verbatim>
+<Rewrite PAsource="" >said they were still working with </Rewrite>
+<Verbatim PAsource="" >Enfield,</Verbatim>
+<New PAsource="" > who joined them in 1990.
+
+"He is still continuing to be involved with the BBC," </New>
+<Verbatim PAsource="" >said a spokeswoman. </Verbatim>
+<Verbatim PAsource="" >"He was never under an exclusive contract."</Verbatim>
+<New PAsource="" >
+
+
+</New>
+
+
+
+</body>
+</meterdocument>

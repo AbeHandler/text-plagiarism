@@ -1,0 +1,38 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.07.99/grobbelaar/grobbelaar21_star.sgml" newspaper="star" domain="courts" classification="partially-derived" pagenumber="6" date="12.07.99" catchline="grobbelaar">
+
+<body>
+
+
+<Verbatim PAsource="" >SOCCER star Bruce Grobbelaar denied he would "lie and lie and lie again" to save his skin or </Verbatim>
+<Rewrite PAsource="" >get </Rewrite>
+<Verbatim PAsource="" >money</Verbatim>
+<Rewrite PAsource="" >.</Rewrite>
+
+
+<Verbatim PAsource="" >The </Verbatim>
+<Rewrite PAsource="" >ex-</Rewrite>
+<Verbatim PAsource="" >Liverpool and Southampton </Verbatim>
+<Rewrite PAsource="" >keeper </Rewrite>
+<Verbatim PAsource="" >agreed </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >the High Court that he had lied about his relationship with businessman Richard Lim.</Verbatim>
+<Rewrite PAsource="" >
+</Rewrite>
+
+<Verbatim PAsource="" >But he </Verbatim>
+<Rewrite PAsource="" >said it was because he was worried it </Rewrite>
+<Verbatim PAsource="" >would be In breach of FA rules and affect his career. </Verbatim>
+<Verbatim PAsource="" >Grobbelaar is suing the Sun over "match fixing" articles in November 1994. </Verbatim>
+<Rewrite PAsource="" >He was </Rewrite>
+<Verbatim PAsource="" >cleared of conspiracy after two trials </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >Winchester in 1997. </Verbatim>
+<Rewrite PAsource="" >The civil case continues.</Rewrite>
+
+
+
+</body>
+</meterdocument>

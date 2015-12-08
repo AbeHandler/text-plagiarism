@@ -1,0 +1,41 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/08.08.99/edmonds/edmonds4_mirror.sgml" newspaper="mirror" domain="showbiz" classification="wholly-derived" pagenumber="15" date="08.08.99" catchline="edmonds">
+
+<body>
+
+
+<Rewrite PAsource="" >TV </Rewrite>
+<New PAsource="" >star </New>
+<Verbatim PAsource="" >Noel Edmonds </Verbatim>
+<Rewrite PAsource="" >is </Rewrite>
+<Verbatim PAsource="" >quitting the BBC because he found the programmes "too boring".
+</Verbatim>
+
+<Verbatim PAsource="" >Noel, 50, </Verbatim>
+<Rewrite PAsource="" >said yesterday he </Rewrite>
+<Verbatim PAsource="" >was sad to be "throwing in the towel" after 30 years </Verbatim>
+<New PAsource="" >at the Beeb </New>
+<Rewrite PAsource="" >- though he </Rewrite>
+<Verbatim PAsource="" >did not rule out a </Verbatim>
+<Rewrite PAsource="" >TV </Rewrite>
+<Verbatim PAsource="" >comeback if the right offer came along.
+</Verbatim>
+
+<New PAsource="" >But viewers seemed bored, too -  </New>
+<Verbatim PAsource="" >Noel's House Party was axed in March after ratings </Verbatim>
+<Rewrite PAsource="" >dived </Rewrite>
+<Verbatim PAsource="" >from l5million to 8million.
+</Verbatim>
+
+<Rewrite PAsource="" >The </Rewrite>
+<Verbatim PAsource="" >BBC </Verbatim>
+<New PAsource="" >said it was time for </New>
+<Verbatim PAsource="" >"fresh ideas".
+</Verbatim>
+
+
+
+</body>
+</meterdocument>

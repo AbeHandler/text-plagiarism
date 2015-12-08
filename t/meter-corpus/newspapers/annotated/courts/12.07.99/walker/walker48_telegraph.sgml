@@ -1,0 +1,26 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.07.99/walker/walker48_telegraph.sgml" newspaper="telegraph" domain="courts" classification="partially-derived" pagenumber="13" date="12.07.99" catchline="walker">
+
+<body>
+
+
+<Verbatim PAsource="" >Johnnie Walker, 54, </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >Radio 2 </Verbatim>
+<Rewrite PAsource="" >DJ, </Rewrite>
+<Verbatim PAsource="" >of </Verbatim>
+<New PAsource="" >Maida Vale, </New>
+<Verbatim PAsource="" >west London, was </Verbatim>
+<Rewrite PAsource="" >remanded on </Rewrite>
+<Verbatim PAsource="" >bail until Aug 31 </Verbatim>
+<Rewrite PAsource="" >by </Rewrite>
+<Verbatim PAsource="" >Horseferry Road magistrates </Verbatim>
+<Rewrite PAsource="" >yesterday accused of </Rewrite>
+<Verbatim PAsource="" >supplying cocaine.</Verbatim>
+
+
+
+</body>
+</meterdocument>

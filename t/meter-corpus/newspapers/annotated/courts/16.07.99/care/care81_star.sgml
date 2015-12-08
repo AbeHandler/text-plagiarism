@@ -1,0 +1,29 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/16.07.99/care/care81_star.sgml" newspaper="star" domain="courts" classification="wholly-derived" pagenumber="2" date="16.07.99" catchline="care">
+
+<body>
+
+
+<Verbatim PAsource="" >JUDGES </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >saved </Verbatim>
+<Rewrite PAsource="" >the NHS from being </Rewrite>
+<Verbatim PAsource="" >"bankrupted" </Verbatim>
+<Rewrite PAsource="" >by </Rewrite>
+<Verbatim PAsource="" >£1bn-a-year nursing home </Verbatim>
+<Rewrite PAsource="" >fees. </Rewrite>
+<Verbatim PAsource="" >The Appeal Court ruled that the health service </Verbatim>
+<Rewrite PAsource="" >doesn't have </Rewrite>
+<Verbatim PAsource="" >to provide free long-term care for people who only need general nursing, rather than specialist treatment and care. </Verbatim>
+<Rewrite PAsource="" >They were overturning </Rewrite>
+<Verbatim PAsource="" >a High Court decision </Verbatim>
+<Rewrite PAsource="" >concerning a </Rewrite>
+<Verbatim PAsource="" >paralysed </Verbatim>
+<Rewrite PAsource="" >woman.</Rewrite>
+
+
+
+</body>
+</meterdocument>

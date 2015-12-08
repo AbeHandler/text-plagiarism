@@ -1,0 +1,42 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.08.99/traveller/traveller171_sun.sgml" newspaper="sun" domain="courts" classification="partially-derived" pagenumber="9" date="12.08.99" catchline="traveller">
+
+<body>
+
+
+<Verbatim PAsource="" >A new age traveller </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >lost </Verbatim>
+<Rewrite PAsource="" >his </Rewrite>
+<New PAsource="" >£500,000 </New>
+<Rewrite PAsource="" >damages </Rewrite>
+<Verbatim PAsource="" >claim against a </Verbatim>
+<Rewrite PAsource="" >woman who ran him over and cost him </Rewrite>
+<Verbatim PAsource="" >a leg. </Verbatim>
+<Verbatim PAsource="" >Roger Gedge 30, </Verbatim>
+<Rewrite PAsource="" >was part of a drunken gang who menaced </Rewrite>
+<New PAsource="" >mum </New>
+<Verbatim PAsource="" >Sarah Field, 27, at </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >Nottingham </Verbatim>
+<Rewrite PAsource="" >festival </Rewrite>
+<Verbatim PAsource="" >in 1994. </Verbatim>
+<Verbatim PAsource="" >He lay in front of her car. </Verbatim>
+<Rewrite PAsource="" >But </Rewrite>
+<Verbatim PAsource="" >she </Verbatim>
+<Rewrite PAsource="" >sped off unaware he was there and crushed his legs. </Rewrite>
+<Rewrite PAsource="" >One was later amputated.</Rewrite>
+
+
+<Rewrite PAsource="" >A </Rewrite>
+<Verbatim PAsource="" >Nottingham County Court </Verbatim>
+<Rewrite PAsource="" >judge </Rewrite>
+<Verbatim PAsource="" >said </Verbatim>
+<New PAsource="" >the men </New>
+<Verbatim PAsource="" >terrified Sarah</Verbatim>
+<New PAsource="" >, adding "What Gedge did was beyond comprehension."</New>
+
+</body>
+</meterdocument>

@@ -1,0 +1,32 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/08.08.99/edmonds/edmonds13_times.sgml" newspaper="times" domain="showbiz" classification="wholly-derived" pagenumber="9" date="08.08.99" catchline="edmonds">
+
+<body>
+
+
+<Verbatim PAsource="" >NOEL EDMONDS, </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >television presenter, </Verbatim>
+<Rewrite PAsource="" >is </Rewrite>
+<Verbatim PAsource="" >quitting the BBC because he </Verbatim>
+<Rewrite PAsource="" >finds </Rewrite>
+<Verbatim PAsource="" >the programmes "too boring".
+</Verbatim>
+
+<Verbatim PAsource="" >Edmonds, once one of the </Verbatim>
+<Rewrite PAsource="" >corporation's </Rewrite>
+<Verbatim PAsource="" >highest-paid presenters, was sad to be ""throwing in the towel" after 3O years, but did not rule out a comeback if the right offer came along. </Verbatim>
+<Verbatim PAsource="" >Paul Pascoe, a spokesman for Edmonds, said: "He is only 50, he has a lot of life in him yet."
+</Verbatim>
+
+<Verbatim PAsource="" >The departure of Edmonds - </Verbatim>
+<Rewrite PAsource="" >he </Rewrite>
+<Verbatim PAsource="" >earned an estimated £5 million in a four-year contract to host Noel's House Party, Telly Addicts and Telly Years - comes less than a week after the defection of </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >sports presenter, Des Lynam, to ITV.</Verbatim>
+
+
+</body>
+</meterdocument>

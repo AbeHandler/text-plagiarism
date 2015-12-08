@@ -1,0 +1,116 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/01.03.00/chemists/chemists389_times.sgml" newspaper="times" domain="courts" classification="partially-derived" pagenumber="12" date="01.03.00" catchline="chemists">
+
+<body>
+
+
+<Verbatim PAsource="" >TWO </Verbatim>
+<Rewrite PAsource="" >chemists </Rewrite>
+<Verbatim PAsource="" >were fined </Verbatim>
+<Rewrite PAsource="" >yesterday for </Rewrite>
+<Verbatim PAsource="" >making a catastrophic mistake </Verbatim>
+<Rewrite PAsource="" >in a prescription that </Rewrite>
+<Verbatim PAsource="" >killed a baby boy.</Verbatim>
+
+
+<Verbatim PAsource="" >Lisa Taylor Lloyd and Ziad Khattab, who worked </Verbatim>
+<Rewrite PAsource="" >at a branch of </Rewrite>
+<Verbatim PAsource="" >Boots, </Verbatim>
+<Rewrite PAsource="" >used a dilution </Rewrite>
+<Verbatim PAsource="" >of chloroform </Verbatim>
+<Rewrite PAsource="" >which </Rewrite>
+<Verbatim PAsource="" >was 20 times too strong, </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >court heard.</Verbatim>
+
+
+<Rewrite PAsource="" >Four-day-old </Rewrite>
+<Verbatim PAsource="" >Matthew Young turned blue </Verbatim>
+<New PAsource="" >and fell into a coma after his parents dripped the prescription into his mouth. </New>
+<Verbatim PAsource="" >He suffered severe brain damage </Verbatim>
+<New PAsource="" >and died 18 days after being prescribed </New>
+<Verbatim PAsource="" >peppermint water </Verbatim>
+<New PAsource="" >to treat colic. Matthew's parents Neil and Collette said last night that they were preparing a civil case for damages against Boots.</New>
+
+
+<Verbatim PAsource="" >Manslaughter </Verbatim>
+<New PAsource="" >charges against the </New>
+<Verbatim PAsource="" >two chemists </Verbatim>
+<New PAsource="" >were </New>
+<Verbatim PAsource="" >dropped </Verbatim>
+<New PAsource="" >shortly before they were to have faced trial </New>
+<Verbatim PAsource="" >at Chester Crown Court. Taylor Lloyd </Verbatim>
+<Rewrite PAsource="" >was fined </Rewrite>
+<Verbatim PAsource="" >£1,000 and Khattab £750 </Verbatim>
+<New PAsource="" >after both admitted </New>
+<Verbatim PAsource="" >supplying </Verbatim>
+<New PAsource="" >defective medicine last May.</New>
+
+
+<New PAsource="" >The court heard that </New>
+<Verbatim PAsource="" >Khattab, </Verbatim>
+<New PAsource="" >25, a trainee pharmacist, </New>
+<Rewrite PAsource="" >confused </Rewrite>
+<Verbatim PAsource="" >double strength chloroform water </Verbatim>
+<New PAsource="" >with </New>
+<Verbatim PAsource="" >concentrated chloroform. </Verbatim>
+<New PAsource="" >His colleague </New>
+<Verbatim PAsource="" >Taylor Lloyd, 27, </Verbatim>
+<New PAsource="" >who supervised him, was not qualified to do so and failed to check his work.</New>
+
+
+<New PAsource="" >Boots said after the case that it had now tightened its procedures. </New>
+<Verbatim PAsource="" >The Royal Pharmaceutical Society, </Verbatim>
+<New PAsource="" >the governing body for chemists, said it would review its training </New>
+<Rewrite PAsource="" >and had alerted its members to the need for vigilance when preparing prescriptions. </Rewrite>
+
+
+<Verbatim PAsource="" >Taylor Lloyd, of Crewe, </Verbatim>
+<New PAsource="" >is likely to face disciplinary proceedings which could result in her being struck off. </New>
+<New PAsource="" >Her colleague, from </New>
+<Verbatim PAsource="" >Eccles, Greater Manchester, </Verbatim>
+<New PAsource="" >will escape further action because he is not qualified. </New>
+<New PAsource="" >The society said that its guidelines required supervising chemists to have three years' experience but Taylor Lloyd had only two. </New>
+<Verbatim PAsource="" >Boots </Verbatim>
+<New PAsource="" >could also find itself before the society's misconduct committee, which has the ultimate sanction of preventing a chemist from selling medicines.</New>
+
+
+<New PAsource="" >The court heard that </New>
+<Verbatim PAsource="" >Matthew </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >prescribed 150 millilitres </Verbatim>
+<New PAsource="" >of peppermint water. </New>
+<New PAsource="" >Unusually, because most medications are now supplied ready prepared by large pharmaceutical companies, it was to be made up by a chemist.</New>
+
+
+<Verbatim PAsource="" >Peter Hughes, QC, </Verbatim>
+<Rewrite PAsource="" >for the prosecution, </Rewrite>
+<New PAsource="" >said that the </New>
+<Verbatim PAsource="" >formula </Verbatim>
+<Rewrite PAsource="" >was contained </Rewrite>
+<Verbatim PAsource="" >in a large book </Verbatim>
+<Rewrite PAsource="" >at the chemists, </Rewrite>
+<New PAsource="" >at the </New>
+<Verbatim PAsource="" >Hallwood health centre, in Runcorn. </Verbatim>
+<Rewrite PAsource="" >It </Rewrite>
+<Verbatim PAsource="" >was both misleading and out of date.</Verbatim>
+
+
+<Verbatim PAsource="" >During interviews Khattab told police </Verbatim>
+<Rewrite PAsource="" >that he had difficulty under standing the instructions. </Rewrite>
+<Verbatim PAsource="" >He said: "There seems to be lots of numbers all over the place. I couldn't quite make head nor tail of it." </Verbatim>
+<Rewrite PAsource="" >He said he had not realised the significance of notes at the side of the page, made by another chemist, which clarified the method. </Rewrite>
+<New PAsource="" >A "catastrophic mistake" was made, said Mr Hughes.</New>
+
+
+<Verbatim PAsource="" >Taylor Lloyd </Verbatim>
+<New PAsource="" >initialled a box on the label indicating that the prescription had been checked, before giving the medicine to the baby's mother, Collette Jackson.</New>
+
+
+<New PAsource="" >Matthew died after his life-support machine was turned off at Alder Hey Hospital, Liverpool. His mother described how she then held the child's body: "We had just had him christened and he was dressed in his robes. He looked so beautiful. I cuddled him, stroked his head, counted his toes, the way I had done the day he was born." </New>
+<New PAsource="" >The couple have another young child.</New>
+
+</body>
+</meterdocument>

@@ -1,0 +1,35 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/01.03.00/wagstaff/wagstaff384_express.sgml" newspaper="express" domain="courts" classification="wholly-derived" pagenumber="27" date="01.03.00" catchline="wagstaff">
+
+<body>
+
+
+<Rewrite PAsource="" >TV's </Rewrite>
+<Verbatim PAsource="" >Changing Rooms presenter Elizabeth Wagstaff yesterday denied conning colleagues and others out of more than £55,000 by pretending she had terminal cancer.
+
+The BBC1 makeover expert, </Verbatim>
+<Verbatim PAsource="" >who </Verbatim>
+<Rewrite PAsource="" >denied 19 </Rewrite>
+<Verbatim PAsource="" >counts of deception </Verbatim>
+<Rewrite PAsource="" >involving cash and </Rewrite>
+<Verbatim PAsource="" >property, </Verbatim>
+<Verbatim PAsource="" >is alleged to have swindled victims out of up to £10,000 a time. </Verbatim>
+<Verbatim PAsource="" >One man was said to have lost £12,000 after being targeted twice.</Verbatim>
+
+
+<Verbatim PAsource="" >At London Crown Court, </Verbatim>
+<Verbatim PAsource="" >Wagstaff 38, </Verbatim>
+<Rewrite PAsource="" >from </Rewrite>
+<Verbatim PAsource="" >Stevenage </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >Hertfordshire, was </Verbatim>
+<Rewrite PAsource="" >further remanded on </Rewrite>
+<Verbatim PAsource="" >bail </Verbatim>
+<Rewrite PAsource="" >until </Rewrite>
+<Verbatim PAsource="" >April 25.</Verbatim>
+
+
+</body>
+</meterdocument>

@@ -1,0 +1,23 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/09.08.99/nail/nail150_mirror.sgml" newspaper="mirror" domain="courts" classification="wholly-derived" pagenumber="20" date="09.08.99" catchline="nail">
+
+<body>
+
+
+<Verbatim PAsource="" >DAVID Copeland, 22, </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Cove, </Verbatim>
+<Rewrite PAsource="" >Hants, </Rewrite>
+<Verbatim PAsource="" >was remanded in custody at the Old Bailey </Verbatim>
+<Rewrite PAsource="" >yesterday on </Rewrite>
+<Verbatim PAsource="" >three murder charges </Verbatim>
+<Rewrite PAsource="" >after April's </Rewrite>
+<Verbatim PAsource="" >London nail </Verbatim>
+<Rewrite PAsource="" >bombings.</Rewrite>
+
+
+
+</body>
+</meterdocument>

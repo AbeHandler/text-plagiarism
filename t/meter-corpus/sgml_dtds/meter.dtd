@@ -1,0 +1,47 @@
+<!-- ***************************************************************************************
+
+       Description:  This is the METER DTD for annotation of PA and newspaper texts 
+
+       Filename:     meter.dtd
+     
+       Author:       Paul Clough
+                     University of Sheffield, Department of Computer Science
+
+       Project:      Meter
+
+       DTD info:     The format of the annotation is such that each meter document consists
+                     of either 1 or no title and a body. The title is not a mandatory tag 
+                     as not all articles will have one. The title must, however, come BEFORE 
+                     the annotated text. The meter document has attributes, not all of which 
+                     are required. PA texts will have "PA" as the newspaper attribute. Values 
+                     for attributes can be left blank if unknown. The body of the meter document
+                     consists of either 0 or more occurrences of either verbatim, rewrite and 
+                     new tags with CDATA in any order, or just PCDATA. 
+
+                     ALL tags require a start AND end tag
+
+       History:      22/12/99     Initial draft
+                     23/12/99     Changed meterdocument attributes to all #REQUIRED 
+                     21/02/01	  Updated dtd to conform to latest requirements
+
+     ************************************************************************************** -->
+     
+    <!ELEMENT meterdocument  - - (title?,body)>
+    <!ATTLIST meterdocument 
+    			     classification	CDATA	 #IMPLIED
+                             pagenumber 	NUMBER 	 #IMPLIED
+                             filename		CDATA    #REQUIRED 
+                             newspaper		CDATA  	 #REQUIRED 
+                             domain		CDATA	 #REQUIRED
+                             date		CDATA    #REQUIRED
+                             catchline		CDATA    #REQUIRED >
+    <!ELEMENT title          - - (#PCDATA)>
+    <!ELEMENT body	     - - (((verbatim | rewrite | new)+) | unclassified)>
+    <!ELEMENT verbatim       - - (#PCDATA)>
+    <!ATTLIST verbatim	     PAsource	CDATA #IMPLIED>
+    <!ELEMENT rewrite        - - (#PCDATA)>
+    <!ATTLIST rewrite	     PAsource	CDATA #IMPLIED>
+    <!ELEMENT new	     - - (#PCDATA)>
+    <!ATTLIST new	     PAsource	CDATA #IMPLIED>
+    <!ELEMENT unclassified   - - (#PCDATA)>
+    

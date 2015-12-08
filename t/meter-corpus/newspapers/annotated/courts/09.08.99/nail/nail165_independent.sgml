@@ -1,0 +1,25 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/09.08.99/nail/nail165_independent.sgml" newspaper="independent" domain="courts" classification="wholly-derived" pagenumber="4" date="09.08.99" catchline="nail">
+
+<body>
+
+
+<Verbatim PAsource="" >A MAN accused of </Verbatim>
+<Rewrite PAsource="" >the three </Rewrite>
+<Verbatim PAsource="" >nail bomb attacks in London </Verbatim>
+<Rewrite PAsource="" >that </Rewrite>
+<Verbatim PAsource="" >killed three people made a brief </Verbatim>
+<Rewrite PAsource="" >court </Rewrite>
+<Verbatim PAsource="" >appearance </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >at the Old Bailey. </Verbatim>
+<Verbatim PAsource="" >David Copeland, 22, from Cove, near Farnborough, Hampshire, was remanded in custody </Verbatim>
+<Rewrite PAsource="" >on </Rewrite>
+<Verbatim PAsource="" >three murder charges.</Verbatim>
+
+
+
+</body>
+</meterdocument>

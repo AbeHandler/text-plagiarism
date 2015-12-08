@@ -1,0 +1,48 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/16.07.99/grobbelaar/grobbelaar74_mirror.sgml" newspaper="mirror" domain="courts" classification="partially-derived" pagenumber="18" date="16.07.99" catchline="grobbelaar">
+
+<body>
+
+
+<Verbatim PAsource="" >FORMER Liverpool goalkeeper Bruce Grobbelaar </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >branded </Verbatim>
+<Rewrite PAsource="" >a disgrace to football yesterday and accused of starting </Rewrite>
+<Verbatim PAsource="" >the cancer of corruption in football.
+</Verbatim>
+
+<Verbatim PAsource="" >Grobbelaar </Verbatim>
+<New PAsource="" >sat grim-faced in court </New>
+<Rewrite PAsource="" >as </Rewrite>
+<Verbatim PAsource="" >George Carman, QC, said </Verbatim>
+<Rewrite PAsource="" >he was </Rewrite>
+<Verbatim PAsource="" >a serial liar </Verbatim>
+<Rewrite PAsource="" >who had misled </Rewrite>
+<Verbatim PAsource="" >his lawyers, the court </Verbatim>
+<Rewrite PAsource="" >and even </Rewrite>
+<Verbatim PAsource="" >his wife </Verbatim>
+<Rewrite PAsource="" >over a newspaper's claims that he had taken backhanders to throw soccer matches.
+</Rewrite>
+
+<Verbatim PAsource="" >Mr Carman told a High Court jury: </Verbatim>
+<New PAsource="" >"He was a respected, distinguished, skilled goal-keeper, a national and international figure, but he disgraced the name of football by agreeing to corrupt deals.
+</New>
+
+<New PAsource="" >"This was about corruption that might invade our national game and spread like a cancer".
+</New>
+
+<Verbatim PAsource="" >Grobbelaar</Verbatim>
+<Rewrite PAsource="" >, who was cleared of 'match rigging' allegations two years ago, is suing </Rewrite>
+<Verbatim PAsource="" >The  Sun</Verbatim>
+<Rewrite PAsource="" >, which accused him of cheating.
+</Rewrite>
+
+<Rewrite PAsource="" >They deny libel. The case continues.
+</Rewrite>
+
+
+
+</body>
+</meterdocument>

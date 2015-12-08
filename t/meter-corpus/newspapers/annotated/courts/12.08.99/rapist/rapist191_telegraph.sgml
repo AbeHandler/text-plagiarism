@@ -1,0 +1,35 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.08.99/rapist/rapist191_telegraph.sgml" newspaper="telegraph" domain="courts" classification="wholly-derived" pagenumber="8" date="12.08.99" catchline="rapist">
+
+<body>
+
+
+<Verbatim PAsource="" >A hooded teenager </Verbatim>
+<Rewrite PAsource="" >who broke into a </Rewrite>
+<Verbatim PAsource="" >widow's home </Verbatim>
+<Rewrite PAsource="" >and raped </Rewrite>
+<Verbatim PAsource="" >her </Verbatim>
+<Rewrite PAsource="" >was given </Rewrite>
+<Verbatim PAsource="" >10 years' </Verbatim>
+<Rewrite PAsource="" >youth custody after a </Rewrite>
+<Verbatim PAsource="" >judge said </Verbatim>
+<Rewrite PAsource="" >he was a </Rewrite>
+<Verbatim PAsource="" >"continuing danger to women".</Verbatim>
+
+
+<Verbatim PAsource="" >Gareth Reader, 18, of Sittingbourne, Kent, </Verbatim>
+<Rewrite PAsource="" >who had </Rewrite>
+<Verbatim PAsource="" >threatened </Verbatim>
+<Rewrite PAsource="" >his </Rewrite>
+<Verbatim PAsource="" >37 year-old victim with an iron bar, </Verbatim>
+<Rewrite PAsource="" >was </Rewrite>
+<Verbatim PAsource="" >sentenced after </Verbatim>
+<Rewrite PAsource="" >his </Rewrite>
+<Verbatim PAsource="" >trial at Maidstone Crown Court.</Verbatim>
+
+
+
+</body>
+</meterdocument>

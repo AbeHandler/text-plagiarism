@@ -1,0 +1,32 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/08.12.99/lockerb/lockerb330_star.sgml" newspaper="star" domain="courts" classification="wholly-derived" pagenumber="25" date="08.12.99" catchline="lockerb">
+
+<body>
+
+
+<Verbatim PAsource="" >THE date of the Lockerbie </Verbatim>
+<Rewrite PAsource="" >air </Rewrite>
+<Verbatim PAsource="" >bomb disaster trial was </Verbatim>
+<Rewrite PAsource="" >yesterday </Rewrite>
+<Verbatim PAsource="" >put back until May 3.</Verbatim>
+
+
+<Rewrite PAsource="" >The decision comes </Rewrite>
+<Verbatim PAsource="" >after the defence successfully sought more time to prepare its case. </Verbatim>
+<Verbatim PAsource="" >The two accused </Verbatim>
+<New PAsource="" >men - </New>
+<Rewrite PAsource="" >who </Rewrite>
+<Verbatim PAsource="" >were handed over by </Verbatim>
+<Rewrite PAsource="" >Libya - will face </Rewrite>
+<Verbatim PAsource="" >trial </Verbatim>
+<Rewrite PAsource="" >under </Rewrite>
+<Verbatim PAsource="" >Scottish </Verbatim>
+<Rewrite PAsource="" >law </Rewrite>
+<Verbatim PAsource="" >at Kamp Zeist, Holland.</Verbatim>
+
+
+
+</body>
+</meterdocument>

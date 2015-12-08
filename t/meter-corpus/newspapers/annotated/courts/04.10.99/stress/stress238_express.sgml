@@ -1,0 +1,73 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/04.10.99/stress/stress238_express.sgml" newspaper="express" domain="courts" classification="wholly-derived" pagenumber="27" date="04.10.99" catchline="stress">
+
+<body>
+
+
+<Verbatim PAsource="" >A CIVIL servant </Verbatim>
+<Verbatim PAsource="" >shot himself after complaining that his job had become "terrible", </Verbatim>
+<Verbatim PAsource="" >his widow told a court yesterday.</Verbatim>
+
+
+<Verbatim PAsource="" >The family of senior manager Jim Cross, 49, </Verbatim>
+<Verbatim PAsource="" >claim </Verbatim>
+<Rewrite PAsource="" >it was </Rewrite>
+<Verbatim PAsource="" >work-related stress </Verbatim>
+<Rewrite PAsource="" >which caused him to take his life.
+</Rewrite>
+
+<Rewrite PAsource="" >They are suing </Rewrite>
+<Verbatim PAsource="" >his employers for more than £500,000 </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >the first </Verbatim>
+<Rewrite PAsource="" >case of its kind </Rewrite>
+<Verbatim PAsource="" >in Scotland. </Verbatim>
+<Verbatim PAsource="" >His widow, midwife Marie Cross, </Verbatim>
+<Verbatim PAsource="" >told the hearing </Verbatim>
+<Verbatim PAsource="" >in Edinburgh </Verbatim>
+<Rewrite PAsource="" >that </Rewrite>
+<Verbatim PAsource="" >the father of two changed in a matter of months </Verbatim>
+<Verbatim PAsource="" >from an independent man </Verbatim>
+<Verbatim PAsource="" >who loved marathon running to </Verbatim>
+<Rewrite PAsource="" >a person </Rewrite>
+<Verbatim PAsource="" >with no confidence </Verbatim>
+<Rewrite PAsource="" >who </Rewrite>
+<Verbatim PAsource="" >followed </Verbatim>
+<Rewrite PAsource="" >her </Rewrite>
+<Rewrite PAsource="" >around </Rewrite>
+<Verbatim PAsource="" >"almost like a puppy".</Verbatim>
+
+
+<Verbatim PAsource="" >Mr Cross moved to </Verbatim>
+<Verbatim PAsource="" >the Western Isles from Edinburgh in 1991 </Verbatim>
+<Verbatim PAsource="" >to take up a </Verbatim>
+<Rewrite PAsource="" >£22,000 post </Rewrite>
+<Rewrite PAsource="" >with a subsidiary of </Rewrite>
+<Verbatim PAsource="" >Highland and Islands Enterprise.</Verbatim> 
+<Verbatim PAsource="" >Mrs Cross said </Verbatim>
+<Rewrite PAsource="" >that </Rewrite>
+<Verbatim PAsource="" >he had always been happy in his work, </Verbatim>
+<Verbatim PAsource="" >but noticed a change in 1993 </Verbatim>
+<Verbatim PAsource="" >when he was working long hours with many evening meetings. </Verbatim>
+<Verbatim PAsource="" >Mr Cross </Verbatim>
+<Verbatim PAsource="" >looked haggard and wasn't sleeping well. </Verbatim>
+<Verbatim PAsource="" >Mrs </Verbatim>
+<Verbatim PAsource="" >Cross said he </Verbatim>
+<Rewrite PAsource="" >told her: </Rewrite>
+<Verbatim PAsource="" >"This job is terrible." </Verbatim>
+<New PAsource="" >She added: </New>
+<Verbatim PAsource="" >"He was absolutely up to his neck in work." </Verbatim>
+<Verbatim PAsource="" >Soon after, </Verbatim>
+<Verbatim PAsource="" >he went off sick for a month and was prescribed valium. </Verbatim>
+<Verbatim PAsource="" >"He seemed to go from someone who was independent to someone who had to have someone with him," </Verbatim>
+<New PAsource="" >she said. </New>
+<Verbatim PAsource="" >"His confidence was completely and utterly gone."</Verbatim>
+
+
+<Rewrite PAsource="" >The hearing continues.</Rewrite>
+
+
+</body>
+</meterdocument>

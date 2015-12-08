@@ -1,0 +1,18 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/14.07.99/rape/rape216_independent.sgml" newspaper="independent" domain="courts" classification="wholly-derived" pagenumber="4" date="14.07.99" catchline="rape">
+
+<body>
+
+
+<Verbatim PAsource="" >A CONSULTANT gynaecologist nibbled at a patient's ear then told her it was all part of her treatment, a Manchester court </Verbatim>
+<Rewrite PAsource="" >was told yesterday. </Rewrite>
+<Verbatim PAsource="" >Darwish Hasan Darwish, 52, of Caldy, Merseyside, </Verbatim>
+<Rewrite PAsource="" >denies </Rewrite>
+<Verbatim PAsource="" >one charge of rape and 11 of indecent assault on 10 different women.</Verbatim>
+
+
+
+</body>
+</meterdocument>

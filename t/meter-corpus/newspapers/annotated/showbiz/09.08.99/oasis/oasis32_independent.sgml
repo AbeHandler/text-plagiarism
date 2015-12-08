@@ -1,0 +1,63 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/showbiz/09.08.99/oasis/oasis32_independent.sgml" newspaper="independent" domain="showbiz" classification="partially-derived" pagenumber="8" date="09.08.99" catchline="oasis">
+
+<body>
+
+
+<Rewrite PAsource="" >THE </Rewrite>
+<Verbatim PAsource="" >OASIS guitarist Paul "Bonehead" Arthurs </Verbatim>
+<Verbatim PAsource="" >announced yesterday </Verbatim>
+<Rewrite PAsource="" >he had </Rewrite>
+<Verbatim PAsource="" >decided to "call it a day" </Verbatim>
+<Rewrite PAsource="" >and leave </Rewrite>
+<Verbatim PAsource="" >the band after eight years.</Verbatim>
+<New PAsource="" >
+</New>
+
+<Verbatim PAsource="" >The 34-year-old musician's split from the group </Verbatim>
+<Rewrite PAsource="" >is understood to be </Rewrite>
+<Verbatim PAsource="" >amicable. </Verbatim>
+<Verbatim PAsource="" >In a statement </Verbatim>
+<Verbatim PAsource="" >released by the band's label, Creation Records, Arthurs said </Verbatim>
+<Rewrite PAsource="" >he was quitting </Rewrite>
+<Verbatim PAsource="" >after "a lot of consideration"</Verbatim>
+<New PAsource="" >
+</New>
+
+<Rewrite PAsource="" >He added; </Rewrite>
+<Verbatim PAsource="" >"I've had a fantastic eight years in one of the best bands ever to come out of Britain, and now feel I have come to the stage where I'd like to concentrate on other things in my life, outside of the demands of being in a successful rock and roll band."</Verbatim>
+<New PAsource="" >
+</New>
+
+<Verbatim PAsource="" >"I've made some great friends along the way and wish everyone in the band every Success with the next album, and intend to enjoy watching the band go on to further success in the coming years."</Verbatim>
+<New PAsource="" >
+</New>
+
+<Verbatim PAsource="" >Arthurs, </Verbatim>
+<Verbatim PAsource="" >who acquired </Verbatim>
+<Rewrite PAsource="" >the </Rewrite>
+<Verbatim PAsource="" >nickname "Bonehead" </Verbatim>
+<Rewrite PAsource="" >on account </Rewrite>
+<Verbatim PAsource="" >of his thinning hair </Verbatim>
+<Verbatim PAsource="" >was a founder member of Oasis. </Verbatim>
+<Verbatim PAsource="" >The band was originally formed as Rain in Burnage, Manchester in 1991, </Verbatim>
+<Verbatim PAsource="" >with drummer Tony McCarroll and bass player Paul "Guigsy" McGuigan. </Verbatim>
+<Verbatim PAsource="" >A new singer, Liam Gallagher, suggested a change of name, and the appointment of his brother Noel </Verbatim>
+<New PAsource="" >as lead guitarist and songwriter </New>
+<Verbatim PAsource="" >gave the group new direction. </Verbatim>
+<New PAsource="" >Their successful debut album, Definitely Maybe, followed in 1995.
+</New>
+
+<Verbatim PAsource="" >Arthurs had completed work on the band's fourth studio album, due out next year. </Verbatim>
+<Verbatim PAsource="" >There are no plans </Verbatim>
+<Rewrite PAsource="" >to replace him.</Rewrite>
+<New PAsource="" >
+
+
+</New>
+
+
+</body>
+</meterdocument>

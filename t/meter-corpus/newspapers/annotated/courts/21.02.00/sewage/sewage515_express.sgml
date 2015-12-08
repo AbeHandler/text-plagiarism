@@ -1,0 +1,15 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/21.02.00/sewage/sewage515_express.sgml" newspaper="express" domain="courts" classification="non-derived" pagenumber="9" date="21.02.00" catchline="sewage">
+
+<body>
+<unclassified>
+A WATER company was fined a record £250,000 yesterday for polluting the Thames with five million gallons of waste.
+
+Thames Water Utilities Ltd was fined after a series of errors and illegal connections - including pumping a cocktail of untreated sewage into the river. Residents in Erith, Kent, still cannot return to their homes since the incident on November 25, 1998. Their health is monitored because of problems from the toxicity of the chemicals.
+
+The Environment Agency said: 'We are very pleased as the level of the fines reflects the seriousness of the incident.'
+</unclassified>
+</body>
+</meterdocument>

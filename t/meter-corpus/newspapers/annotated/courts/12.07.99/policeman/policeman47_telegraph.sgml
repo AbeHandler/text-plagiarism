@@ -1,0 +1,32 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/12.07.99/policeman/policeman47_telegraph.sgml" newspaper="telegraph" domain="courts" classification="wholly-derived" pagenumber="13" date="12.07.99" catchline="policeman">
+
+<body>
+
+
+<Rewrite PAsource="" >A </Rewrite>
+<Verbatim PAsource="" >verdict </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >accidental death was recorded </Verbatim>
+<Rewrite PAsource="" >at </Rewrite>
+<Verbatim PAsource="" >an inquest </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >Ormskirk, Lancs, on Pc Andrew Gibb, 35, </Verbatim>
+<Rewrite PAsource="" >of </Rewrite>
+<Verbatim PAsource="" >Rufford, Lancs, </Verbatim>
+<Rewrite PAsource="" >whose </Rewrite>
+<Verbatim PAsource="" >wife found </Verbatim>
+<Rewrite PAsource="" >him strangled in </Rewrite>
+<Verbatim PAsource="" >women's clothing </Verbatim>
+<Rewrite PAsource="" >after he put a rope around his neck </Rewrite>
+<Verbatim PAsource="" >in </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >sexual </Verbatim>
+<Rewrite PAsource="" >experiment.</Rewrite>
+
+
+
+</body>
+</meterdocument>

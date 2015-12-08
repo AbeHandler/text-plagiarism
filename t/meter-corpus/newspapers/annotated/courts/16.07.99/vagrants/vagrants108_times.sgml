@@ -1,0 +1,32 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/16.07.99/vagrants/vagrants108_times.sgml" newspaper="times" domain="courts" classification="partially-derived" pagenumber="13" date="16.07.99" catchline="vagrants">
+
+<body>
+
+
+<Verbatim PAsource="" >A woman jailed for life ten years ago for a double murder was freed </Verbatim>
+<Rewrite PAsource="" >yesterday. </Rewrite>
+<Verbatim PAsource="" >The convictions at Reading in June 1989 of Mary Druhan, </Verbatim>
+<New PAsource="" >56, </New>
+<Rewrite PAsource="" >then an </Rewrite>
+<Verbatim PAsource="" >alcoholic vagrant, were unsafe, the Court of Appeal </Verbatim>
+<Rewrite PAsource="" >said. </Rewrite>
+<Verbatim PAsource="" >Mrs Druhan, </Verbatim>
+<Rewrite PAsource="" >who </Rewrite>
+<Verbatim PAsource="" >featured </Verbatim>
+<Rewrite PAsource="" >on </Rewrite>
+<New PAsource="" >Channel 4's </New>
+<Verbatim PAsource="" >Trial and Error, </Verbatim>
+<Rewrite PAsource="" >had </Rewrite>
+<Verbatim PAsource="" >denied being at a Kingston upon Thames squat </Verbatim>
+<Rewrite PAsource="" >when </Rewrite>
+<Verbatim PAsource="" >Richard Duddie and Kenneth Challenger died </Verbatim>
+<Rewrite PAsource="" >there </Rewrite>
+<Verbatim PAsource="" >in a fire.</Verbatim>
+
+
+
+</body>
+</meterdocument>

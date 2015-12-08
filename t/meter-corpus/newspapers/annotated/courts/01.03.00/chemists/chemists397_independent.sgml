@@ -1,0 +1,70 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/01.03.00/chemists/chemists397_independent.sgml" newspaper="independent" domain="courts" classification="wholly-derived" pagenumber="7" date="01.03.00" catchline="chemists">
+
+<body>
+
+
+<Verbatim PAsource="" >TWO PHARMACISTS </Verbatim>
+<Rewrite PAsource="" >from </Rewrite>
+<Verbatim PAsource="" >Boots the chemist </Verbatim>
+<Rewrite PAsource="" >have been </Rewrite>
+<Verbatim PAsource="" >fined </Verbatim>
+<Rewrite PAsource="" >for </Rewrite>
+<Verbatim PAsource="" >a catastrophic </Verbatim>
+<Rewrite PAsource="" >error in </Rewrite>
+<Verbatim PAsource="" >preparing medicine which killed a new-born baby.</Verbatim>
+
+
+<Rewrite PAsource="" >A </Rewrite>
+<Verbatim PAsource="" >chemist, Lisa Taylor Lloyd, 27, was fined £1,000 and </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >trainee, Zaid Kattab, 25, was fined £750 after they </Verbatim>
+<Rewrite PAsource="" >admitted </Rewrite>
+<Verbatim PAsource="" >supplying peppermint water "not of the nature and quality specified on the description" to four-day-old Matthew Young.</Verbatim>
+
+
+<Rewrite PAsource="" >The baby, </Rewrite>
+<Verbatim PAsource="" >given the medicine from Boots at Hallwood Health Centre in Runcorn, Merseyside, to cure wind, died later in April 1998. </Verbatim>
+<Verbatim PAsource="" >The solution was 20 times too strong.</Verbatim>
+
+
+<Verbatim PAsource="" >Mr Justice Forbes, who accepted guilty pleas on a lesser charge after a count of manslaughter was dropped at Chester Crown Court, </Verbatim>
+<Rewrite PAsource="" >called the </Rewrite>
+<Verbatim PAsource="" >case terrible </Verbatim>
+<Rewrite PAsource="" >and </Rewrite>
+<Verbatim PAsource="" >tragic.</Verbatim>
+
+
+<Rewrite PAsource="" >Mr </Rewrite>
+<Verbatim PAsource="" >Kattab </Verbatim>
+<Rewrite PAsource="" >had </Rewrite>
+<Verbatim PAsource="" >been </Verbatim>
+<Rewrite PAsource="" >unaware </Rewrite>
+<Verbatim PAsource="" >of </Verbatim>
+<Rewrite PAsource="" >how </Rewrite>
+<Verbatim PAsource="" >to </Verbatim>
+<Rewrite PAsource="" >prepare a </Rewrite>
+<Verbatim PAsource="" >peppermint water </Verbatim>
+<Rewrite PAsource="" >treatment because he did </Rewrite>
+<Verbatim PAsource="" >not </Verbatim>
+<Rewrite PAsource="" >know enough about </Rewrite>
+<Verbatim PAsource="" >the different dilutions of chloroform used to make </Verbatim>
+<Rewrite PAsource="" >the medicine intended to help alleviate the baby's </Rewrite>
+<Verbatim PAsource="" >colic. </Verbatim>
+
+
+<Rewrite PAsource="" >Ms </Rewrite>
+<Verbatim PAsource="" >Taylor-Lloyd, of Crewe, </Verbatim>
+<New PAsource="" >Cheshire, </New>
+<Rewrite PAsource="" >had </Rewrite>
+<Verbatim PAsource="" >not </Verbatim>
+<Rewrite PAsource="" >been </Rewrite>
+<Verbatim PAsource="" >qualified to train </Verbatim>
+<Rewrite PAsource="" >Mr </Rewrite>
+<Verbatim PAsource="" >Kattab, of Eccles, Greater Manchester. </Verbatim>
+<Verbatim PAsource="" >Mr Justice Forbes said: "It is an extremely sad and tragic case for all concerned. One's heart goes out to the parents of the boy who died so tragically and so young."</Verbatim>
+
+</body>
+</meterdocument>

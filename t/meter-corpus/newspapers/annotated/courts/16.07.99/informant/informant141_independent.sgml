@@ -1,0 +1,34 @@
+<!DOCTYPE meterdocument SYSTEM "meter.dtd" [
+]>
+
+<meterdocument 	filename="/meter_corpus/newspapers/annotated/courts/16.07.99/informant/informant141_independent.sgml" newspaper="independent" domain="courts" classification="wholly-derived" pagenumber="6" date="16.07.99" catchline="informant">
+
+<body>
+
+
+<Verbatim PAsource="" >A </Verbatim>
+<Rewrite PAsource="" >MAN </Rewrite>
+<Verbatim PAsource="" >who murdered </Verbatim>
+<Rewrite PAsource="" >a </Rewrite>
+<Verbatim PAsource="" >widow </Verbatim>
+<Rewrite PAsource="" >and then tried to gain </Rewrite>
+<Verbatim PAsource="" >a £5,000 reward </Verbatim>
+<Rewrite PAsource="" >by giving police information implicating someone else </Rewrite>
+<Verbatim PAsource="" >was jailed for life </Verbatim>
+<Rewrite PAsource="" >yesterday. </Rewrite>
+<Verbatim PAsource="" >Liverpool Crown Court </Verbatim>
+<Rewrite PAsource="" >was told how </Rewrite>
+<Verbatim PAsource="" >Kevin Joseph Morrison, 60, </Verbatim>
+<Rewrite PAsource="" >from </Rewrite>
+<Verbatim PAsource="" >Nantwich, Cheshire, </Verbatim>
+<Rewrite PAsource="" >killed </Rewrite>
+<Verbatim PAsource="" >Alice Rye, 74, </Verbatim>
+<Rewrite PAsource="" >at her </Rewrite>
+<Verbatim PAsource="" >home </Verbatim>
+<Rewrite PAsource="" >in </Rewrite>
+<Verbatim PAsource="" >the Wirral, Merseyside in 1996.</Verbatim>
+
+
+
+</body>
+</meterdocument>
