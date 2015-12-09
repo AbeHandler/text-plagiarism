@@ -1,5 +1,12 @@
 package Text::Plagiarism;
 use common::sense;
+# TODO think of interface!
+use Exporter::Easy (
+    EXPORT  => [qw(
+        plagiarizm_prepare
+        how_much_plagiarized
+    )],
+);
 
 =head1 NAME
 
@@ -23,7 +30,7 @@ Perhaps a little code snippet.
 
     use Text::Plagiarism;
 
-    my $foo = Text::Plagiarism->new();
+    my $tp = Text::Plagiarism->new();
     ...
 
 =head1 EXPORT
@@ -33,11 +40,38 @@ if you don't export anything, such as for a purely object-oriented module.
 
 =head1 SUBROUTINES/METHODS
 
-=head2 function1
+=head2 plagiarizm_prepare
+
+it prepares help data for plagiarizm search (shingles, hashes)
 
 =cut
 
-sub function1 {
+sub plagiarizm_prepare {
+    my %a   = (
+        text    => undef,
+        @_
+    );
+
+    my %d;
+    \%d;
+}
+
+=head2 how_much_plagiarized
+
+measures how much 1st text is a plagiarization of 2nd one
+
+=cut
+
+sub how_much_plagiarized {
+    my %a   = (
+        text0   => undef,
+        data0   => {},
+        text1   => undef,
+        data1   => {},
+        @_
+    );
+
+    undef;
 }
 
 =head1 AUTHOR

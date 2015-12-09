@@ -6,6 +6,12 @@ use Readonly;
 use Getopt::Long;
 use Data::Dumper;
 use Text::CSV;
+use File::Slurp qw(read_file);
+
+BEGIN {
+    use_ok( 'Text::Plagiarism', qw(plagiarizm_prepare how_much_plagiarized) )
+        or die "Bail out, main module can't be used!";
+}
 
 Readonly our $METER_CORPUS_DIR          => 't/meter-corpus';
 Readonly our $METER_REUSE_FILE          => "text-reuse-annotations/meter-corpus.csv";
@@ -32,6 +38,13 @@ given($opts{type}) {
 
 chdir $METER_CORPUS_DIR;
 
+my $reuse_data  = reuse_data();
+my %reuse_data;
+foreach (@{ $reuse_data // [] }) {
+    $reuse_data{ $_->{id} } = $_;
+}
+#diag(Dumper(\%reuse_data));
+
 my @corpus;
 run_through_files(
     dirs    => [ $METER_PA_DIR ],
@@ -40,22 +53,93 @@ run_through_files(
             file    => undef,
             @_
         );
-        push @corpus, $a{file};
+        push @corpus, {
+            file    => $a{file},
+        };
     },
 );
-say Dumper('CORPUS', \@corpus);
 
-# run_through_files(
-#     dirs    => [ $METER_NEWSPAPERS_DIR ],
-#     action  => sub {
-#         say Dumper(\@_);
-#     },
-# );
+foreach(@corpus) {
+    $_->{text}  = read_file($_->{file});
+    $_->{data}  = plagiarizm_prepare(text => $_->{text});
+    # TODO check data
+    cmp_ok(scalar(keys %{ $_->{data} // {} }), '>', 0, 'check prepared data');
+}
+#say Dumper('CORPUS', \@corpus);
 
-# my $data    = reuse_data();
-# diag Dumper($data);
+my @articles;
+run_through_files(
+    dirs    => [ $METER_NEWSPAPERS_DIR ],
+    action  => sub {
+        my %a   = (
+            file    => undef,
+            @_
+        );
+        push @articles, {
+            file    => $a{file},
+        };
+    },
+);
+
+diag( "#corpus: ".scalar(@corpus)." #articles: ".scalar(@articles) );
+foreach my $art (@articles) {
+    $art->{text}  = read_file($art->{file});
+
+    $art->{file_standard}    = $art->{file};
+    $art->{file_standard}    =~ s#$opts{type}/##;
+    $art->{file_standard}    =~ s#\.txt##i;
+
+    if(!exists $reuse_data{ $art->{file_standard} }) {
+        diag("no such file '$art->{file_standard}' in annotations, skip");
+        next;
+    }
+    else {
+        diag("such file '$art->{file_standard}' exists in annotations, checking");
+    }
+    my $reuse   = $reuse_data{ $art->{file_standard} };
+
+    $art->{data}  = plagiarizm_prepare(text => $_->{text});
+    # TODO check data
+    cmp_ok(scalar(keys %{ $art->{data} // {} }), '>', 0, 'check prepared data');
+
+    foreach my $c (@corpus) {
+        my $plag    = how_much_plagiarized(
+            text0   => $art->{text},
+            data0   => $art->{data},
+            text1   => $c->{text},
+            data1   => $c->{data},
+        );
+        ok(defined $plag, "defined plagiarizm measure");
+        if(defined $plag) {
+            my $human   = avg_human(%$c);
+            cmp_ok(abs($plag - $human), '<=', 0.5, "defined plagiarizm measure");
+        }
+
+        #diag( Dumper( 'REUSE', $art->{file_standard}, $reuse_data{ $art->{file_standard} } ) );
+    }
+}
 
 exit;
+
+sub avg_human {
+    my %a   = (
+        rater1  => undef,
+        rater2  => undef,
+        rater3  => undef,
+        @_
+    );
+    my $n   = 0;
+    my $s   = 0;
+    foreach(1 .. 10) {
+        if(defined $a{"rater$_"}) {
+            $n++;
+            if($a{"rater$_"} !~ /no[nt]/i) {
+                $s++;
+            }
+        }
+    }
+    $s/$n;
+}
 
 sub reuse_data {
     open( my $IN, '<', $METER_REUSE_FILE)    || help("can't open reuse file - '$METER_REUSE_FILE': $!");
