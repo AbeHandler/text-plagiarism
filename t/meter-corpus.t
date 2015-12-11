@@ -8,15 +8,21 @@ use Data::Dumper;
 use Text::CSV;
 use File::Slurp qw(read_file);
 
+Readonly our $METER_CORPUS_DIR          => 't/meter-corpus';
+Readonly our $METER_FILE_INDEX_DIR      => "file_index";
+Readonly our $METER_NEWSPAPERS_DIR      => "newspapers";
+Readonly our $METER_PA_DIR              => "PA";
+
 BEGIN {
-    use_ok( 'Text::Plagiarism', qw(plagiarizm_prepare how_much_plagiarized) )
+    use_ok( 'Text::Plagiarism', qw(
+        plagiarizm_prepare
+        plagiarizm_prepare_text
+        plagiarize_measure
+    ) )
         or die "Bail out, main module can't be used!";
 }
 
-Readonly our $METER_CORPUS_DIR          => 't/meter-corpus';
-Readonly our $METER_REUSE_FILE          => "text-reuse-annotations/meter-corpus.csv";
-Readonly our $METER_NEWSPAPERS_DIR      => "newspapers";
-Readonly our $METER_PA_DIR              => "PA";
+chdir $METER_CORPUS_DIR;
 
 my %opts = (
     type        => 'raw',
@@ -36,23 +42,50 @@ given($opts{type}) {
     }
 }
 
-chdir $METER_CORPUS_DIR;
-
-my $reuse_data  = reuse_data();
-my %reuse_data;
-foreach (@{ $reuse_data // [] }) {
-    $reuse_data{ $_->{id} } = $_;
-}
-#diag(Dumper(\%reuse_data));
-
-my @corpus;
+my @derived_files;
 run_through_files(
-    dirs    => [ $METER_PA_DIR ],
+    dirs    => [ $METER_FILE_INDEX_DIR ],
     action  => sub {
         my %a   = (
             file    => undef,
             @_
         );
+
+        return  if $a{file} =~ /readme/i;
+        return  unless $a{file} =~ /\.txt$/;
+        return  unless $a{file} =~ /(\w_derived)\b/;
+        
+        push @derived_files, $a{file};
+    },
+);
+my %measure_human;
+foreach my $file (@derived_files) {
+    $file   =~ /(\w+_derived)/;
+    my $measure = $1;
+
+    open( IN, '<', $file )   or die "can't open '$file': $!";
+    while(<IN>) {
+        chomp;
+        s#\s*$##;
+        s#meter_corpus/?##;
+        $measure_human{$_}  = $measure;
+    }
+    close IN;
+}
+#say Dumper('MES',\%measure_human);exit;
+
+my @corpus;
+run_through_files(
+    dirs    => [ "$METER_PA_DIR/$opts{type}" ],
+    action  => sub {
+        my %a   = (
+            file    => undef,
+            @_
+        );
+
+        return  if $a{file} =~ /readme/i;
+        return  unless $a{file} =~ /\.txt$/;
+
         push @corpus, {
             file    => $a{file},
         };
@@ -65,16 +98,20 @@ foreach(@corpus) {
     # TODO check data
     cmp_ok(scalar(keys %{ $_->{data} // {} }), '>', 0, 'check prepared data');
 }
-#say Dumper('CORPUS', \@corpus);
+say Dumper('CORPUS', \@corpus); exit;
 
 my @articles;
 run_through_files(
-    dirs    => [ $METER_NEWSPAPERS_DIR ],
+    dirs    => [ "$METER_NEWSPAPERS_DIR/$opts{type}" ],
     action  => sub {
         my %a   = (
             file    => undef,
             @_
         );
+
+        return  if $a{file} =~ /readme/i;
+        return  unless $a{file} =~ /\.txt$/;
+
         push @articles, {
             file    => $a{file},
         };
@@ -83,85 +120,43 @@ run_through_files(
 
 diag( "#corpus: ".scalar(@corpus)." #articles: ".scalar(@articles) );
 foreach my $art (@articles) {
-    $art->{text}  = read_file($art->{file});
+    $art->{text}  = plagiarizm_prepare_text( read_file($art->{file}) );
 
-    $art->{file_standard}    = $art->{file};
-    $art->{file_standard}    =~ s#$opts{type}/##;
-    $art->{file_standard}    =~ s#\.txt##i;
-
-    if(!exists $reuse_data{ $art->{file_standard} }) {
-        diag("no such file '$art->{file_standard}' in annotations, skip");
+    if(!exists $measure_human{ $art->{file} }) {
+        diag("no such file '$art->{file}' in annotations, skip");
         next;
     }
     else {
-        diag("such file '$art->{file_standard}' exists in annotations, checking");
+        diag("such file '$art->{file}' exists in annotations, checking");
     }
-    my $reuse   = $reuse_data{ $art->{file_standard} };
+    my $measure_human   = $measure_human{ $art->{file_standard} };
 
     $art->{data}  = plagiarizm_prepare(text => $_->{text});
     # TODO check data
     cmp_ok(scalar(keys %{ $art->{data} // {} }), '>', 0, 'check prepared data');
 
+    my $max;
     foreach my $c (@corpus) {
-        my $plag    = how_much_plagiarized(
+        my $plag    = plagiarize_measure(
             text0   => $art->{text},
             data0   => $art->{data},
             text1   => $c->{text},
             data1   => $c->{data},
         );
         ok(defined $plag, "defined plagiarizm measure");
-        if(defined $plag) {
-            my $human   = avg_human(%$c);
-            cmp_ok(abs($plag - $human), '<=', 0.5, "defined plagiarizm measure");
+        if(!defined $max || $max < $plag) {
+            $max    = $plag;
         }
 
-        #diag( Dumper( 'REUSE', $art->{file_standard}, $reuse_data{ $art->{file_standard} } ) );
+        #diag( Dumper( 'REUSE', $art->{file_standard}, $measure_human{ $art->{file_standard} } ) );
+    }
+
+    if(defined $max) {
+        cmp_ok(abs($max - $measure_human), '<=', 0.5, "defined plagiarizm measure");
     }
 }
 
 exit;
-
-sub avg_human {
-    my %a   = (
-        rater1  => undef,
-        rater2  => undef,
-        rater3  => undef,
-        @_
-    );
-    my $n   = 0;
-    my $s   = 0;
-    foreach(1 .. 10) {
-        if(defined $a{"rater$_"}) {
-            $n++;
-            if($a{"rater$_"} !~ /no[nt]/i) {
-                $s++;
-            }
-        }
-    }
-    $s/$n;
-}
-
-sub reuse_data {
-    open( my $IN, '<', $METER_REUSE_FILE)    || help("can't open reuse file - '$METER_REUSE_FILE': $!");
-    my $csv = Text::CSV->new({
-        sep_char    => "\t",
-        binary      => 1,
-    });
-    my $headers = <$IN>;
-    chomp $headers;
-    $csv->parse($headers)   || help("can't parse headers '$headers' for reuse file: $!");
-    my @headers = $csv->fields();
-    my @r;
-    foreach(<$IN>) {
-        chomp;
-        $csv->parse($_)  || help("can't parse line - '$_' for reuse file: $!");
-        my @cols    = $csv->fields();
-        my %cols;
-        @cols{@headers}  = @cols;
-        push @r, \%cols;
-    }
-    \@r;
-}
 
 sub run_through_files {
     my %a   = (
@@ -169,7 +164,7 @@ sub run_through_files {
         dirs    => [],
         @_
     );
-    finddepth( file_action(%a), map {"$_/$opts{type}"} @{ $a{dirs} // [] });
+    finddepth( file_action(%a), @{ $a{dirs} // [] } );
 }
 
 sub cwd {
@@ -198,8 +193,6 @@ sub file_action {
         # $_ is the current filename within that directory
         # $File::Find::name is the complete pathname to the file.
         return if $File::Find::dir =~ /\.(?:svn|git)/;
-        return if /readme/i;
-        return unless /\.txt$/;
 
         my $fname   = $File::Find::name;
         my $dir     = cwd();
