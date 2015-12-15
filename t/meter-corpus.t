@@ -8,6 +8,8 @@ use Data::Dumper;
 use Text::CSV;
 use File::Slurp qw(read_file);
 
+$|  = 1;
+
 Readonly our $METER_CORPUS_DIR          => 't/meter-corpus';
 Readonly our $METER_FILE_INDEX_DIR      => "file_index";
 Readonly our $METER_NEWSPAPERS_DIR      => "newspapers";
@@ -15,9 +17,9 @@ Readonly our $METER_PA_DIR              => "PA";
 
 BEGIN {
     use_ok( 'Text::Plagiarism', qw(
-        plagiarizm_prepare
-        plagiarizm_prepare_text
-        plagiarize_measure
+        plagiarism_prepare
+        plagiarism_prepare_text
+        plagiarism_measure
     ) )
         or die "Bail out, main module can't be used!";
 }
@@ -60,8 +62,16 @@ run_through_files(
 );
 my %measure_human;
 foreach my $file (@derived_files) {
-    $file   =~ /(\w+_derived)/;
+    $file   =~ /(\w+)_derived/;
     my $measure = $1;
+    given($measure) {
+        when(/non/i) {          $measure = 0 }
+        when(/partiall?y/i) {   $measure = .5 }
+        when(/whol/i) {         $measure = 1 }
+        default {
+            die "unknown human measure: '$_'";
+        }
+    }
 
     open( IN, '<', $file )   or die "can't open '$file': $!";
     while(<IN>) {
@@ -92,13 +102,18 @@ run_through_files(
     },
 );
 
+my %corpus_by_event;
 foreach(@corpus) {
     $_->{text}  = read_file($_->{file});
-    $_->{data}  = plagiarizm_prepare(text => $_->{text});
-    # TODO check data
-    cmp_ok(scalar(keys %{ $_->{data} // {} }), '>', 0, 'check prepared data');
+    $_->{data}  = plagiarism_prepare(text => $_->{text});
+    #cmp_ok(scalar(keys %{ $_->{data} // {} }), '>', 0, 'check prepared data');
+
+    my $event   = file2event($_->{file});
+    push @{ $corpus_by_event{ $event } }, $_;
 }
-say Dumper('CORPUS', \@corpus); exit;
+#diag( Dumper('CORPUS', \@corpus) );
+#diag( Dumper('CORPUS by event', \%corpus_by_event) );
+diag( "corpus size - ".scalar(@corpus).", number of events in corpus - ".scalar(keys %corpus_by_event) );
 
 my @articles;
 run_through_files(
@@ -117,10 +132,10 @@ run_through_files(
         };
     },
 );
+diag( "number of articles - ".scalar(@articles) );
 
-diag( "#corpus: ".scalar(@corpus)." #articles: ".scalar(@articles) );
 foreach my $art (@articles) {
-    $art->{text}  = plagiarizm_prepare_text( read_file($art->{file}) );
+    $art->{text}  = scalar read_file($art->{file});
 
     if(!exists $measure_human{ $art->{file} }) {
         diag("no such file '$art->{file}' in annotations, skip");
@@ -129,34 +144,59 @@ foreach my $art (@articles) {
     else {
         diag("such file '$art->{file}' exists in annotations, checking");
     }
-    my $measure_human   = $measure_human{ $art->{file_standard} };
+    my $measure_human   = $measure_human{ $art->{file} };
 
-    $art->{data}  = plagiarizm_prepare(text => $_->{text});
-    # TODO check data
-    cmp_ok(scalar(keys %{ $art->{data} // {} }), '>', 0, 'check prepared data');
+    $art->{data}  = plagiarism_prepare(
+        text        => $_->{text},
+        sentences   => 1,
+        ngram       => 2,
+    );
+    #cmp_ok(scalar(keys %{ $art->{data} // {} }), '>', 0, 'check prepared data');
 
-    my $max;
-    foreach my $c (@corpus) {
-        my $plag    = plagiarize_measure(
-            text0   => $art->{text},
-            data0   => $art->{data},
-            text1   => $c->{text},
-            data1   => $c->{data},
+    my $event   = file2event($art->{file});
+    #say Dumper($event, $corpus_by_event{$event});
+
+    my ($max, $max_on_file);
+    foreach my $c (@{ $corpus_by_event{$event} }) {
+        my $plag    = plagiarism_measure(
+            query_text      => $art->{text},
+            query_data      => $art->{data},
+            document_text   => $c->{text},
+            document_data   => $c->{data},
         );
-        ok(defined $plag, "defined plagiarizm measure");
         if(!defined $max || $max < $plag) {
-            $max    = $plag;
+            $max            = $plag;
+            $max_on_file    = $c->{file};
         }
 
-        #diag( Dumper( 'REUSE', $art->{file_standard}, $measure_human{ $art->{file_standard} } ) );
+        #diag( "measure our '$plag' VS '$measure_human', file: $art->{file}" );
     }
 
+    diag("max plagiarism measure - '$max', human - '$measure_human', reached on file - '$max_on_file'");
     if(defined $max) {
-        cmp_ok(abs($max - $measure_human), '<=', 0.5, "defined plagiarizm measure");
+        cmp_ok(abs($max - $measure_human), '<=', 0.25, "plagiarism measure '$max' VS '$measure_human' - human one");
     }
 }
 
+# TODO run through whole space and find best parameters for:
+# 0 <= a <= b <= 1
+# which will divide space in 3 types:
+# * non derived
+# * partially derived
+# * wholly derived
+#
+# 2nd stage: run it on part of the space
+# 3rd stage: think how to do it quicker
+
 exit;
+
+sub file2event {
+    my $event   = shift;
+    $event      =~ s#\Q$METER_PA_DIR\E/##;
+    $event      =~ s#\Q$METER_NEWSPAPERS_DIR\E/##;
+    $event      =~ s#(.*)/.*$#$1#;
+    $event;
+}
 
 sub run_through_files {
     my %a   = (

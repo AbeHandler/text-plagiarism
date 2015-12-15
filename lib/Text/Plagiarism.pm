@@ -2,10 +2,10 @@ package Text::Plagiarism;
 use common::sense;
 use Exporter::Easy (
     EXPORT  => [qw(
-        plagiarizm_prepare
-        plagiarizm_prepare_text
-        plagiarize_measure
-        plagiarize_measure_sentence
+        plagiarism_prepare
+        plagiarism_prepare_text
+        plagiarism_measure
+        plagiarism_measure_sentence
 
         $SENTENCE_EXACT_MATCH
         $SENTENCE_MINOR_REVISION
@@ -25,6 +25,14 @@ use Exporter::Easy (
 );
 use Readonly;
 use Lingua::Stem;
+use Data::Dumper;
+
+=encoding utf8
+
+=cut
+
+Readonly our $DEFAULT_NGRAM                             => 2;
+Readonly our $DEFAULT_MIN_SENTENCE_LENGTH               => 4;
 
 # sentence level matching results
 Readonly our $SENTENCE_EXACT_MATCH       => '1 exact match';
@@ -60,7 +68,7 @@ TODO code snippet.
 
     use Text::Plagiarism qw(function and readonly vars list);
 
-    my $m   = plagiarize_measure(
+    my $m   = plagiarise_measure(
         query_text      => 'TEXT',
         document_text   => 'TEXT',
     );
@@ -89,42 +97,79 @@ if you don't export anything, such as for a purely object-oriented module.
 
 =head1 SUBROUTINES/METHODS
 
-=head2 plagiarizm_prepare
+=head2 plagiarism_prepare
 
-It prepares help data for plagiarizm search (shingles, hashes).
+It prepares help data for plagiarism search (shingles, hashes).
 
 =cut
 
-sub plagiarizm_prepare {
+sub plagiarism_prepare {
     my %a   = (
-        text    => undef,
+        text                => undef,
+        sentences           => undef,
+        shingles_prepare    => undef,
+        ngram               => $DEFAULT_NGRAM,
         @_
     );
 
-    my %d   = %{ plagiarizm_prepare_text(%a) // {} };
+    my %d   = %{ plagiarism_prepare_text(%a) // {} };
+
+    if(defined $a{sentences}) {
+        if($a{sentences}) {
+            $d{sentences}   = [
+                map { {
+                    string      => $_,
+                    shingles    => string2shingles(
+                        string  => $_,
+                        ngram   => $a{ngram} // $DEFAULT_NGRAM,
+                    ),
+                } }
+                @{ string2sentences( string => $d{text}) }
+            ];
+        }
+        else {
+            $d{shingles}            = string2shingles(
+                string  => $d{text},
+                ngram   => $a{ngram} // $DEFAULT_NGRAM,
+            );
+
+            if($a{shingles_prepare}) {
+                $d{shingles_prepared}   = prepare_set4jaccard_coefficient(
+                    set => $d{shingles},
+                );
+            }
+        }
+    }
 
     # TODO more preparations
 
     \%d;
 }
 
-=head2 plagiarizm_prepare_text
+=head2 plagiarism_prepare_text
 
-it prepares text:
+It prepares text:
+
 =over
+
 =item lowercase
+
 =item remove non-word stuff (digits too)
+
 =item normalize spaces
-=item stemming L<wiki stemming|https://en.wikipedia.org/wiki/Stemming>, L<Lingua::Stem|https://metacpan.org/pod/distribution/Lingua-Stem/lib/Lingua/Stem.pod>
+
+=item stemming L<wiki stemming|https://en.wikipedia.org/wiki/Stemming>, L<Lingua::Stem>
+
 =item TODO dictionary checks: 1 letter typos (levenshtein distance is 1 (?)), unknown -> <unknown>
   not levenshtein, but only remove/add operations are allowed. it's lcs - longest common string
   Sequence comparison
 =item TODO as one of approaches identify change seldomly used words with <seldom>
+
 =back
 
 =cut
 
-sub plagiarizm_prepare_text {
+sub plagiarism_prepare_text {
     my %a   = (
         text    => undef,
         @_
@@ -169,82 +214,231 @@ sub plagiarizm_prepare_text {
     };
 }
 
-=head2 plagiarize_measure
+# TODO docs for following result_sentence_measure_* functions:
+
+sub result_sentence_measure_avg {
+    my %a   = (
+        sentences   => [],
+        @_
+    );
+    return 0    unless scalar @{ $a{sentences} };
+
+    my $s   = 0;
+    foreach(@{ $a{sentences} }) {
+        $s  += $_->{plagiarism_measure};
+    }
+    $s / scalar(@{ $a{sentences} });
+}
+
+sub result_sentence_measure_weighted {
+    my %a   = (
+        sentences   => [],
+        ngram       => $DEFAULT_NGRAM,
+        @_
+    );
+    my $n_sentences = scalar @{ $a{sentences} };
+    return 0    unless $n_sentences;
+
+    my $sentences_length = 0;
+    foreach(@{ $a{sentences} }) {
+        $sentences_length    += scalar( @{ $_->{shingles} } ) + $a{ngram};
+    }
+
+    my $s   = 0;
+    foreach(@{ $a{sentences} }) {
+        my $sentence_length = scalar( @{ $_->{shingles} } ) + $a{ngram};
+        $s  += $_->{plagiarism_measure} * ($sentence_length / $sentences_length);
+    }
+    $s;
+}
+
+sub result_sentence_measure_avg_derived_sentences {
+    my %a   = (
+        sentences   => [],
+        ngram       => $DEFAULT_NGRAM,
+        @_
+    );
+    my $n_sentences = scalar @{ $a{sentences} };
+    return 0    unless $n_sentences;
+
+    my $n_derived_sentences = 0;
+    foreach(@{ $a{sentences} }) {
+        $n_derived_sentences++
+            if .5 <= $_->{plagiarism_measure};
+    }
+
+    $n_derived_sentences / $n_sentences;
+}
+
+=head2 plagiarism_measure
 
 Measures how much 1st text is a plagiarization of 2nd one.
 
 =over
+
 =item TODO paraphrase acquisition
+
 =back
 
 Returns:
 
 =over
+
 =item $SENTENCE_IDENTICAL    - the two documents are identical, possibly except for minor edits; neither is a complete subset of the other;
+
 =item $SENTENCE_MAJOR_OVERLAP- there is sufficient overlap between (parts of) the two documents that there must have been common source material - for example, statement of identical numeric facts that would not be common knowledge, drawn from (for example) a press release;
+
 =item $SENTENCE_MINOR_OVERLAP- there is some overlap between (parts of) the two documents, but not enough to conclude that the two authors had shared common source material - for example, because the shared content is "common knowledge";
+
 =item $SENTENCE_UNRELATED    - there is no overlap between the two documents, and they are completely dissimilar.
+
 =back
 
 =cut
 
-sub plagiarize_measure {
+sub plagiarism_measure {
     my %a   = (
-        query_text      => undef,
-        query_data      => undef,
-        document_text   => undef,
-        document_data   => undef,
+        query_text                          => undef,
+        query_data                          => undef,
+        document_text                       => undef,
+        document_data                       => undef,
+        # TODO describe following parameters in docs above:
+        ngram                               => $DEFAULT_NGRAM,
+        min_sentence_length                 => $DEFAULT_MIN_SENTENCE_LENGTH,
+        # can be a string with function name or a callback
+        result_sentence_measure_function    => \&result_sentence_measure_weighted,
         @_
     );
 
-    undef;
-}
+    return 0    unless defined $a{query_text};
+    return 0    unless defined $a{document_text};
 
-=head2 plagiarize_measure_sentence
+    my %query_data          = %{ $a{query_data} // {} };
+    if(
+        !$a{query_data}->{text}
+        ||
+        !$a{query_data}->{sentences}
+    ) {
+        %query_data = (
+            %query_data,
+            %{ plagiarism_prepare(
+                text        => $a{query_text},
+                sentences   => 1,
+            ) },
+        );
+    }
 
-Measures how much query sentence is a plagiarization of document's one
+    my $query_text          = $query_data{text};
+    my @query_sentences     = @{ $query_data{sentences} // [] };
 
-=for comment
-TODO
-Using the METER corpus described in section 2.1., according to which a newspaper
-text is classified as to whether it is wholly derived, partially derived or non-derived from
-a newswire source, Clough/Gaizauskas/Piao (2002) have investigated three computa-
-tional techniques for identifying text re-use automatically: n-gram matching (section
-3.2.2.), sequence comparison (section 3.2.3.) and sentence alignment (section 3.2.4.). In
-the first approach, n-gram matches of varying lengths were used together with a contain-
-ment score (Broder 1998); in the second a substring matching algorithm called Greedy
-String Tiling (Wise 1993) was used to compute the longest possible substrings between
-newswire-newspaper pairs; and in the final approach sentences between the source and
-candidate text pairs were automatically aligned.
-=end
+    my %document_data       = %{ $a{document_data} // {} };
+    if(
+        !$a{document_data}->{text}
+        ||
+        !$a{document_data}->{shingles_analyzed}
+    ) {
+        %document_data = (
+            %document_data,
+            %{ plagiarism_prepare(
+                text                => $a{document_text},
+                sentences           => 0,
+                shingles_prepare    => 1,
+            ) },
+        );
+    }
+    my %document_shingles   = %{ $document_data{shingles_prepared} // {} };
 
-Returns:
-=over
-=item $SENTENCE_EXACT_MATCH      - exact match
-=item $SENTENCE_MINOR_REVISION   - minor revision
-=item $SENTENCE_MAJOR_REVISION   - major revision
-=item $SENTENCE_SPECIFIC_TOPIC   - specific topic
-=item $SENTENCE_GENERAL_TOPIC    - general topic
-=item $SENTENCE_UNRELATED        - unrelated
-=back
+    my $r;
+    foreach my $sentence (@query_sentences) {
+        if(defined $a{min_sentence_length}) {
+            if(scalar(@{ $sentence->{shingles} // [] }) + $a{ngram} - 1 < $a{min_sentence_length}) {
+                next;
+            }
+        }
 
-=cut
+        $sentence->{plagiarism_measure}   = jaccard_coefficient2(
+            set0    => $sentence->{shingles},
+            set1    => \%document_shingles,
+        );
+    }
 
-sub plagiarize_measure_sentence {
-    my %a   = (
-        query_sentence      => undef,
-        query_data          => {},
-        candidate_sentence  => undef,
-        candidate_data      => {},
-        @_
+    call_function(
+        $a{result_sentence_measure_function},
+        ngram       => $a{ngram},
+        sentences   => \@query_sentences,
     );
-
-    undef;
 }
 
+sub call_function {
+    my $f   = shift;
+
+    if('CODE' eq ref $f) {
+        return $f->(@_);
+    }
+    elsif(__PACKAGE__->can($f)) {
+        my $ff  = __PACKAGE__."::$f";
+        no strict 'refs';
+        return &$ff(@_);
+    }
+
+    say Dumper($f);
+    die "not a function reference and not function of this module";
+}
+
+# DEBUG
+# =head2 plagiarise_measure_sentence
+# 
+# Measures how much query sentence is a plagiarisation of document's one
+# 
+# =for comment
+# TODO
+# Using the METER corpus described in section 2.1., according to which a newspaper
+# text is classified as to whether it is wholly derived, partially derived or non-derived from
+# a newswire source, Clough/Gaizauskas/Piao (2002) have investigated three computa-
+# tional techniques for identifying text re-use automatically: n-gram matching (section
+# 3.2.2.), sequence comparison (section 3.2.3.) and sentence alignment (section 3.2.4.). In
+# the first approach, n-gram matches of varying lengths were used together with a contain-
+# ment score (Broder 1998); in the second a substring matching algorithm called Greedy
+# String Tiling (Wise 1993) was used to compute the longest possible substrings between
+# newswire-newspaper pairs; and in the final approach sentences between the source and
+# candidate text pairs were automatically aligned.
+# =end
+# 
+# Returns:
+# 
+# =over
+# 
+# =item $SENTENCE_EXACT_MATCH      - exact match
+# 
+# =item $SENTENCE_MINOR_REVISION   - minor revision
+# 
+# =item $SENTENCE_MAJOR_REVISION   - major revision
+# 
+# =item $SENTENCE_SPECIFIC_TOPIC   - specific topic
+# 
+# =item $SENTENCE_GENERAL_TOPIC    - general topic
+# 
+# =item $SENTENCE_UNRELATED        - unrelated
+# 
+# =back
+# 
+# =cut
+# 
+# sub plagiarise_measure_sentence {
+#     my %a   = (
+#         query_sentence      => undef,
+#         query_data          => {},
+#         candidate_sentence  => undef,
+#         candidate_data      => {},
+#         @_
+#     );
+# 
+#     undef;
+# }
+# 
 =head2 measure2number
 
-Converts measure from plagiarize_measure* routines to a number from range [0,1].
+Converts measure from plagiarise_measure* routines to a number from range [0,1].
 
 =cut
 
@@ -252,7 +446,7 @@ sub measure2number { 1*$_[0] }
 
 =head2 measure2number
 
-Converts measure from plagiarize_measure* routines to a string if possible
+Converts measure from plagiarise_measure* routines to a string if possible
 
 =cut
 
@@ -261,6 +455,217 @@ sub measure2string {
     my $n   = measure2number($m);
     $m      =~ s/^$n\s*//;
     $m // '';
+}
+
+=head2 string2sentences
+
+Split string into sentences.
+
+Intput parameters (as hash keys):
+
+=over
+
+=item string - string to parse, has to be prepare with plagiarism_prepare_text.
+
+=back
+
+=cut
+
+sub string2sentences {
+    my %a   = (
+        string      => undef,
+        @_
+    );
+
+    [ grep {length} split /\s*\.\s*/, $a{string} ];
+}
+
+=head2 string2shingles
+
+Create shingles from text.
+
+Intput parameters (as hash keys):
+
+=over
+
+=item string - string to parse, has to be prepare with plagiarism_prepare_text.
+
+=item n - shingle is n-gram, n. recommended values are 2,3,4. default is 2.
+
+=back
+
+=cut
+
+sub string2shingles {
+    my %a   = (
+        string      => undef,
+        ngram       => $DEFAULT_NGRAM,
+        @_
+    );
+
+    # remove dots
+    $a{string}  =~ s/\s*\.\s*/ /g;
+    $a{string}  =~ s/(?:^\s+|\s+$)//;
+
+    my @words   = split /\s+/, $a{string};
+
+    my @shingles;
+    # leave the case #@words < $a{ngram}
+    # we don't match too small sentences or texts
+    my $n1  = $a{ngram} - 1;
+    foreach(my $i=$n1; $i<@words; $i++) {
+        push @shingles, join ' ', @words[ ($i-$n1) .. $i ];
+    }
+
+    \@shingles;
+}
+
+=head2 prepare_set4jaccard_coefficient
+
+Prepare data structure for quick jaccard_coefficient calculation
+
+Intput parameters (as hash keys):
+
+=over
+
+=item set - [ shingle0, shingle1, ... ]
+
+=back
+
+Return value:
+
+    {
+        shingle0    => times_it_meets_in_text0,
+        shingle1    => times_it_meets_in_text0,
+        ...
+    }
+
+=cut
+
+sub prepare_set4jaccard_coefficient {
+    my %a   = (
+        set     => [],
+        @_
+    );
+
+    my %r;
+    foreach(@{ $a{set} }) {
+        $r{ $_ }++;
+    }
+
+    \%r;
+}
+
+=head2 jaccard_coefficient
+
+Calculates Jaccard's coefficient for 2 given sets:
+
+    J(S0, S1) = |S0 ∩ S1| / |S0 ∪ S1| = |S0 intersection S1| / |S0 union S1|
+
+where |S| - number of elements in finite set S
+
+Intput parameters (as hash keys):
+
+=over
+
+=item set0 - [ shingle0, shingle1, ... ]
+
+=item set1 - [ shingle0, shingle1, ... ]
+
+=back
+
+For quicker result set1 can be given prepared with prepare_set4jaccard_coefficient. It has to be in the following form:
+
+    {
+        shingle0    => times_it_meets_in_text0,
+        shingle1    => times_it_meets_in_text0,
+        ...
+    }
+
+=cut
+
+sub jaccard_coefficient {
+    my %a   = (
+        set0    => [],
+        set1    => [],
+        @_
+    );
+
+    my %set1;
+    if('ARRAY' eq ref $a{set1}) {
+        %set1   = %{ prepare_set4jaccard_coefficient(
+            set => $a{set1},
+        ) };
+    }
+    else {
+        %set1   = %{ $a{set1} };
+    }
+
+    my (%set0, %in_both);
+    foreach(@{ $a{set0} }) {
+        $set0{$_}++;
+        if(exists $set1{$_}) {
+            $in_both{$_}++;
+        }
+    }
+
+    return scalar( keys %in_both ) / (scalar(keys %set0) + scalar(keys %set1) - scalar(keys %in_both));
+}
+
+=head2 jaccard_coefficient2
+
+Calculates Jaccard's coefficient for 2 given sets:
+
+    J(S0, S1) = |S0 ∩ S1| / |S0| = |S0 intersection S1| / |S0|
+
+where |S| - number of elements in finite set S
+
+Intput parameters (as hash keys):
+
+=over
+
+=item set0 - [ shingle0, shingle1, ... ]
+
+=item set1 - [ shingle0, shingle1, ... ]
+
+=back
+
+For quicker result set1 can be given prepared with prepare_set4jaccard_coefficient. It has to be in the following form:
+
+    {
+        shingle0    => times_it_meets_in_text0,
+        shingle1    => times_it_meets_in_text0,
+        ...
+    }
+
+=cut
+
+sub jaccard_coefficient2 {
+    my %a   = (
+        set0    => [],
+        set1    => [],
+        @_
+    );
+
+    my %set1;
+    if('ARRAY' eq ref $a{set1}) {
+        %set1   = %{ prepare_set4jaccard_coefficient(
+            set => $a{set1},
+        ) };
+    }
+    else {
+        %set1   = %{ $a{set1} };
+    }
+
+    my (%set0, %in_both);
+    foreach(@{ $a{set0} }) {
+        $set0{$_}++;
+        if(exists $set1{$_}) {
+            $in_both{$_}++;
+        }
+    }
+
+    return scalar(keys %in_both) / scalar(keys %set0);
 }
 
 =head1 AUTHOR
@@ -298,7 +703,6 @@ L<http://cpanratings.perl.org/d/Text-Plagiarism>
 L<http://search.cpan.org/dist/Text-Plagiarism/>
 
 =back
-
 
 =head1 ACKNOWLEDGEMENTS
 
