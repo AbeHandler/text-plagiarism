@@ -6,26 +6,13 @@ use Exporter::Easy (
         plagiarism_prepare_text
         plagiarism_measure
         plagiarism_measure_sentence
-
-        $SENTENCE_EXACT_MATCH
-        $SENTENCE_MINOR_REVISION
-        $SENTENCE_MAJOR_REVISION
-        $SENTENCE_SPECIFIC_TOPIC
-        $SENTENCE_GENERAL_TOPIC
-        $SENTENCE_UNRELATED
-
-        $SENTENCE_IDENTICAL    
-        $SENTENCE_MAJOR_OVERLAP
-        $SENTENCE_MINOR_OVERLAP
-        $SENTENCE_UNRELATED    
-
-        measure2number
-        measure2string
     )],
 );
 use Readonly;
 use Lingua::Stem;
 use Data::Dumper;
+use Text::Plagiarism::Utils qw(module_base_dir);
+use Text::Plagiarism::SynSet::Config qw(synset_load);
 
 =encoding utf8
 
@@ -34,18 +21,12 @@ use Data::Dumper;
 Readonly our $DEFAULT_NGRAM                             => 2;
 Readonly our $DEFAULT_MIN_SENTENCE_LENGTH               => 4;
 
-# sentence level matching results
-Readonly our $SENTENCE_EXACT_MATCH       => '1 exact match';
-Readonly our $SENTENCE_MINOR_REVISION    => '0.8 minor revision';
-Readonly our $SENTENCE_MAJOR_REVISION    => '0.6 major revision';
-Readonly our $SENTENCE_SPECIFIC_TOPIC    => '0.4 specific topic';
-Readonly our $SENTENCE_GENERAL_TOPIC     => '0.2 general topic';
-Readonly our $SENTENCE_UNRELATED         => '0 unrelated';
-# document level matching results
-Readonly our $DOCUMENT_IDENTICAL         => '1 identical';
-Readonly our $DOCUMENT_MAJOR_OVERLAP     => '0.66 major overlap';
-Readonly our $DOCUMENT_MINOR_OVERLAP     => '0.33 minor overlap';
-Readonly our $DOCUMENT_UNRELATED         => '0 unrelated';
+Readonly our $DICTIONARY_FILE            => 'dictionary/words.txt';
+Readonly our $WORD_UNKNOWN               => '<unk>';
+Readonly our $WORD_DOT                   => '.';
+Readonly our $WORD_SELDOM                => '<seldom>';
+# occurrences <= threshold
+Readonly our $WORD_SELDOM_THRESHOLD      => 1;
 
 =head1 NAME
 
@@ -64,31 +45,15 @@ our $VERSION = '0.01';
 
 Allow you to measure how much are 2 sentences/documents are identical.
 
-TODO code snippet.
+    use Text::Plagiarism qw(plagiarism_measure);
 
-    use Text::Plagiarism qw(function and readonly vars list);
-
-    my $m   = plagiarise_measure(
+    my $m   = plagiarism_measure(
         query_text      => 'TEXT',
         document_text   => 'TEXT',
     );
-    given($m) {
-        when($Text::Plagiarism::DOCUMENT_IDENTICAL) {
-            # actions for identical docs
-        }
-        when([
-            $Text::Plagiarism::DOCUMENT_MAJOR_OVERLAP,
-            $Text::Plagiarism::DOCUMENT_MINOR_OVERLAP,
-        ]) {
-            # actions for overlap docs
-        }
-        when($Text::Plagiarism::DOCUMENT_UNRELATED) {
-            # actions for identical docs
-        }
-        default {
-            die "unexpected result: '$_'";
-        }
-    }
+    print "plagiarism measure: $m from range [0,1]\n"
+
+TODO more code snippets?
 
 =head1 EXPORT
 
@@ -109,6 +74,9 @@ sub plagiarism_prepare {
         sentences           => undef,
         shingles_prepare    => undef,
         ngram               => $DEFAULT_NGRAM,
+        use_dictionary      => 1,
+        use_synsets         => 0,
+        use_seldom_words    => 0,
         @_
     );
 
@@ -118,18 +86,18 @@ sub plagiarism_prepare {
         if($a{sentences}) {
             $d{sentences}   = [
                 map { {
-                    string      => $_,
-                    shingles    => string2shingles(
-                        string  => $_,
+                    words       => $_,
+                    shingles    => words2shingles(
+                        words   => $_,
                         ngram   => $a{ngram} // $DEFAULT_NGRAM,
                     ),
                 } }
-                @{ string2sentences( string => $d{text}) }
+                @{ words2sentences( words => $d{words}) }
             ];
         }
         else {
-            $d{shingles}            = string2shingles(
-                string  => $d{text},
+            $d{shingles}            = words2shingles(
+                words   => $d{words},
                 ngram   => $a{ngram} // $DEFAULT_NGRAM,
             );
 
@@ -140,8 +108,6 @@ sub plagiarism_prepare {
             }
         }
     }
-
-    # TODO more preparations
 
     \%d;
 }
@@ -158,12 +124,19 @@ It prepares text:
 
 =item normalize spaces
 
-=item stemming L<wiki stemming|https://en.wikipedia.org/wiki/Stemming>, L<Lingua::Stem>
+=item spell checker
 
-=item TODO dictionary checks: 1 letter typos (levenshtein distance is 1 (?)), unknown -> <unknown>
-  not levenshtein, but only remove/add operations are allowed. it's lcs - longest common string
-  Sequence comparison
-=item TODO as one of approaches identify change seldomly used words with <seldom>
+=over
+
+=item not implemented. Because it's ~3% of unknown words for wordsnet dictionary in METER corpus. And only some part of it is real typos (most probably small part). It won't give a lot of burst. This idea at least delayed.
+
+=item how to make it - L<http://norvig.com/spell-correct.html>, and how to make it really quick - L<http://blog.faroo.com/2012/06/07/improved-edit-distance-based-spelling-correction/>
+
+=back
+
+=item dictionary - checks words against dictionary, change all unknown to special tag ($WORD_UNKNOWN)
+
+=item stemming L<wiki stemming|https://en.wikipedia.org/wiki/Stemming>, L<Lingua::Stem>
 
 =back
 
@@ -171,11 +144,17 @@ It prepares text:
 
 sub plagiarism_prepare_text {
     my %a   = (
-        text    => undef,
+        text            => undef,
+        use_dictionary  => 1,
+        use_synsets     => 0,
+        use_seldom_words=> 0,
         @_
     );
 
     my $s   = lc $a{text};
+
+    # remove 's in the end of the words
+    $s      =~ s#(\w+)'s\b#$1#ig;
 
     # non alphanumerical and dots
     # dots to preserve sentences
@@ -195,26 +174,314 @@ sub plagiarism_prepare_text {
     # starting/ending spaces
     $s      =~ s#(?:^\s+|\s+$)##g;
 
-    my @words;
+    my @words_r;
     my $stem    = Lingua::Stem->new({ -locale => 'en-us' });
-    foreach my $word (split /\s+/, $s) {
+    my @words   = split /\s+/, $s;
+    my %words;
+    for(my $i=0; $i<@words; $i++) {
+        my $word    = $words[$i];
         my $dot = '';
         if($word =~ /\.$/) {
             $dot    = '.';
+            $word   =~ s/\.$//;
         }
 
         $stem->stem_in_place($word);
 
-        push @words, "$word$dot";
+        if($a{use_dictionary}) {
+            my $r   = dictionary_fix_word(
+                word    => $word,
+            );
+            $word   = $r->{word} // $word;
+        }
+
+        if($WORD_DOT ne $word) {
+            $words{$word}   //= 0;
+            $words{$word}   ++;
+        }
+
+        push @words_r, $word;
+        push @words_r, $dot if $dot;
     }
-    $s  = join ' ', @words;
+
+    for(my $i=0; $i<@words_r; $i++) {
+        my $word    = $words_r[$i];
+        if($WORD_DOT ne $word) {
+            if($words{$word} <= $WORD_SELDOM_THRESHOLD) {
+                $words_r[$i]    = $WORD_SELDOM;
+            }
+        }
+    }
+
+    if($a{use_synsets}) {
+        for(my $i=0; $i<@words_r; $i++) {
+            my $word    = $words_r[$i];
+
+            next    if $WORD_DOT eq $word;
+
+            my @words_after = $i < $#words_r ? @words_r[($i+1) .. $#words_r ] : ();
+
+            my $r   = word2synset(
+                word        => $word,
+                words_after => \@words_after,
+            );
+            $words_r[$i]   = $r->{synset}    if $r->{synset};
+        }
+    }
 
     {
-        text    => $s,
+        words   => \@words_r,
     };
 }
 
-# TODO docs for following result_sentence_measure_* functions:
+=head2 load_dictionary
+
+Loads dictionary.
+
+Returns:
+
+    {
+        word0   => 1,
+        ...
+    }
+
+=cut
+
+sub load_dictionary {
+    state $dict;
+    unless(defined $dict) {
+        my $path    = module_base_dir();
+        $path       .= "/$DICTIONARY_FILE";
+
+        open(DICT, '<', $path) or die "can't open dictionary file '$path': $!";
+        while(<DICT>) {
+            chomp;
+            $dict->{$_}   = 1;
+        }
+        close DICT;
+    }
+    $dict;
+}
+
+=head2 dictionary_fix_word
+
+Change the word according to the dictionary
+
+Parameters:
+
+=over
+
+=item word => 'STRING'
+
+=back
+
+Returns:
+
+    {
+        word   => "FIXED_WORD",
+    }
+
+=cut
+
+sub dictionary_fix_word {
+    my %a   = (
+        word    => undef,
+        @_
+    );
+    my $word;
+
+    my $dictionary  = load_dictionary();
+
+    if($dictionary->{$a{word}}) {
+        $word   = $a{word};
+    }
+    else {
+        $word   = $WORD_UNKNOWN;
+    }
+
+    {
+        word    => $word,
+    };
+}
+
+=head2 load_synsets
+
+Loads synsets DB.
+
+Returns:
+
+    {
+        'first_word_in_terms_for_synset'   => {
+            key => {
+                term    => 'full term'
+                synset_ids  => [
+                    'list of possible ids for this full term',
+                    ...
+                ],
+            },
+            ...
+        }
+    }
+
+=cut
+
+sub load_synsets {
+    state $synsets;
+    unless(defined $synsets) {
+        my $synsets_direct    = synset_load();
+
+        # create help structure for search
+        while(my($synset_id, $terms) = each %$synsets_direct) {
+            foreach my $term (@$terms) {
+                if(ref $term) {
+                    my $key = join ' ', @$term;
+                    $synsets->{ $term->[0] }->{$key}->{term}        //= $term;
+                    push @{ $synsets->{ $term->[0] }->{$key}->{synset_ids} }, $synset_id;
+                }
+                else {
+                    $synsets->{ $term }->{$term}->{term}        //= [$term];
+                    push @{ $synsets->{ $term }->{$term}->{synset_ids} }, $synset_id;
+                }
+            }
+        }
+    }
+    $synsets;
+}
+
+=head2 word2synset
+
+Change word on synset id or possible array reference of synset ids
+
+Input parameters:
+
+=over
+
+=item word => 'WORD'
+
+=item words_after => [qw(possible words after for terms match)]
+
+=back
+
+Returns:
+
+    {
+        synset  => [
+            'possible synset IDS',
+            ...
+        ],
+    }
+
+=cut
+
+sub word2synset {
+    my %a   = (
+        word        => undef,
+        words_after => [],
+        @_
+    );
+    my $word;
+
+    my $synsets = load_synsets();
+    my @words   = ($a{word}, @{ $a{words_after} // [] });
+
+    if($synsets->{$a{word}}) {
+        my %synsets = %{ $synsets->{$a{word}} };
+        my @variants;
+        while(my($key, $v) = each %synsets) {
+            my @term    = @{ $v->{term} };
+            # not enough words for term
+            continue    if @words < @term;
+            if(@words[0 .. $#term] ~~ @term) {
+                push @variants, @{ $v->{synset_ids} };
+            }
+        }
+        
+        if(@variants) {
+            if(1 == @variants) {
+                $word   = $variants[0];
+            }
+            else {
+                $word   = [@variants];
+            }
+        }
+    }
+
+    {
+        synset  => $word,
+    };
+}
+
+=head2 result_sentence_measure_max_avg
+
+One of the possible functions to calculate result plagiarism measure with given sentences measures.
+
+Average of given values using only some part of maximum values.
+
+Input parameters:
+
+=over
+
+=item sentences => [sentence0_measure, ... ]
+
+=item max_ratio => R, R is from range [0,1]. It's ratio of the given sentences to use only maximum measure from it.
+
+=item max_absolute => N, use only N maximum (in measure) sentences.
+
+=back
+
+Returns:
+
+    measure in range [0,1]
+
+=cut
+
+sub result_sentence_measure_max_avg {
+    my %a   = (
+        sentences       => [],
+        max_ratio       => 1.0,
+        #max_absolute    => 3,
+        @_
+    );
+    return 0    unless scalar @{ $a{sentences} };
+
+    my @sorted  = sort {
+        $b->{plagiarism_measure} <=> $a->{plagiarism_measure}
+    }
+        @{ $a{sentences} };
+
+    my $max_idx = defined $a{max_absolute} ?
+        $a{max_absolute} - 1 :
+        int( $a{max_ratio} * scalar(@{ $a{sentences} }) ) - 1 ;
+    $max_idx    = 0     if $max_idx < 0;
+
+    my $s   = 0;
+    for(my $i=0; $i<$max_idx; $i++) {
+        my $sentence    = $sorted[$i];
+        $s  += $sentence->{plagiarism_measure};
+    }
+
+    $s / scalar(@{ $a{sentences} });
+}
+
+=head2 result_sentence_measure_avg
+
+One of the possible functions to calculate result plagiarism measure with given sentences measures.
+
+Simple average value of the given values.
+
+Input parameters:
+
+=over
+
+=item sentences => [sentence0_measure, ... ]
+
+=back
+
+Returns:
+
+    measure in range [0,1]
+
+=cut
 
 sub result_sentence_measure_avg {
     my %a   = (
@@ -229,6 +496,26 @@ sub result_sentence_measure_avg {
     }
     $s / scalar(@{ $a{sentences} });
 }
+
+=head2 result_sentence_measure_weighted
+
+One of the possible functions to calculate result plagiarism measure with given sentences measures.
+
+Calculates average using weighted sentene measure. Weight is proportional to the length of the sentece.
+
+Input parameters:
+
+=over
+
+=item sentences => [sentence0_measure, ... ]
+
+=back
+
+Returns:
+
+    measure in range [0,1]
+
+=cut
 
 sub result_sentence_measure_weighted {
     my %a   = (
@@ -252,6 +539,25 @@ sub result_sentence_measure_weighted {
     $s;
 }
 
+=head2 result_sentence_measure_avg_derived_sentences
+
+One of the possible functions to calculate result plagiarism measure with given sentences measures.
+
+Calculates average of only measure > 0.5
+
+Input parameters:
+
+=over
+
+=item sentences => [sentence0_measure, ... ]
+
+=back
+
+Returns:
+
+    measure in range [0,1]
+
+=cut
 sub result_sentence_measure_avg_derived_sentences {
     my %a   = (
         sentences   => [],
@@ -274,25 +580,35 @@ sub result_sentence_measure_avg_derived_sentences {
 
 Measures how much 1st text is a plagiarization of 2nd one.
 
+Input parameters:
+
 =over
 
-=item TODO paraphrase acquisition
+=item query_text => 'TEXT'
+
+=item query_data => DATA, can be prepared with plagiarism_prepare for saving time
+
+=item document_text => 'TEXT'
+
+=item document_data => DATA, can be prepared with plagiarism_prepare for saving time
+
+=item ngram => N, n from n-gram (aka shingles), default $DEFAULT_NGRAM
+
+=item min_sentence_length => LENGTH, sentence less than this limit are filterd, default $DEFAULT_MIN_SENTENCE_LENGTH,
+
+=item result_sentence_measure_function => CALLBACK_OR_FUNCTION_NAME, function for result measure calculation from sentenses measures, default \&result_sentence_measure_weighted,
+
+=item use_dictionary => 0|1, flag for dictionary usage, default 1
+
+=item use_synsets => 0|1, flag for synset usage, default 0
+
+=item use_seldom_words=> 0|1, flag for seldom words usage, default 0,
 
 =back
 
 Returns:
 
-=over
-
-=item $SENTENCE_IDENTICAL    - the two documents are identical, possibly except for minor edits; neither is a complete subset of the other;
-
-=item $SENTENCE_MAJOR_OVERLAP- there is sufficient overlap between (parts of) the two documents that there must have been common source material - for example, statement of identical numeric facts that would not be common knowledge, drawn from (for example) a press release;
-
-=item $SENTENCE_MINOR_OVERLAP- there is some overlap between (parts of) the two documents, but not enough to conclude that the two authors had shared common source material - for example, because the shared content is "common knowledge";
-
-=item $SENTENCE_UNRELATED    - there is no overlap between the two documents, and they are completely dissimilar.
-
-=back
+    R in range [0,1]
 
 =cut
 
@@ -302,11 +618,13 @@ sub plagiarism_measure {
         query_data                          => undef,
         document_text                       => undef,
         document_data                       => undef,
-        # TODO describe following parameters in docs above:
         ngram                               => $DEFAULT_NGRAM,
         min_sentence_length                 => $DEFAULT_MIN_SENTENCE_LENGTH,
         # can be a string with function name or a callback
         result_sentence_measure_function    => \&result_sentence_measure_weighted,
+        use_dictionary                      => 1,
+        use_synsets                         => 0,
+        use_seldom_words                    => 0,
         @_
     );
 
@@ -315,15 +633,18 @@ sub plagiarism_measure {
 
     my %query_data          = %{ $a{query_data} // {} };
     if(
-        !$a{query_data}->{text}
+        !$a{query_data}->{words}
         ||
         !$a{query_data}->{sentences}
     ) {
         %query_data = (
             %query_data,
             %{ plagiarism_prepare(
-                text        => $a{query_text},
-                sentences   => 1,
+                text                => $a{query_text},
+                sentences           => 1,
+                use_dictionary      => $a{use_dictionary},
+                use_synsets         => $a{use_synsets},
+                use_seldom_words    => $a{use_seldom_words},
             ) },
         );
     }
@@ -333,9 +654,9 @@ sub plagiarism_measure {
 
     my %document_data       = %{ $a{document_data} // {} };
     if(
-        !$a{document_data}->{text}
+        !$a{document_data}->{words}
         ||
-        !$a{document_data}->{shingles_analyzed}
+        !$a{document_data}->{shingles_prepared}
     ) {
         %document_data = (
             %document_data,
@@ -343,6 +664,9 @@ sub plagiarism_measure {
                 text                => $a{document_text},
                 sentences           => 0,
                 shingles_prepare    => 1,
+                use_dictionary      => $a{use_dictionary},
+                use_synsets         => $a{use_synsets},
+                use_seldom_words    => $a{use_seldom_words},
             ) },
         );
     }
@@ -381,143 +705,146 @@ sub call_function {
         return &$ff(@_);
     }
 
-    say Dumper($f);
-    die "not a function reference and not function of this module";
+    die "not a function reference and not function of this module:\n".Dumper($f);
 }
 
-# DEBUG
-# =head2 plagiarise_measure_sentence
-# 
-# Measures how much query sentence is a plagiarisation of document's one
-# 
-# =for comment
-# TODO
-# Using the METER corpus described in section 2.1., according to which a newspaper
-# text is classified as to whether it is wholly derived, partially derived or non-derived from
-# a newswire source, Clough/Gaizauskas/Piao (2002) have investigated three computa-
-# tional techniques for identifying text re-use automatically: n-gram matching (section
-# 3.2.2.), sequence comparison (section 3.2.3.) and sentence alignment (section 3.2.4.). In
-# the first approach, n-gram matches of varying lengths were used together with a contain-
-# ment score (Broder 1998); in the second a substring matching algorithm called Greedy
-# String Tiling (Wise 1993) was used to compute the longest possible substrings between
-# newswire-newspaper pairs; and in the final approach sentences between the source and
-# candidate text pairs were automatically aligned.
-# =end
-# 
-# Returns:
-# 
-# =over
-# 
-# =item $SENTENCE_EXACT_MATCH      - exact match
-# 
-# =item $SENTENCE_MINOR_REVISION   - minor revision
-# 
-# =item $SENTENCE_MAJOR_REVISION   - major revision
-# 
-# =item $SENTENCE_SPECIFIC_TOPIC   - specific topic
-# 
-# =item $SENTENCE_GENERAL_TOPIC    - general topic
-# 
-# =item $SENTENCE_UNRELATED        - unrelated
-# 
-# =back
-# 
-# =cut
-# 
-# sub plagiarise_measure_sentence {
-#     my %a   = (
-#         query_sentence      => undef,
-#         query_data          => {},
-#         candidate_sentence  => undef,
-#         candidate_data      => {},
-#         @_
-#     );
-# 
-#     undef;
-# }
-# 
-=head2 measure2number
+=head2 words2sentences
 
-Converts measure from plagiarise_measure* routines to a number from range [0,1].
+Split words into sentences.
 
-=cut
-
-sub measure2number { 1*$_[0] }
-
-=head2 measure2number
-
-Converts measure from plagiarise_measure* routines to a string if possible
-
-=cut
-
-sub measure2string {
-    my $m   = shift;
-    my $n   = measure2number($m);
-    $m      =~ s/^$n\s*//;
-    $m // '';
-}
-
-=head2 string2sentences
-
-Split string into sentences.
-
-Intput parameters (as hash keys):
+Input parameters (as hash keys):
 
 =over
 
-=item string - string to parse, has to be prepare with plagiarism_prepare_text.
+=item words - words to split, has to be prepared with plagiarism_prepare_text.
 
 =back
 
+Return parameter:
+
+    [
+        [qw(the first sentence)],
+        [qw(the second one)],
+    ]
+
 =cut
 
-sub string2sentences {
+sub words2sentences {
     my %a   = (
-        string      => undef,
+        words      => undef,
         @_
     );
 
-    [ grep {length} split /\s*\.\s*/, $a{string} ];
+    my (@r, @s);
+    foreach(@{ $a{words} // [] }) {
+        if('.' eq $_) {
+            push @r, [@s];
+            @s  = ();
+        }
+        else {
+            push @s, $_;
+        }
+    }
+    push @r, [@s]   if @s;
+
+    [ @r ];
 }
 
-=head2 string2shingles
+=head2 words2shingles
 
-Create shingles from text.
+Create shingles from words.
 
-Intput parameters (as hash keys):
+Input parameters (as hash keys):
 
 =over
 
-=item string - string to parse, has to be prepare with plagiarism_prepare_text.
+=item words - words to parse, has to be prepared with plagiarism_prepare_text.
 
 =item n - shingle is n-gram, n. recommended values are 2,3,4. default is 2.
 
 =back
 
+Return parameter:
+
+    [
+        'shingle0',
+        [qw(set of possible shingles from given synsets instead of a single word)],
+        ...
+    ]
+
 =cut
 
-sub string2shingles {
+sub words2shingles {
     my %a   = (
-        string      => undef,
+        words       => [],
         ngram       => $DEFAULT_NGRAM,
         @_
     );
 
     # remove dots
-    $a{string}  =~ s/\s*\.\s*/ /g;
-    $a{string}  =~ s/(?:^\s+|\s+$)//;
-
-    my @words   = split /\s+/, $a{string};
+    my @words   = grep {'.' ne $_} @{ $a{words} };
 
     my @shingles;
     # leave the case #@words < $a{ngram}
     # we don't match too small sentences or texts
     my $n1  = $a{ngram} - 1;
     foreach(my $i=$n1; $i<@words; $i++) {
-        push @shingles, join ' ', @words[ ($i-$n1) .. $i ];
+        my @combs   = map { join ' ', @$_ }
+            @{ combinations( sets => [
+                map { ref $_ ? $_ : [$_] }
+                @words[ ($i-$n1) .. $i ]
+            ] ) };
+        if(1 == @combs) {
+            push @shingles, $combs[0];
+        }
+        else {
+            push @shingles, [@combs];
+        }
     }
 
     \@shingles;
+}
+
+=head2 combinations
+
+Creates possible combinations from given sets.
+
+=over
+
+=item sets => [[qw(set0)], ... ] - sets to construct result from
+
+=back
+
+Return parameter:
+
+    [
+        ['element from set0', 'element from set1', ...],
+        ...
+    ]
+
+=cut
+
+sub combinations {
+    my %a   = (
+        sets    => [],
+        set_idx => 0,
+        set_cur => [],
+        @_
+    );
+    return []   unless @{ $a{sets} };
+    return [$a{set_cur}]
+        if $a{set_idx} >= @{ $a{sets} };
+
+    my @r;
+    foreach(@{ $a{sets}->[$a{set_idx}] }) {
+        push @r, @{ combinations(
+            sets    => $a{sets},
+            set_idx => $a{set_idx} + 1,
+            set_cur => [@{ $a{set_cur} }, $_],
+        ) };
+    }
+
+    \@r;
 }
 
 =head2 prepare_set4jaccard_coefficient
@@ -550,7 +877,14 @@ sub prepare_set4jaccard_coefficient {
 
     my %r;
     foreach(@{ $a{set} }) {
-        $r{ $_ }++;
+        if(ref $_) {
+            foreach(@$_) {
+                $r{ $_ }++;
+            }
+        }
+        else {
+            $r{ $_ }++;
+        }
     }
 
     \%r;
@@ -568,9 +902,9 @@ Intput parameters (as hash keys):
 
 =over
 
-=item set0 - [ shingle0, shingle1, ... ]
+=item set0 - [ 'shingle0', [qw(or set of shingles)], ... ]
 
-=item set1 - [ shingle0, shingle1, ... ]
+=item set1 - [ 'shingle0', [qw(or set of shingles)], ... ]
 
 =back
 
@@ -603,12 +937,34 @@ sub jaccard_coefficient {
 
     my (%set0, %in_both);
     foreach(@{ $a{set0} }) {
-        $set0{$_}++;
-        if(exists $set1{$_}) {
-            $in_both{$_}++;
+        if(ref $_) {
+            my $found   = 0;
+            foreach(@$_) {
+                if(exists $set1{$_}) {
+                    # count each synonym in both in_both and set0
+                    $found  = 1;
+                    $set0{$_}++;
+                    $in_both{$_}++;
+                }
+            }
+
+            unless($found) {
+                # not found for any of synset words
+                $set0{join(" ", @$_)}++;
+            }
+        }
+        else {
+            $set0{$_}++;
+            if(exists $set1{$_}) {
+                $in_both{$_}++;
+            }
         }
     }
 
+    # we don't re-calculate # of keys in %set0
+    # because each each synset is treated as single word
+    # if synset gives us more than 1 occurrence in %in_both
+    # => it means that text is more similar to each other
     return scalar( keys %in_both ) / (scalar(keys %set0) + scalar(keys %set1) - scalar(keys %in_both));
 }
 
@@ -624,9 +980,9 @@ Intput parameters (as hash keys):
 
 =over
 
-=item set0 - [ shingle0, shingle1, ... ]
+=item set0 - [ 'shingle0', [qw(or set of shingles)], ... ]
 
-=item set1 - [ shingle0, shingle1, ... ]
+=item set1 - [ 'shingle0', [qw(or set of shingles)], ... ]
 
 =back
 
@@ -659,12 +1015,34 @@ sub jaccard_coefficient2 {
 
     my (%set0, %in_both);
     foreach(@{ $a{set0} }) {
-        $set0{$_}++;
-        if(exists $set1{$_}) {
-            $in_both{$_}++;
+        if(ref $_) {
+            my $found   = 0;
+            foreach(@$_) {
+                if(exists $set1{$_}) {
+                    # count each synonym in both in_both and set0
+                    $found  = 1;
+                    $set0{$_}++;
+                    $in_both{$_}++;
+                }
+            }
+
+            unless($found) {
+                # not found for any of synset words
+                $set0{join(" ", @$_)}++;
+            }
+        }
+        else {
+            $set0{$_}++;
+            if(exists $set1{$_}) {
+                $in_both{$_}++;
+            }
         }
     }
 
+    # we don't re-calculate # of keys in %set0
+    # because each each synset is treated as single word
+    # if synset gives us more than 1 occurrence in %in_both
+    # => it means that text is more similar to each other
     return scalar(keys %in_both) / scalar(keys %set0);
 }
 
@@ -716,6 +1094,13 @@ Clough, P., Gaizauskas, R. and Piao, S. L. (2002),
 Building and annotating a corpus for the study of journalistic text reuse.
 In Proceedings of the 3rd International Conference on Language Resources and Evaluation (LREC-02),
 pp.1678-1691 (Vol V), 29-31st May 2002, Los Palmas de Gran Canaria, Spain.
+
+Thanks Princeton for L<WordNet database|http://wordnet.princeton.edu/wordnet> database:
+
+George A. Miller (1995). WordNet: A Lexical Database for English.
+Communications of the ACM Vol. 38, No. 11: 39-41.
+
+Christiane Fellbaum (1998, ed.) WordNet: An Electronic Lexical Database. Cambridge, MA: MIT Press.
 
 =head1 LICENSE AND COPYRIGHT
 
