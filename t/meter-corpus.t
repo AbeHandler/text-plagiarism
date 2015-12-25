@@ -15,7 +15,6 @@ Readonly our $METER_CORPUS_DIR          => 't/meter-corpus';
 Readonly our $METER_FILE_INDEX_DIR      => "file_index";
 Readonly our $METER_NEWSPAPERS_DIR      => "newspapers";
 Readonly our $METER_PA_DIR              => "PA";
-Readonly our $USE_PREPARE               => 1;
 
 BEGIN {
     use_ok( 'Text::Plagiarism', qw(
@@ -29,13 +28,17 @@ BEGIN {
 chdir $METER_CORPUS_DIR;
 
 my %opts = (
-    type        => 'raw',
-    ngram       => 2,
+    type            => 'raw',
+    ngram           => 2,
+    no_prepare      => 1,
+    print_failed    => 0,
 );
 GetOptions(
-    'help'      => \$opts{help},
-    'type=s'    => \$opts{type},
-    'ngram=i'   => \$opts{ngram},
+    'help'          => \$opts{help},
+    'type=s'        => \$opts{type},
+    'ngram=i'       => \$opts{ngram},
+    'no-prepare'    => \$opts{no_prepare},
+    'print-failed'  => \$opts{print_failed},
 ) or help("error while parsing options");
 
 help()      if $opts{help};
@@ -123,7 +126,7 @@ foreach(@corpus) {
     );
 
     $_->{text}  = read_file($_->{file});
-    if($USE_PREPARE) {
+    unless($opts{no_prepare}) {
         $_->{data}  = plagiarism_prepare_custom(
             text                => $_->{text},
             sentences           => 0,
@@ -194,7 +197,7 @@ foreach my $art (@articles_learn) {
     }
     my $measure_human   = $measure_human{ $art->{file} };
 
-    if($USE_PREPARE) {
+    unless($opts{no_prepare}) {
         $art->{data}  = plagiarism_prepare_custom(
             text        => $art->{text},
             sentences   => 1,
@@ -335,7 +338,7 @@ foreach my $art (@articles_test) {
     }
     my $measure_human   = $measure_human{ $art->{file} };
 
-    if($USE_PREPARE) {
+    unless($opts{no_prepare}) {
         $art->{data}  = plagiarism_prepare_custom(
             text        => $art->{text},
             sentences   => 1,
@@ -427,7 +430,7 @@ my $n_succeed_01= $n2 - $n_failed_01;
 diag("  succeed - $n_succeed, all - $n2, ".int(100*$n_succeed/$n2)."\%");
 diag("  succeed 01 - $n_succeed_01, all - $n2, ".int(100*$n_succeed_01/$n2)."\%");
 
-say Dumper(\@failed);
+say Dumper(\@failed)    if $opts{print_failed};
 
 # later:
 # 2nd stage: run it on part of the space
@@ -514,8 +517,8 @@ sub plagiarism_measure_custom {
     plagiarism_measure(
         %a,
         ngram                               => $opts{ngram},
-        use_synsets                         => 1,
-        #min_sentence_length                 => 4,
+        #use_synsets                         => 1,
+        #min_sentence_length                 => 1,
         # can be a string with function name or a callback
         #result_sentence_measure_function    => 'result_sentence_measure_avg',
         #result_sentence_measure_function    => 'result_sentence_measure_max_avg',

@@ -19,9 +19,10 @@ use Text::Plagiarism::SynSet::Config qw(synset_load);
 =cut
 
 Readonly our $DEFAULT_NGRAM                             => 2;
-Readonly our $DEFAULT_MIN_SENTENCE_LENGTH               => 4;
+Readonly our $DEFAULT_MIN_SENTENCE_LENGTH               => 1;
 
 Readonly our $DICTIONARY_FILE            => 'dictionary/words.txt';
+Readonly our $STOP_LIST_FILE             => 'dictionary/stop-list.txt';
 Readonly our $WORD_UNKNOWN               => '<unk>';
 Readonly our $WORD_DOT                   => '.';
 Readonly our $WORD_SELDOM                => '<seldom>';
@@ -148,17 +149,17 @@ sub plagiarism_prepare_text {
         use_dictionary  => 1,
         use_synsets     => 0,
         use_seldom_words=> 0,
+        use_stop_list   => 1,
         @_
     );
 
     my $s   = lc $a{text};
 
-    # remove 's in the end of the words
-    $s      =~ s#(\w+)'s\b#$1#ig;
-
     # non alphanumerical and dots
     # dots to preserve sentences
-    $s      =~ s#[^\w\.]+# #g;
+    # save ', it's part of the words
+    # 've, 's, 'll and co will be removed with stop list word if used
+    $s      =~ s#[^\w\.']+# #g;
     # separate numbers
     $s      =~ s#\b\d+\b# #g;
     # small words
@@ -184,6 +185,13 @@ sub plagiarism_prepare_text {
         if($word =~ /\.$/) {
             $dot    = '.';
             $word   =~ s/\.$//;
+        }
+
+        if($a{use_stop_list}) {
+            if(load_stop_list()->{$word}) {
+                push @words_r, $dot if $dot;
+                next;
+            }
         }
 
         $stem->stem_in_place($word);
@@ -302,6 +310,35 @@ sub dictionary_fix_word {
     {
         word    => $word,
     };
+}
+
+=head2 load_stop_list
+
+Loads stop list data.
+
+Returns:
+
+    {
+        word0   => 1,
+        ...
+    }
+
+=cut
+
+sub load_stop_list {
+    state $stop_list;
+    unless(defined $stop_list) {
+        my $path    = module_base_dir();
+        $path       .= "/$STOP_LIST_FILE";
+
+        open(IN, '<', $path) or die "can't open stop list file '$path': $!";
+        while(<IN>) {
+            chomp;
+            $stop_list->{$_}   = 1;
+        }
+        close IN;
+    }
+    $stop_list;
 }
 
 =head2 load_synsets
@@ -604,7 +641,11 @@ Input parameters:
 
 =item use_seldom_words=> 0|1, flag for seldom words usage, default 0,
 
+=item use_stop_list => 0|1, flag for stop list filter, default 1,
+
 =back
+
+TODO stoplist meter_corpus/frequency_lists/EnglishStopList
 
 Returns:
 
@@ -625,6 +666,7 @@ sub plagiarism_measure {
         use_dictionary                      => 1,
         use_synsets                         => 0,
         use_seldom_words                    => 0,
+        use_stop_list                       => 1,
         @_
     );
 
@@ -645,6 +687,7 @@ sub plagiarism_measure {
                 use_dictionary      => $a{use_dictionary},
                 use_synsets         => $a{use_synsets},
                 use_seldom_words    => $a{use_seldom_words},
+                use_stop_list       => $a{use_stop_list},
             ) },
         );
     }
@@ -667,6 +710,7 @@ sub plagiarism_measure {
                 use_dictionary      => $a{use_dictionary},
                 use_synsets         => $a{use_synsets},
                 use_seldom_words    => $a{use_seldom_words},
+                use_stop_list       => $a{use_stop_list},
             ) },
         );
     }
@@ -924,6 +968,7 @@ sub jaccard_coefficient {
         set1    => [],
         @_
     );
+    return 0    unless @{ $a{set0} };
 
     my %set1;
     if('ARRAY' eq ref $a{set1}) {
@@ -1002,6 +1047,7 @@ sub jaccard_coefficient2 {
         set1    => [],
         @_
     );
+    return 0    unless @{ $a{set0} };
 
     my %set1;
     if('ARRAY' eq ref $a{set1}) {
